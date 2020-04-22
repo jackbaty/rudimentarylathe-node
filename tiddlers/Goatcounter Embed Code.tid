@@ -1,0 +1,19 @@
+created: 20200123160445731
+creator: jack
+modified: 20200208155039480
+modifier: jack
+revision: 0
+title: Goatcounter Embed Code
+type: text/vnd.tiddlywiki
+
+<script>
+	(function() {
+		window.counter = 'https://rudimentarylathe.goatcounter.com/count'
+
+		var script = document.createElement('script');
+		script.async = 1;
+		script.src = '//gc.zgo.at/count.js';
+		var ins = document.getElementsByTagName('script')[0];
+		ins.parentNode.insertBefore(script, ins)
+	})();
+</script>

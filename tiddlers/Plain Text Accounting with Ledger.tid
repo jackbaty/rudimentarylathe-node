@@ -1,0 +1,18 @@
+created: 20190117124223042
+creator: jack
+modified: 20190117214041041
+modifier: jack
+revision: 0
+tags: 
+title: Plain Text Accounting with Ledger
+type: text/vnd.tiddlywiki
+
+For a couple of years I used [[Ledger]] for my personal accounting. I've been in a CLI mood lately so I thought I'd fire it back up.
+
+"""
+[[Ledger-cli|https://www.ledger-cli.org/]]
+[[Plaintext Accounting|https://plaintextaccounting.org/]]
+[[Ledger-mode for Emacs|https://github.com/ledger/ledger-mode/blob/master/README.md]]
+"""
+
+I wrote about it [[here|https://www.baty.net/2016/plain-text-accounting-with-ledger/]]

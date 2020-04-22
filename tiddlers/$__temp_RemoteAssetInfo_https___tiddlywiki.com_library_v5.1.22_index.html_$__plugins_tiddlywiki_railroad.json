@@ -1,0 +1,25 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/railroad",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "author": "Astrid Elocson",
+        "created": "20200415163033596",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Railroad diagram generator",
+        "list": "readme usage syntax example",
+        "modified": "20200415163033596",
+        "modifier": "jack",
+        "name": "Railroad",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/railroad",
+        "original-type": "application/json",
+        "readme": "This plugin provides a `<$railroad>` widget for generating railroad diagrams as SVG images.\n\nAlternatively, the [[diagram notation|$:/plugins/tiddlywiki/railroad/syntax]] can be stored in a dedicated tiddler with its `type` field set to `text/vnd.tiddlywiki.railroad`, and that tiddler can simply be transcluded to wherever it is needed.\n\nThe plugin is based on [[a library by Tab Atkins|https://github.com/tabatkins/railroad-diagrams]], and has been extended to make it more flexible, including allowing components of a diagram to function as links or be transcluded from other tiddlers.\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

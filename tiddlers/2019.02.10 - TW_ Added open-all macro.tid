@@ -1,0 +1,12 @@
+created: 20190210174126944
+creator: jack
+modified: 20200415182741305
+modifier: jack
+revision: 0
+tags: Changelog
+title: 2019.02.10 - TW: Added open-all macro
+type: text/vnd.tiddlywiki
+
+I've created a new macro, `open-all` at $:/jab/macros/open-all. It creates a button that replaces the story river with all tiddlers matching a filter. See [[2019.02.10 - TW: Open all tiddlers meeting criteria]]
+
+(Similar to [[2019.02.01 - Wiki: How to open all tiddlers with a certain tag]]

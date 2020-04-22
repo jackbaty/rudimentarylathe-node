@@ -1,0 +1,18 @@
+created: 20190221174737205
+creator: jack
+modified: 20190221180442361
+modifier: jack
+revision: 0
+tags: 
+title: Video hosting options
+type: text/vnd.tiddlywiki
+
+I'm looking for a place to host my videos. These are not videos I want to go viral, but they need to be accessible. I've used YouTube since before Google, but I dislike YouTube. It's all about force-feeding you MOAR VIDEOS! and that's not what I want.
+
+Other options:
+
+Vimeo. I like Vimeo. The problem might be cost. There's not enough space available in the free version and I don't know that the paid version makes sense.
+
+Archive.org. This would be ideal, but it's quite slow and I would prefer a better control panel for managing uploads. Still, it's free and has a good chance of being around for a long time.
+
+Self-hosted. Yuck. I could drop the files in an S3 bucket and find a good way to embed them in a simple website. I don't really feel like going through all that.

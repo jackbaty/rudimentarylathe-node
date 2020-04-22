@@ -1,0 +1,38 @@
+created: 20190419111300833
+creator: jack
+modified: 20190420113632122
+modifier: jack
+revision: 0
+tags: 
+title: Export from Tinderbox to DEVONthink using AppleScript
+type: text/vnd.tiddlywiki
+
+Select notes in [[Tinderbox]] and send them to [[DEVONthink]].
+
+```applescript
+-- select notes in Tinderbox 8 and run to export them to DEVONThink
+tell application "Tinderbox 8"
+	tell front document's selections
+		--selections (plural) is the magic word; non-sequential, multiple levels ok
+		--each line below makes a list of that attribute's value for all selected notes
+		set theNames to name
+		set theTexts to value of attribute "Text"
+		--set theURLs to value of attribute "URL"
+		set noteURLs to value of attribute "NoteURL"
+		set theTags to value of attribute "Tags"
+		set theDate to value of attribute "StartDate"
+	end tell
+end tell
+tell application id "DNtp"
+	activate
+	set destGroup to display group selector
+	repeat with i from 1 to length of theNames
+		create record with {name:theNames's item i, content:theTexts's item i, URL:noteURLs's item i, tags:theTags's item i, type:text, creation date:theDate's item i} in destGroup
+	end repeat
+end tell
+```
+
+The DEVONthink notes created include any Tags from Tinderbox and a link back to the original note. Of course using [[FastScripts]] makes this even easier.
+
+Thanks to [[Sumner Gerard|http://forum.eastgate.com/t/export-to-devonthink-using-applescript/2132]]
+

@@ -1,0 +1,16 @@
+created: 20191111124413624
+creator: jack
+modified: 20191111180305113
+modifier: jack
+revision: 0
+tags: Journal
+title: Monday, November 11, 2019
+type: text/vnd.tiddlywiki
+
+The problem with [[Letter|https://letter.wiki/conversations]] is that even though it's ostensibly a 1:1 conversation, it is impossible to write as if there's no audience other than the recipient. As there is with, say, an actual letter. The unavoidable desire to sound smart in front of the bystanders contains too large an opportunity to spoil the conversation.
+
+The internet has been causing my mood to suffer recently. I don't know how to best balance the desire for discovery and the non-stop general meanness everywhere. Could be that serendipity is not something I can have now.
+
+We were supposed to be all using IPv6 everywhere now, but I still can't figure it out half the time. Adding routes and IPv6 addresses to EC2 instances is quite the convoluted process.
+
+The problem with CMS/Blogging tools like Ghost is that they build in "Subscription" services and alluvasudden everyone thinks their "content" is worth paying for.

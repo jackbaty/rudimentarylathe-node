@@ -1,0 +1,16 @@
+created: 20181030214956383
+creator: jack
+modified: 20190911142823031
+modifier: jack
+revision: 0
+tags: Emacs
+title: Emacs
+type: text/vnd.tiddlywiki
+
+I'm a late-comer to Emacs. I got here via Org-mode and have been hooked ever since.
+
+My use of Emacs fluctuates between "Everything All The Time" and "A few things that make the most sense" and "I'm never using it again!" I'm in the middle area right now (2019-09-11)
+
+---
+* [[Configuration examples|Emacs configuration examples]]
+

@@ -1,0 +1,94 @@
+created: 20181230164243086
+creator: jack
+modified: 20191029150507613
+modifier: jack
+revision: 0
+tags: Linux
+title: Manjaro Linux
+type: text/vnd.tiddlywiki
+
+I have been playing with Linux on an old ThinkPad. Here are some notes...
+
+To upgrade packages...
+
+`sudo pacman -Syu`
+
+!! Notes running Manjaro Gnome edition
+
+Well that was easy. I've been using it on the ThinkPad for a week or two and haven't delved into ~/.config/ yet for system-level stuff. Trackpad works like it's supposed to, mostly. So far so good.
+
+Installed syncthing via package manager (GUI)
+Configured as a user service
+
+```
+systemctl --user enable syncthing.service
+systemctl --user start syncthing.service
+```
+
+Synced src, env, pub, sync, and notes
+
+Installed Emacs from package manager
+
+Logged into 1Password
+
+Generated SSH key
+
+Installed Vim `sudo pacman -Sy vim`
+
+Installed mbsync
+
+Installed stow
+
+Built and installed mu/mu4e
+
+```
+sudo pacman -S automake
+sudo pacman -S autoconf-archive		 \
+sudo pacman -S libxapian-dev	# not found
+sudo pacman -S libgmime-3.0-dev
+sudo pacman -S m4
+sudo pacman -S make
+sudo pacman -S libtool
+sudo pacman -S pkg-config
+sudo pacman -S xapian-core
+```
+
+Got error "configure: error: C++ compiler cannot create executables" so must not have compiler?
+
+Installed gcc
+
+After that it was just =make && make install=
+
+There was some confusion with load paths but somehow that got fixed and I'm not sure what I did.
+
+There are a couple of path differences between the ThinkPad and my Mac
+
+In .mbsyncrc the CertificateFile paths are different. UPDATE: Not true, really. This setting...
+
+=CertificateFile /etc/ssl/cert.pem=
+
+...works on both because it's a symlink on linux pointing to whatever is correct there.
+
+The binary for mbsync is in /usr/bin on Linux and /usr/local/bin on macOS so I just created a symlink on the ThinkPad.
+
+
+Installed LaTeX 
+
+```
+sudo pacman -S texlive-most
+```
+
+installed terminator 
+
+installed exa
+
+used fish config from git
+
+Installed Operator Mono font by copying the *.otf files into /usr/share/fonts/operator-mono
+
+Installed hugo
+
+Installed Autokey
+
+I have some older notes for [[Manjaro i3 edition]]
+

@@ -1,0 +1,10 @@
+{
+    "title": "$:/plugins/tiddlywiki/codemirror-fullscreen",
+    "dependents": "",
+    "description": "Fullscreen editing for CodeMirror",
+    "list": "readme",
+    "name": "CodeMirror Fullscreen",
+    "parent-plugin": "$:/plugins/tiddlywiki/codemirror",
+    "plugin-type": "plugin",
+    "version": "5.1.22"
+}

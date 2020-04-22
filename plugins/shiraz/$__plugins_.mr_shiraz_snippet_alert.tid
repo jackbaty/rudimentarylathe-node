@@ -1,0 +1,9 @@
+caption: Alert
+created: 20180905115529625
+creator: Mohammad
+modified: 20181021042310357
+modifier: Mohammad
+tags: $:/tags/TextEditor/Snippet
+title: $:/plugins/.mr/shiraz/snippet/alert
+
+<<alert-NAME text:"" width:"100">>

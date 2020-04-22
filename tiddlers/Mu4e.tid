@@ -1,0 +1,25 @@
+created: 20190116114034280
+creator: jack
+modified: 20190118121347334
+modifier: jack
+revision: 0
+tags: Emacs
+title: Mu4e
+type: text/vnd.tiddlywiki
+
+Mu4e is an email client for Emacs which uses [[mu|https://www.djcbsoftware.nl/code/mu/]] for indexing and search.
+
+I used it for a couple years, then stopped. Installing it again today (2019.01.16)
+
+!! Links
+"""
+[[mu|https://www.djcbsoftware.nl/code/mu/]]
+[[Master your inbox with mu4e and org-mode|http://pragmaticemacs.com/emacs/master-your-inbox-with-mu4e-and-org-mode/]]
+[[A Complete Guide to Email in Emacs using Mu and Mu4e|http://cachestocaches.com/2017/3/complete-guide-email-emacs-using-mu-and-/]]
+[[Minimal configuration|https://www.djcbsoftware.nl/code/mu/mu4e/Minimal-configuration.html]]
+"""
+
+!! Log
+
+* 2019.01.16 `brew install mu --with-emacs` (got warning there's no `with-emacs` option but the lisp files showed up
+* 2019.01.18 `brew install isync` was still needed on the office iMac

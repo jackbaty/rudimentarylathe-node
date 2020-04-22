@@ -1,0 +1,46 @@
+created: 20190419185454768
+creator: jack
+modified: 20190420113722678
+modifier: jack
+revision: 0
+tags: 
+title: Explanation of Tinderbox's Hyperbolic view
+type: text/vnd.tiddlywiki
+
+Lots of discussion around the new "Hyperbolic" view in [[Tinderbox]]. Here's a note from the developer with some context:
+
+<<<
+"""
+Let’s step back and think about the underlying question Hyperbolic View is asking.
+
+STUDENT: Take this note Vivaldi. I’d like to know all the notes that Vivaldi links to.
+Mark: OK: here’s Note ▸ Browse Links!
+
+STUDENT: Oh, I’d also like to see all the notes that link to Vivaldi.
+Mark: OK: here’s View ▸ Roadmap.
+
+STUDENT: OK. JS Bach links to Vivaldi. I’d like to see all the notes that link to and from JS Bach, too.
+Mark: OK: tear off the Roadmap view, If you select a new note — either in map view or by double clicking it in the Roadmap, you can refocus the Roadmap on the selected note. (new in Tinderbox 8!)
+
+STUDENT: Ah. So I can focus on JS Bach, and that will get me to JC Bach, and CPE Bach, and eventually to PDQ Bach. But I’ve lost all my perspective: couldn’t I see all the notes that are connected to Vivaldi in one view?
+Mark: This is easy in small documents but gets hard in really big documents. Suppose we start with Arcangelo Corelli and in each generation we have about five links to later composers. So we have 5 in the inner circle, 25 in the next generation, 125 in the next… It’s going to get crowded!
+STUDENT: But this would be so useful!
+Mark:. The number of notes in each generation might increase quadratically, but the circumference at the edge of the screen only increases linearly. It’s just not going to fit: it’s the nature of geometry!
+STUDENT: But this would be so useful!
+Mark: OK. It’s the nature of Euclidean geometry, yes. But we can imagine a different kind of geometry where this could work nicely.
+
+In our familiar geometry, the circumference of a circle increases linearly as the circle gets bigger. Let’s imagine instead a geometry where the circumference of a circle increases faster as the circle grows — fast enough so we could fit all the notes we might need.
+
+It turns out, a bunch of 19th-century mathematicians invented exactly this kind of geometry. They were trying to prove, as it happens, that you couldn’t do it — and failed. The particular flavor we use was concocted by Henri Poincaré, and has some peculiar consequences:
+
+Given a line, and a point not on that line, there are an infinite number of lines from that point that are parallel to the line.
+
+The farther you go from the center, the smaller everything becomes.
+
+Suppose you lived on the Poincaré disk and wanted to know whether the universe (or Wakamatsu’s screen) was infinite or not. You choose a direction, and begin walking. As you approach the edge of the screen, you get smaller and smaller, and your legs cover less and less ground. As far as you walk, there’s always more! So, the screen is infinite!
+
+If you start at some point on the Poincaré disk — call it Peoria — and walk in a straight line, it looks to us like you’re following a circular arc. (Exception: if you happen to be walking directly toward the edge, your path will look like a line to us.)
+
+So, loosely speaking, notes near the center are “normal size”, but they seem smaller and smaller as they approach the edge.
+"""
+<<<[[Mark Bernstein|http://forum.eastgate.com/t/about-hyperbolic-view-tinderbox-8/2131/7?u=jackbaty]]

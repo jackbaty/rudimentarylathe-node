@@ -1,0 +1,18 @@
+created: 20190503192922891
+creator: jack
+modified: 20190503193038110
+modifier: jack
+revision: 0
+tags: Emacs
+title: zoom-window for Emacs
+type: text/vnd.tiddlywiki
+
+[[zoom-window|https://github.com/syohex/emacs-zoom-window]] provides window zoom like tmux zoom and unzoom.
+
+I have it configured thusly.
+
+```
+(require 'zoom-window)
+(global-set-key (kbd "C-x C-z") 'zoom-window-zoom)
+```
+

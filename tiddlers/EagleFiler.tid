@@ -1,0 +1,31 @@
+created: 20190406152239554
+creator: jack
+modified: 20190408214739313
+modifier: jack
+revision: 0
+tags: Software
+title: EagleFiler
+type: text/vnd.tiddlywiki
+
+I've used [[EagleFiler|https://c-command.com/eaglefiler/]] on and off since 2007.
+
+I'm currently (2019.04.06) on again, so thought I'd start keeping notes about it.
+
+!!! What I like
+
+* Open library. It's just files and folders with a few minor restrictions
+* Sync via iCloud or Dropbox. As long as I don't edit the same library on 2 machines at once, it just works.
+* Importing is super easy. Just hit `F1` from about anywhere. If `F1` isn't supported, there are several other ways to import files.
+* It'll handle any file.
+* It does a great job with archiving email
+
+EagleFiler is a simpler tool than [[DEVONthink]]. This is why I find it nice to use. I have difficulty deciding whether to keep everything buried in DEVONthink<<ref "1">> or to simply use files and folders. EagleFiler splits the difference nicely.
+
+!!! Notes
+
+EagleFiler relies on AppleScript for any fancy features. There are many [[provided scripts|https://c-command.com/scripts/eaglefiler/]]. I copy them into `/Library/Scripts/Applications/EagleFiler/` which is a symlink into `~/Dropbox/Sync/Scripts/`. I access them using [[FastScripts|https://red-sweater.com/fastscripts/]]
+
+---
+* 2019.04.08 So here's the thing about EagleFiler... it's more than just a Finder replacement, but //not much more//. Probably not enough more.
+
+<<footnotes "1" "I know I can 'index' files directly in Finder with DEVONthink, but I have never liked the way that works">>

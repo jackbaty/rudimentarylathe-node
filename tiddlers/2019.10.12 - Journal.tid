@@ -1,0 +1,12 @@
+created: 20191012105435892
+creator: jack
+modified: 20191012152121943
+modifier: jack
+revision: 0
+tags: Journal
+title: 2019.10.12 - Journal
+type: text/vnd.tiddlywiki
+
+I have zero interesting in (re)learning JavaScript. If I were going to learn something new, I might choose Clojure.
+
+I am going to have to decide whether to put //all// notes into [[TheBrain]] or none of them. This half-assed, inconsistent system I have now isn't working. Current thinking: No notes in TheBrain. Thoughts/Concepts go in TheBrain and notes about them go in Org mode. I don't know how to link them, but I want my notes more portable and accessible. Also, Org mode!

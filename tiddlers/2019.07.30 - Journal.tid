@@ -1,0 +1,14 @@
+created: 20190730164246591
+creator: jack
+modified: 20190730190249794
+modifier: jack
+revision: 0
+tags: Journal
+title: 2019.07.30 - Journal
+type: text/vnd.tiddlywiki
+
+12:42 I just imported an org-mode (.org) file into Typora and it automatically converted it to Markdown (via Pandoc). That's handy. The more I use Typora the more I like using [[Typora]].
+
+14:53 Got rid of the background gradient. It was somehow causing elements to jitter when editing or saving tiddlers.
+
+15:02 BTW, I "quit" Emacs twice already today.

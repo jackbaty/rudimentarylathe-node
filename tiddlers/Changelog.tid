@@ -1,0 +1,37 @@
+created: 20190122134945572
+creator: jack
+modified: 20190813132833784
+modifier: jack
+revision: 0
+tags: TableOfContents Wiki
+title: Changelog
+type: text/vnd.tiddlywiki
+
+!! Rudimentary Lathe Wiki Changelog
+
+Updates large and small to this here [[TiddlyWiki]].
+
+!!! Changelog
+
+* 2019.06.09 Default tab is "New" since that's where everyone goes anyway.
+* 2019.03.13 Changed backlinks separator from ", " to " | " because I think it's easier to distinguish entries
+* 2019.03.10 Story river now only shows reverse-chronological "Journal" entries.
+* 2019.02.01 Back to stock palette. Rocker was too harsh for my taste.
+* 2019.01.29 Solar Flare palette was tiring. Let's see how tiring "Rocker" is.
+* 2019.01.27 Trying the "solar flare" palette and the "heavier font" theme.
+* 2019.01.25 Default tab is TOC so that mobile users don't get the giant "New" list at the top of the screen
+* 2019.01.25 Default Tiddlers are now `[[Rudimentary Lathe - Welcome]] [tag[Pinned]] [!is[system]!tag[Triage]!sort[created]limit[5]]` I have "Pinned" first, then new stuff that's not tagged with Triage. I'm using "Triage" as sort of an inbox.
+* 2019.01.22 Changed back to "Fixed Story, Fluid Sidebar"
+* 2019.01.17 Changed "Control Panel > Appearance > Theme Tweeks > Sidebar layout" to "Fluid Story, Fixed Sidebar"
+* 2019.01.15 170 tiddlers
+* 2019.01.09 Exported HTML file of this wiki is now 3.3M
+* 2019.01.05 Added the Footnotes Plugin<<footnote "why?" "Maybe I should be creating separate tiddlers instead?">>
+* 2018-12-28 Default tiddlers changed from `[[Home]] [!is[system]!sort[created]limit[5]]` to just `[[Home]]`. Home now shows tiddlers tagged "published"
+* 2018-12-24 Server process is kept running using `forever`. See [[Keeping Tiddlywiki node process running]]
+* 2018-12-24 Moved back to local node instance and generating/uploading static wiki
+* 2018-12-21 Running via node.js directly on server as of [[Tiddlywiki 5.1.19]]
+* 2018-11-09 The sidebar up and disappeared. Had to delete all of the $_ files in the tiddlers/ folder and restart.
+* 2018-10-23 Changed default tiddlers to `[tag[Journal]][sort[-modified]][limit[5]]`
+
+
+<<list-links filter:"[tag[$(currentTiddler)$]sort[]]">>

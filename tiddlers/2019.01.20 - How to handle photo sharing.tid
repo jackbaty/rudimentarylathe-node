@@ -1,0 +1,16 @@
+created: 20190120144808503
+creator: jack
+modified: 20190204233719812
+modifier: jack
+revision: 0
+tags: Workflow
+title: 2019.01.20 - How to handle photo sharing
+type: text/vnd.tiddlywiki
+
+Since I've now committed to [[Lightroom CC]] I need a way to upload or otherwise share photos. Lightroom doesn't do watermarking on export (macOS version) and it doesn't provide a way to share anywhere other than lightroom.adobe.com.
+
+So, I now do the following:
+
+# Export full-size JPG to an "Export" folder on my desktop.
+# Use [[Photo Mechanic]] to save/resize/upload.
+

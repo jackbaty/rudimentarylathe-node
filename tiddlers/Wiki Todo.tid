@@ -1,0 +1,15 @@
+created: 20190127183206863
+creator: jack
+modified: 20190405171713297
+modifier: jack
+revision: 0
+tags: TableOfContents
+title: Wiki Todo
+type: text/vnd.tiddlywiki
+
+I should track things I want to do around here. Be sure to update the [[TW: Changelog]]<<footnote "unless" "Unless you split it up">> when making changes.
+
+* Improve the [[Table of Contents]] and possibly make it manually edited
+* Consider splitting [[Changelog]] into individual tiddlers
+* Look for a theme with a little more whimsy
+* Create template for Movies

@@ -1,0 +1,10 @@
+{
+    "title": "$:/plugins/sk/WhiteList",
+    "author": "Stephen Kimmel",
+    "created": "20200304200251053",
+    "description": "White List",
+    "modified": "20200304200252195",
+    "plugin-type": "plugin",
+    "tags": "tb",
+    "version": "0.0.3"
+}

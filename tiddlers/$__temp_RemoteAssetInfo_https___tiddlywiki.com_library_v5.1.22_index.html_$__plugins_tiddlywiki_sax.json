@@ -1,0 +1,25 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/sax",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "author": "Isaac Z. Schlueter",
+        "created": "20200415163033596",
+        "creator": "jack",
+        "dependents": "",
+        "description": "sax.js library",
+        "list": "readme license",
+        "modified": "20200415163033596",
+        "modifier": "jack",
+        "name": "sax js",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/sax",
+        "original-type": "application/json",
+        "readme": "This plugin packages [[sax.js|https://github.com/isaacs/sax-js]] for use by other plugins. It does not provide any end-user visible features.\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

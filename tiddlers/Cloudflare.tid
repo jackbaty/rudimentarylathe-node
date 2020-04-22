@@ -1,0 +1,22 @@
+created: 20190216150158370
+creator: jack
+modified: 20190216183645551
+modifier: jack
+revision: 0
+tags: 
+title: Cloudflare
+type: text/vnd.tiddlywiki
+
+Cloudflare notes
+
+!!! How to test for cache hits
+
+Look for “CF-Cache-Status: HIT”
+
+e.g.
+
+```
+curl -svo /dev/null https://baty.net/wp-content/uploads/2017/02/Facebook.jpg
+```
+
+

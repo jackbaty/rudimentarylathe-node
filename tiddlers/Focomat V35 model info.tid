@@ -1,0 +1,45 @@
+created: 20190313224326554
+creator: jack
+modified: 20190313224422090
+modifier: jack
+revision: 0
+tags: 
+title: Focomat V35 model info
+type: text/vnd.tiddlywiki
+
+Info about the [[Leitz Focomat V35 Enlarger]], copied from [[here|https://www.photrio.com/forum/threads/leitz-leica-focomat-v35-model-numbers.145291/]]
+
+<<<
+I think the change in the lamps does not correlate to the product versions. It may have been changed mid-cycle. The 6604 bulb is definitely the old one. You can get an adapter to the 13139 bulb from Kienzle (expensive). I'd go for a -002 version, unless you plan to install a LED lighting system or replace the power supply with a stabilized one. The reason is that the -002 Version has a transformer with multiple windings supporting various input voltages via a switch (110,120,220,230,240,250). In germany we used to have 220V later changed to 230 (we have mostly between 230-240 where I live). I think the same is true for the US 110->120V. The earlier Focomats only support 110/220V and since the power supply is not regulated (simple transformer) it will blow the 12V lamps sooner as they will burn hotter. In the beginning I had the switch at 230V and blew a lamp every other session. Since then I changed it to 250V and the lamps work for years.
+
+I can't give you a definite answer as to product numbers, but I've seen about ten V35s personally which I've distilled to the following nomenclature:
+
+1. First version. Black labelling on the head "FOCOMAT V35 / AUTOFOCUS". Stock config: 110/220V transformer, old lamp, old mixing chamber. Many have been upgraded by the user with the new lamp/mixing chamber.
+
+2. Middle version. -002 in the type number. Grey labelling on the head "FOCOMAT V35 / AUTOFOCUS". Multi-voltage transformer and rotary voltage switch on the back side. Some with old some with new mixing chamber/lamp housing. I think it was chanced mid cycle. The later ones in the series have power switch which is rounded off on the edges. The earlier ones have a sharp edge rocker switch.
+
+3. Late version. Black "LEICA V35" on the head (1989-1995 or so). Also the red dot logo is not solid but just a very thin plastic disc offset from the head which is easily scuffed. Came stock with the mv-transformer, new mixing chamber and new lamp housing, rounded rocker switch. I'm not certain if it had a -002 or -003 in the type number. It may have been a -003. Maybe Chris Lange could validate this details, as I believe he owns that model.
+
+The only one to stay clear form (personal opinion) is the one with "LEICA V35" on the front. I've had two of these and sold them, the build quality is about two notches below the older versions. I would not go as far as saying the build quality is bad, it's still a very very good machine. But compared to the other eight older V35s I had, the lower quality was definitely noticeable, especially in the plastic parts.
+
+The again it also depends on how the machines have been used. A new one barely used is better than an old one beaten to death in a news agency darkroom.
+
+Of course, all this is derived from a sample size of ten and it might not be totally accurate. The definite answer to model numbers and design changes can probably be given bei Leica only.
+
+Here is some more info, especially about the lamp versions and how to determine which mixing chamber you've got:
+
+http://www.bonavolta.ch/hobby/en/photo/v35.htm
+
+Replacing power supply. I have not done this, but as far as my electrical engineering skills go, it sounds reasonable. I'd go with the switching supply mentioned down the page:
+http://www.bonavolta.ch/hobby/en/photo/v35suply.htm
+
+Oh, an this wiki has some detailed info too:
+http://www.l-camera-forum.com/leica-wiki.en/index.php/V35_AF
+
+For reference, if you need to align the head. The V35 has a perfectly aligned negative/lens stage. You need a hammer to misalign those two. However, the head/baseboard stage alignment is very touchy and easily misaligned (once its set, it's stays that way in normal operation, but if you accidentally push the arm a from the side or so or during transportation...). If it's only slightly off it can easily fixed by the little hex screws on the top of the column. Otherwise it gets a little more involved. It can be done but it's no fun. Here's a guide how to do (scroll down to the post by user "mpo"):
+
+https://www.photo.net/discuss/threads/focomat-v35-alignment.286222/
+
+Cheers,
+~andi
+<<<

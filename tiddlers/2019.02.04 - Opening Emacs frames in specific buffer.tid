@@ -1,0 +1,23 @@
+created: 20190204150159194
+creator: jack
+modified: 20190204151007363
+modifier: jack
+revision: 0
+tags: Emacs
+title: 2019.02.04 - Opening Emacs frames in specific buffer
+type: text/vnd.tiddlywiki
+
+I want all new Emacs frames to display the *notes* buffer (via remember-notes) rather than the current buffer. Here's what I did:
+
+```
+(defun jab-switch-to-buffer-other-frame ()
+    "Use *notes* for all new frames"
+  (interactive)
+  (switch-to-buffer-other-frame "*notes*"))
+```
+
+I remapped `Command-n` to use my function instead of the built-in `switch-to-buffer-other-frame`
+
+```
+(global-set-key (kbd "s-n") 'jab-switch-to-buffer-other-frame)
+```

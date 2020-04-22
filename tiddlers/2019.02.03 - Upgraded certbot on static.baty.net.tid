@@ -1,0 +1,23 @@
+created: 20190203192837280
+creator: jack
+modified: 20190203213208047
+modifier: jack
+revision: 0
+tags: 
+title: 2019.02.03 - Upgraded certbot on static.baty.net
+type: text/vnd.tiddlywiki
+
+The version of certbot running on [[static.baty.net]] was 0.26.1 so needed to be upgraded to avoid issues with domain validation using TLS-SNI-01. ([[See here|https://community.letsencrypt.org/t/how-to-stop-using-tls-sni-01-with-certbot/83210]])
+
+```
+$ sudo apt-get update
+$ sudo apt-get install software-properties-common
+$ sudo add-apt-repository universe
+$ sudo add-apt-repository ppa:certbot/certbot
+$ sudo apt-get update
+$ sudo apt-get install certbot python-certbot-nginx 
+
+$ sudo certbot renew --dry-run
+```
+
+Now running 0.28.0

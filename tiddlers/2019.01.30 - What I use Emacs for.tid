@@ -1,0 +1,31 @@
+created: 20190130143130686
+creator: jack
+modified: 20190810144721726
+modifier: jack
+revision: 0
+tags: Emacs
+title: 2019.01.30 - What I use Emacs for
+type: text/vnd.tiddlywiki
+
+My use of [[Emacs]] varies with my mood, so I'm recording how I'm using it today.
+
+!! I'm using Emacs for...
+
+* Task management
+* Email (Mu4e)
+* creating documents
+* daily journaling
+* logging events in my daybook
+* writing blog posts
+* managing my finances with ledger-mode
+* tracking weight
+* recording meals
+* and general text editing.
+
+!! I'm not using Emacs for...
+
+~~I'm no longer using it for email or task management. This is weird, because managing my TODOs using [[OrgMode]] is why I started using Emacs in the first place.~~
+
+Using [[Mu4e]] for email is fun and neat, but it's also quite fussy. It requires syncing with `mbsync` and running `mu` regularly, which means I have to wait 30 seconds before I can see my email. It's also tricky viewing more than one message at a time, which I do frequently. Most emails benefit from seeing the HTML version, so I'm always hitting `a V` to see messages in my browser. I'm not sure this is all worth it but it's so fast and Emacs-ey that I can't help it.
+
+[[blog post|https://www.baty.blog/2019/what-i-use-emacs-for]]

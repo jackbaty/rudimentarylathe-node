@@ -1,0 +1,21 @@
+created: 20190129210916872
+creator: jack
+modified: 20190614000929605
+modifier: jack
+revision: 0
+tags: 
+title: Wikis
+type: text/vnd.tiddlywiki
+
+Notes about wikis in general and not just specifically about [[TiddlyWiki]]
+
+
+!!! Wiki examples (non-Tiddly)
+
+* [[Andrew Canion's Wiki|https://andrewcanion.com/wiki/doku.php]] (DokuWiki)
+* [[Adam Procter|https://wiki.adamprocter.co.uk/doku.php?id=start]] (DokuWiki)
+* [[Eivind Hjertnes|https://wiki.hjertnes.blog]] (org-mode?)
+* [[Joe Jenett|https://wiki.jenett.org/]] (DokuWiki)
+
+
+{{TiddlyWiki examples}}

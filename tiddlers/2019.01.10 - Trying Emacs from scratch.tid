@@ -1,0 +1,16 @@
+created: 20190110123247012
+creator: jack
+modified: 20190111132639139
+modifier: jack
+revision: 0
+tags: Emacs
+title: 2019.01.10 - Trying Emacs from scratch
+type: text/vnd.tiddlywiki
+
+I've decided to give stock [[Emacs]] a fair shot, including keybindings.<<ref "what?">>
+
+I've wiped my [[Spacemacs]] configuration and started fresh. It's horrible so far :)
+
+
+<<footnotes  "what?" "
+The first task I gave myself this morning was to 'Move out of Emacs' and instead I spent the entire day (re)learning the basics of Emacs.">>

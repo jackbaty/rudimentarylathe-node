@@ -1,0 +1,16 @@
+created: 20190119121721886
+creator: jack
+modified: 20190119121900861
+modifier: jack
+revision: 0
+tags: Blog
+title: 2019.01.19 - About Blot vs Hugo
+type: text/vnd.tiddlywiki
+
+In [[this micro.blog thread|https://micro.blog/jack/1934194]] I explained my decision to continue using Hugo for [[baty.net]] rather than switch to [[Blot]].
+
+<<<
+You're right about Blot being more opinionated, and the great thing for me was that Blot's opinions closely aligned with my own. It was almost creepy how often I thought, "that's exactly how I'd do it!".
+
+But, I wanted to get as close to having One True Blog as possible so I had to give one of them up. I went with Hugo mostly due to inertia. I already had thousands of posts in it.
+<<<

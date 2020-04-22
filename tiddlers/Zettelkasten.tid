@@ -1,0 +1,18 @@
+created: 20190109135416652
+creator: jack
+modified: 20190112130535676
+modifier: jack
+revision: 0
+tags: Wiki
+title: Zettelkasten
+type: text/vnd.tiddlywiki
+
+I first learned the word "Zettelkasten" from Christian Tietze at his [[Zettelkasten website|https://zettelkasten.de/]]
+
+I haven't found many good definitions for Zettelkasten. It's a note-taking system most commonly attributed<<ref "1">> to Niklas Luhmann.
+
+It's possible that [[TiddlyWiki]] will [[accidentally become one|2019.01.09 - Wiki: TiddlyWiki as a Zettelkasten]] for me.
+
+<$macrocall $name="dictionary" word={{{ [<currentTiddler>] }}} />
+
+<<footnotes "1" "At least Luhmann is who I see referenced most frequently">>

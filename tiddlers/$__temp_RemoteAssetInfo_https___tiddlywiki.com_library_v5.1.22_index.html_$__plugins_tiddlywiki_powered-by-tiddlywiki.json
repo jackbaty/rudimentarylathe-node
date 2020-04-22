@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/powered-by-tiddlywiki",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033595",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Powered by TiddlyWiki banner",
+        "list": "readme",
+        "modified": "20200415163033595",
+        "modifier": "jack",
+        "name": "Powered By TiddlyWiki",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/powered-by-tiddlywiki",
+        "original-type": "application/json",
+        "readme": "This plugin adds a \"Powered by ~TiddlyWiki\" banner that links back to https://tiddlywiki.com\n\nIt's very basic at the moment, but the plan is to improve it by making it more customisable.\n",
+        "requires-reload": "no",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

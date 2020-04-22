@@ -1,0 +1,13 @@
+created: 20190116010005671
+creator: jack
+modified: 20190116010333830
+modifier: jack
+revision: 0
+tags: Emacs
+title: init.el
+type: text/vnd.tiddlywiki
+
+Notes about my [[Emacs]] config.
+
+!! Log
+* 2019.01.15 Installed org from the org repo (9.2)

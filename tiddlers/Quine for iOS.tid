@@ -1,0 +1,12 @@
+created: 20190109145543522
+creator: jack
+modified: 20190109145716942
+modifier: jack
+revision: 0
+tags: Software
+title: Quine for iOS
+type: text/vnd.tiddlywiki
+
+[[Quine|https://itunes.apple.com/us/app/quine/id1228682923]] is an iOS app for editing and managing [[TiddlyWiki]] files.
+
+It seems to work fine, but Dropbox syncing is sandboxed to ~/Dropbox/Apps/Quine and that's not where I like to keep my wiki files. May try symlinks.

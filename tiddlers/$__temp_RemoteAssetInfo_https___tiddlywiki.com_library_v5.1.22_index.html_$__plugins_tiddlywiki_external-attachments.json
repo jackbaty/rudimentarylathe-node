@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/external-attachments",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033593",
+        "creator": "jack",
+        "dependents": "",
+        "description": "External attachments for TiddlyDesktop",
+        "list": "readme settings",
+        "modified": "20200415163033593",
+        "modifier": "jack",
+        "name": "External Attachments",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/external-attachments",
+        "original-type": "application/json",
+        "readme": "! Introduction\n\nThis plugin provides support for importing tiddlers as external attachments. That means that instead of importing binary files as self-contained tiddlers, they are imported as \"skinny\" tiddlers that reference the original file via the ''_canonical_uri'' field. This reduces the size of the wiki and thus improves performance. However, it does mean that the wiki is no longer fully self-contained.\n\n! Compatibility\n\nThis plugin only works when using TiddlyWiki with platforms such as TiddlyDesktop that support the ''path'' attribute for imported/dragged files.\n\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

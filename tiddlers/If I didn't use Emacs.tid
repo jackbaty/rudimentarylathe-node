@@ -1,0 +1,45 @@
+created: 20190218180353595
+creator: jack
+modified: 20190414133258342
+modifier: jack
+revision: 0
+tags: Workflow Emacs
+title: If I didn't use Emacs
+type: text/vnd.tiddlywiki
+
+I'm experimenting with a Emacs-free workflow. This is where I'll take notes about it.
+
+When I'm not feeling all text-based, here are the apps I use
+
+* [[TheBrain]]
+* [[Curio]]
+* [[Tinderbox]]
+* [[BBEdit]]
+* [[Things.app]]
+* [[TiddlyWiki]]
+* [[DEVONthink]]
+
+That's too many apps to use all the time. Let's talk about how I use them (ideally).
+
+TheBrain is for seeing the big-picture and maintaining connections. It connects //everything// to everything and there's no limit or slowdown or fear of hitting a wall.
+
+Curio is for managing client projects. It's for an overview of work at the client/project level.
+
+Tinderbox is a wildcard here. It overlaps with the others, so I sometimes get confused. I love it as a Daybook. It's also great for project/client logs and for visualizing processes and relationships. It's map view is much more useful than TheBrain's link views.
+
+TiddlyWiki has stolen my heart, but I have to be careful. I have a tendency to find something new and say, "That's it! I'm using it for everything!" Right now I'm trying TiddlyWiki for some project notes/logbook. Neither Curio nor TheBrain do notes well. I'm digging keeping notes in TiddlyWiki. It's also what runs rudimentarylathe.org.
+
+DEVONthink is where I put everything for storage and retrieval. I'm considering taking it out of the loop for project management and limiting it to research/archives/paper scans.
+
+So based on task:
+
+* ''30,000 foot view'' - The Brain
+* ''Project management and storage'' - Curio
+* ''Task management'' - Things
+* ''Note taking'' - TiddlyWiki, [[Bear]] and BBEdit
+* ''Journaling'' - Day One for photo/location journaling and Tinderbox for daily notes
+* ''Blogging'' - BBEdit
+* ''Coding'' - BBEdit
+
+---
+* 2019.04.09 I'm back to my no-emacs lifestyle after falling back into it for a couple of months.

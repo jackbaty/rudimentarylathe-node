@@ -1,0 +1,14 @@
+created: 20190702202509702
+creator: jack
+modified: 20190702202652331
+modifier: jack
+revision: 0
+tags: Orgmode
+title: org-download
+type: text/vnd.tiddlywiki
+
+[[org-download|https://github.com/abo-abo/org-download]]
+
+> This extension facilitates moving images from point A to point B.
+
+Using this with my [[ox-hugo]] setup means I can drag an image under a post's heading and it will copy the image to where I want it and also insert a link into the post. Sweet.

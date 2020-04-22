@@ -1,0 +1,15 @@
+created: 20190110001455718
+creator: jack
+modified: 20190110001731406
+modifier: jack
+revision: 0
+tags: Wiki
+title: 2019.01.09 - Wiki: Subtitle and footer updates
+type: text/vnd.tiddlywiki
+
+I cloned `$:/core/ui/ViewTemplate/subtitle` and modified it 2 ways:
+
+# Changed the date format (made it shorter, `mmm DDth YYYY`)
+# Removed the modifier name ("jack")
+
+I added [[Modified date footer]] tagged with `$:/tags/ViewTemplate`. This shows the modified date at the bottom of every tiddler. I may want to tweak the stylesheet a bit later.

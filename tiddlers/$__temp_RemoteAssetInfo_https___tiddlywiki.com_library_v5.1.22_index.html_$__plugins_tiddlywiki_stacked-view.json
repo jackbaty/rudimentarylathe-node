@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/stacked-view",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033597",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Stacked card storyview",
+        "list": "readme",
+        "modified": "20200415163033597",
+        "modifier": "jack",
+        "name": "Stacked View",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/stacked-view",
+        "original-type": "application/json",
+        "readme": "This plugin provides a new story visualisation that displays individual tiddlers as a stack of cards. It is currently experimental and incomplete.\n\n[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/stacked-view]]\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

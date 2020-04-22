@@ -1,0 +1,52 @@
+created: 20181023232417870
+creator: jack
+list: 
+modified: 20200415140824530
+modifier: jack
+revision: 0
+tags: Wiki
+title: TiddlyWiki
+type: text/vnd.tiddlywiki
+
+[[TiddlyWiki|https://tiddlywiki.com]] is a thing I'm trying. You're soaking in it.
+
+For the latest changes, see [[TW: Changelog]]
+
+!!Resources
+
+👉 Toolmap: https://dynalist.io/d/zUP-nIWu2FFoXH-oM7L7d9DM
+
+[[Repo for plugin development|https://github.com/inmysocks/PluginDevelopment]]
+
+[[Timimi Web extension|https://github.com/ibnishak/Timimi]] is a possible workaround for Firefox saving issues after v57
+
+[[Tekan]] turns a wiki into a Kanban board
+
+The [[very first released version of TiddlyWiki|https://classic.tiddlywiki.com/archive/firstversion.html]]
+
+{{TiddlyWiki Resources}}
+
+!! Notes
+It's been a week or so with TiddlyWiki and I'm only just barely getting it. I wonder why that is. Could be that the examples aren't as useful as they could be. Some of them jump right into the deep end, showing everything that's possible at once. Might better start simple and solve a single, common problem.
+
+Discussion around "starter" wikis in [[this Google Groups thread|https://groups.google.com/forum/#!topic/tiddlywiki/y7THOx9VJtQ]]
+
+Looking forward to the 5.1.18 release. It allows for authenticated users and shows a stripped down UI for anonymous users.
+
+Using TW as a Node app is nice because it's all just a bunch of .tld files in a folder. They're close enough to markdown files as to be easy to edit in Emacs.
+
+And of course there's an [[Emacs]] mode: https://tiddlywiki.com/static/Editing%2520Tiddlers%2520with%2520Emacs.html
+
+Create a tag via transclusion and a template, e.g. this
+
+`{{Emacs||$:/core/ui/TagTemplate}}`
+
+Generates this
+
+{{Emacs||$:/core/ui/TagTemplate}}
+
+For printing pages put the following CSS syntax in a tiddler, tagged with $:/tags/Stylesheet:
+
+`.tc-tiddler-frame { page-break-before:always; }`
+
+{{Adding a favicon to TiddlyWiki}}

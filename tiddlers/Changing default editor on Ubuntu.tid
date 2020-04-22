@@ -1,0 +1,12 @@
+created: 20190630115704944
+creator: jack
+modified: 20190630115738610
+modifier: jack
+revision: 0
+tags: Linux
+title: Changing default editor on Ubuntu
+type: text/vnd.tiddlywiki
+
+`sudo update-alternatives --config editor`
+
+Then choose one of the options presented.

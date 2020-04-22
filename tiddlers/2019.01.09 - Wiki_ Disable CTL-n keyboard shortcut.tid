@@ -1,0 +1,12 @@
+created: 20190109224759261
+creator: jack
+modified: 20190109224915276
+modifier: jack
+revision: 0
+tags: Wiki
+title: 2019.01.09 - Wiki: Disable CTL-n keyboard shortcut
+type: text/vnd.tiddlywiki
+
+Emacs bindings on macOS include CTL-n for next. By default, TiddlyWiki uses CTL-n for "New Tiddler". 
+
+I deleted that shortcut in the preferences.

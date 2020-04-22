@@ -1,0 +1,76 @@
+created: 20181102012706841
+creator: jack
+modified: 20191117134757408
+modifier: jack
+revision: 0
+tags: 
+title: Static website with Caddy
+type: text/vnd.tiddlywiki
+
+Running Caddy on Ubuntu 16.04
+
+Stood up a tiny Lightsail instance \\
+Added HTTPS to allowed network connections \\
+Attached elastic (static) IP address
+
+Ran a bunch of commands based on [[these instructions|https://www.booleanworld.com/host-website-caddy-web-server-linux/]]:
+
+```
+sudo curl https://getcaddy.com | bash -s personal http.git,http.hugo
+sudo adduser jbaty
+sudo usermod -aG sudo jbaty
+sudo su - jbaty
+vi /etc/systemd/system/caddy.service
+sudo vi /etc/systemd/system/caddy.service
+sudo systemctl daemon-reload
+sudo systemctl enable caddy.service
+sudo systemctl start caddy.service
+```
+
+/etc/systemd/system/caddy.service
+
+```
+[Unit]
+Description=Caddy HTTP/2 web server
+
+[Service]
+User=jbaty
+Group=jbaty
+Environment=CADDYPATH=/home/jbaty/.caddy/store
+ExecStart=/usr/local/bin/caddy -agree=true -log=/home/jbaty/logs/caddy.log -conf=/home/jbaty/Caddyfile -root=/dev/null
+ExecReload=/bin/kill -USR1 $MAINPID
+LimitNOFILE=1048576
+LimitNPROC=64
+
+[Install]
+WantedBy=multi-user.target
+```
+
+I changed the paths from /opt/caddy to /home/jbaty since I'm the only one on the
+server and I don't want to edit files in /etc/whatever every time I need to make
+a change.
+
+Restarting Caddy
+
+~sudo systemctl restart caddy.service~
+
+
+Changed log format in Caddyfile...
+
+```
+static.baty.net {
+  root /home/jbaty/apps/static
+  log / /home/jbaty/logs/static.baty.net.log "{combined}"
+  gzip
+  browse
+}
+```
+
+This was so [[file:GoAccess.org][GoAccess]] works better (combined vs common log formats)
+
+
+See this page for a good head start...
+
+https://www.addictivetips.com/ubuntu-linux-tips/install-the-caddy-web-server-on-linux/
+
+But make sure to set permissions on /etc/ssl/caddy to root:www-data

@@ -1,0 +1,14 @@
+created: 20191106114943856
+creator: jack
+modified: 20191106115101916
+modifier: jack
+revision: 0
+tags: Privacy
+title: VeraCrypt Secure Pastebin
+type: text/vnd.tiddlywiki
+
+<<<
+VeraCrypt Secure Pastebin is a minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted //n the browser// using 256 bits AES. More information on the [[project page|https://privatebin.info/]]. 
+<<<
+
+https://bin.veracry.pt/

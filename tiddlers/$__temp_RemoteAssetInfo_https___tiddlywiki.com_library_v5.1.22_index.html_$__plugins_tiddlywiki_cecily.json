@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/cecily",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033589",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Zoomable storyview (Cecily)",
+        "list": "readme",
+        "modified": "20200415163033589",
+        "modifier": "jack",
+        "name": "Cecily",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/cecily",
+        "original-type": "application/json",
+        "readme": "This experimental plugin provides a new story visualisation that displays individual tiddlers as resizable tiles on an infinite canvas.\n\nCecily is based on an earlier plugin for TiddlyWiki Classic: http://jermolene.com/cecily\n\nCecily is currently in the early stages of development with little functionality yet implemented.\n\n[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/cecily]]\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

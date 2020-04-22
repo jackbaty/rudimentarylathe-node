@@ -1,0 +1,18 @@
+created: 20190707114913799
+creator: jack
+modified: 20190708103454268
+modifier: jack
+revision: 0
+tags: Photography
+title: Digital Print Archive
+type: text/vnd.tiddlywiki
+
+I shoot RAW with my digital cameras, and edit in Lightroom CC<<footnote "today" "As of this writing, anyway">>. Non-destructive editing is awesome, but the only good way to see the edits is by using Lightroom. What if one day I stop using it?
+
+For years, I've exported processed jpg files right next to the original RAW files. Switching to Lightroom CC has made that tricky because the originals are kept in Adobe's cloud and CC's export features are very basic.
+
+I'm now building what I'm calling a "Digital Print Archive". Each photo worth editing is exported to a separate YYYY/MM/ folder structure on my main drive as a sort of "digital print". I manage this process using my [[Rating system for photos in Lightroom CC]].
+
+This gives me a curated, organized set of "burned" copies of my raw files that requires no specific software to view or manage. I'm testing [[Photo Mechanic]] "Plus" as a way of cataloging the archive, and it's quite nice.
+
+[[Blog post|https://copingmechanism.com/2019/keeping-a-digital-print-archive/]]

@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/tiddlyweb",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033597",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Sync changes to TW5 server or TiddlyWeb server",
+        "list": "readme",
+        "modified": "20200415163033597",
+        "modifier": "jack",
+        "name": "TiddlyWeb",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/tiddlyweb",
+        "original-type": "application/json",
+        "readme": "This plugin runs in the browser to synchronise tiddler changes to and from a TiddlyWeb-compatible server (including TiddlyWiki 5 itself, running on Node.js). It is inert when run under Node.js. Disabling this plugin via the browser can not be undone via the browser since this plugin provides the mechanism to synchronize settings with the server.\n\n[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/tiddlyweb]]\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

@@ -1,0 +1,16 @@
+created: 20190111132158314
+creator: jack
+modified: 20190111132732062
+modifier: jack
+revision: 0
+tags: Emacs
+title: 2019.01.11 - Not getting along with Emacs bindings
+type: text/vnd.tiddlywiki
+
+I've been [[Trying Emacs from scratch|2019.01.10 - Trying Emacs from scratch]] and using the stock Emacs bindings exclusively and I hate it. Nothing about it is better than the Vim-like bindings of evil-mode. It's not just that I'm not used to it, although that's certainly part of it. It's that I don't understand why I would deal with chords all day like that. 
+
+The best reasons so far to me are:
+
+# Emacs movements work in many places in macOS //other than// emacs.
+# It feels like it //belongs// as part of Emacs whereas evil-mode feels tacked on. ([[Spacemacs]] goes a long way toward alleviating this, though)
+

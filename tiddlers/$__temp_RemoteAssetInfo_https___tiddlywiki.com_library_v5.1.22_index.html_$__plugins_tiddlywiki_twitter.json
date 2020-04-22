@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/twitter",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033597",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Twitter embedding tools",
+        "list": "readme usage",
+        "modified": "20200415163033597",
+        "modifier": "jack",
+        "name": "Twitter",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/twitter",
+        "original-type": "application/json",
+        "readme": "This plugin provides a `<$twitter>` widget that can embed various entities from Twitter's service:\n\n* Individual tweets and conversations\n* Buttons for tweeting/mentioning, sharing, following\n* Various types of timeline: profile, likes, list, collection, url and widget\n\nThe widget only works in the browser, and not in generated static HTML pages.\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

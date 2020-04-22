@@ -1,0 +1,26 @@
+created: 20190410195006232
+creator: jack
+modified: 20190410214254859
+modifier: jack
+revision: 0
+tags: Tinderbox
+title: 2019.04.10 - Daybook meal log badges
+type: text/vnd.tiddlywiki
+
+In my [[Tinderbox]] daybook, I track meals and record a "Quality" for each; Low, Medium, or High. Each entry then displays a `$Badge` based on the quality value
+
+I was using a set of `if` statements until I learned that Tinderbox has [[Look-up Tables|https://www.acrobatfaq.com/atbref7/index/ActionsRules/Look-uptables.html]] which act as associative arrays.
+
+I added a user attribute `QualityBadgeList` of type "set". For the agent (named "Set Quality Badge") which sets the badges, I added the following `$QualityBadgeList` value:
+
+"High:🥇;Medium:🥈;Low:🥉"
+
+The agent now uses the look-up table to set the badge...
+
+```
+$Badge=$QualityBadgeList("Set Quality Badge").at($Quality);
+```
+
+This is likely faster and is definitely easier to maintain. 
+
+[[Blog post|https://www.baty.blog/2019/tinderbox-meal-log-badges]]

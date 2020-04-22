@@ -1,0 +1,17 @@
+created: 20200213183618898
+creator: jack
+modified: 20200213183825999
+modifier: jack
+tags: 
+title: Forcing format of thumb drive macOS
+
+I seem to run into issues with various thumb drives in that I cannot format them on my Mac. Nothing I do in Diskutility app works. This, however, worked...
+
+In this case `diskutil list` showed that the drive was known as disk4, so that's what I use here:
+
+```
+sudo diskutil unmountdisk force disk4
+sudo dd if=/dev/zero of=/dev/disk4 bs=1024 count=1024
+```
+
+Good as new.

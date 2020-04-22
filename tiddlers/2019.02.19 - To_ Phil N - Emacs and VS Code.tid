@@ -1,0 +1,27 @@
+created: 20190219122602389
+creator: jack
+modified: 20190219174302008
+modifier: jack
+revision: 0
+tags: [[Phil Nunnally]] Emacs [[VS Code]]
+title: 2019.02.19 - To: Phil N - Emacs and VS Code
+type: text/vnd.tiddlywiki
+
+Phil,
+
+RE: [[Your journal entry about VS Code vs Emacs|https://twelvety.com/tiddlywiki.html#2019-02-18%20Journal]]
+
+I feel you! I've been using Emacs for years. I went all in and have had a blast. Org-mode is a revelation. The ability to tweak literally every single behavior is empowering. It's Fun! And the geek cred is off the charts, if you're into that sort of thing.
+
+It's also exhausting. I started to realize how much mental overhead I was carrying just using my editor. "Did I customize that keybinding?", "Should I?", "Why did that window just do that?", "How can I customize this new mode so that it's perfect?". It never ends. There's a whole extra thread running continually in the background processing these things.
+
+VS Code is terrific. I've been poking at it off and on for a year, but dismissed it because I'm an Emacs Guy™️. As you alluded to in the "switching tools is not betrayal" link, I feel bad when I think about switching. What would everyone think? That's a terrible way to choose a tool.
+
+I ask myself, what would I use if no one would know what I use? Right now, I think that's VS Code<<footnote "but" "That could change overnight. Again">>. I get what feels to me like 99% of the value of Emacs with a small fraction of the effort. It's not as cool, but I feel like I might get more done.
+
+I'm putting together the [[Emacs-less tool chain|https://rudimentarylathe.org/#If%20I%20didn't%20use%20Emacs]], just in case.
+
+Anyway, that's my current thinking on the matter. :)
+
+What usually happens is that I miss Org mode and go crawling back to Emacs, so grain of salt and all that.
+

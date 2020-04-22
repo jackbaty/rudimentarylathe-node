@@ -1,0 +1,29 @@
+created: 20190210180534219
+creator: jack
+modified: 20190216142522346
+modifier: jack
+revision: 0
+tags: Software
+title: DEVONthink
+type: text/vnd.tiddlywiki
+
+I first started using [[DEVONthink Pro Office|https://www.devontechnologies.com/products/devonthink/devonthink-pro-office.html]] in 2005. It's wonderful for archiving text and helping find it again. It does a ton of other stuff, but those are what I use it for mostly.
+
+I've written a few posts about DEVONthink over the years...
+
+* [[GTD, Tinderbox, DevonTHINK and others |https://www.baty.net/2005/gtd-tinderbox-devonthink-and-others/]] (2005)
+* [[Digital Recordkeeping|https://www.baty.net/2013/digital-recordkeeping/]] (2013)
+* [[DEVONthink - Import Files and Folders|https://www.baty.net/2018/devonthink-import-files-and-folders/]] (2018)
+* [[Project templates in DEVONthink|https://www.baty.net/2018/devonthink-project-template/]] (2018)
+
+!!! Notes
+
+I want to double-click to open in default application rather than DEVONthink but it’s not an option. Should be, but DT disagrees. Jim Nuemann is adamant that the “majority” of users prefer the existing behavior and there are already too many preferences.
+
+[[User Forum - Double click and open with default…|https://forum.devontechnologies.com/viewtopic.php?f=2&t=25839&p=126744&hilit=Double+click#p126744]]
+
+<<<
+Actually, it’s not so simple an option as the preference would likely be very situational. There are many times someone would want to use the default app when double-clicking, then times when they’d want to open it in DEVONthink. This is why the current option is in place, as well as providing the Open With menu.
+<<<Jim Neumann
+
+He's wrong.

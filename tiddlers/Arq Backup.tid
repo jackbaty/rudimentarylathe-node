@@ -1,0 +1,12 @@
+created: 20181104212619625
+modified: 20181206220854869
+revision: 0
+tags: Software
+title: Arq Backup
+type: text/vnd.tiddlywiki
+
+I used [[Arq Backup|https://www.arqbackup.com]] for a couple of years but at some point moved to Backblaze. I think this was due to having to manage both the Arq application and the backup destination (S3/B2, etc.). With the newly-released Arq Backup Cloud, it's all rolled into one for $5.99/month.
+
+There was a dangerous bug that could cause data loss, but I was unaffected and upgraded without issue. Whew.
+
+2018-12-06 Arq is fine, but I'm contemplating using a local, hard-drive based backup process instead. Call me crazy, but I trust hard drives and and prefer that I can "see" my backups.

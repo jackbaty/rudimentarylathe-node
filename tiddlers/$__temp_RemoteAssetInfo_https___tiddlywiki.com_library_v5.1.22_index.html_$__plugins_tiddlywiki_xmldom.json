@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/xmldom",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033597",
+        "creator": "jack",
+        "dependents": "",
+        "description": "xmldom library",
+        "list": "readme license",
+        "modified": "20200415163033597",
+        "modifier": "jack",
+        "name": "xmldom",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/xmldom",
+        "original-type": "application/json",
+        "readme": "This plugin packages [[xmldom|https://github.com/jindw/xmldom]] for use by other plugins. It does not provide any end-user visible features.\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

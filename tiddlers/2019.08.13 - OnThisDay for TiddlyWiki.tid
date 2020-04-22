@@ -1,0 +1,40 @@
+created: 20190813121546576
+creator: jack
+modified: 20190816104458349
+modifier: jack
+revision: 0
+tags: 
+title: 2019.08.13 - OnThisDay for TiddlyWiki
+type: text/vnd.tiddlywiki
+
+Via [[Josh|https://joshisms.io/#TW%3A%20Create%20On%20This%20Day%20for%20TiddlyWiki]]:
+
+```
+<$set name="todayMonthDay" value=<<now 0MM0DD>>>
+<$list filter="[!is[system]]+[!field:created/^2019/]" variable="tiddler">
+<$set name="monthDay" value={{{ [<tiddler>get[created]split[]last[13]first[4]join[]] }}}>
+<$list filter="[<monthDay>match<todayMonthDay>]">
+
+* <$link to=<<tiddler>>><<tiddler>></$link>
+
+
+</$list>
+</$set>
+</$list>
+</$set>
+```
+
+Sooooo
+
+<$set name="todayMonthDay" value=<<now 0MM0DD>>>
+<$list filter="[!is[system]]+[!field:created/^2019/]" variable="tiddler">
+<$set name="monthDay" value={{{ [<tiddler>get[created]split[]last[13]first[4]join[]] }}}>
+<$list filter="[<monthDay>match<todayMonthDay>]">
+
+* <$link to=<<tiddler>>><<tiddler>></$link>
+
+
+</$list>
+</$set>
+</$list>
+</$set>

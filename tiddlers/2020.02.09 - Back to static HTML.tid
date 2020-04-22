@@ -1,0 +1,8 @@
+created: 20200209140540601
+creator: jack
+modified: 20200209140800134
+modifier: jack
+tags: TiddlyWiki
+title: 2020.02.09 - Back to static HTML
+
+I've waffled on this many times, but since I'm moving this wiki to a new server and I don't feel like installing node/tiddlywiki there, I'm publishing it directly as an HTML file via Caddy. Easy peasy for hosting, but means I need to run and edit the original in Firefox locally, then rsync it up to the server. I have a simple Makefile for that, but it still feels more removed from the actual published version than I like. Giving it a whirl, though.

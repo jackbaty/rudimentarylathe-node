@@ -1,0 +1,23 @@
+caption: Standout macro
+created: 20181022144613056
+creator: Mohammad
+modified: 20181022154842311
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/standout
+
+Standout macro can be used instead of heading. It uses a block mode in black background and white color.
+
+<$macrocall $name="wikitext-example-without-html" 
+  src="""<<standout Hello>>"""/>
+  
+!! More example  
+This is another demo
+
+<<<
+<<standout "Part One">>
+<<.lorem>>
+
+<<standout "Another Part">>
+<<.lorem>>
+<<<

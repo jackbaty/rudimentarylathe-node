@@ -1,0 +1,30 @@
+created: 20181109153813165
+modified: 20181109172144825
+revision: 0
+tags: Software
+title: Remind
+type: text/vnd.tiddlywiki
+
+There is no greater reminder utility for the command line than [[Remind|https://dianne.skoll.ca/projects/remind/]].
+
+Here's what the author, Dianne Skoll, writes:
+
+
+<<<
+Remind is a sophisticated calendar and alarm program. It includes the following features:
+
+
+* A sophisticated scripting language and intelligent handling of exceptions and holidays.
+* Plain-text, PostScript and HTML output.
+* Timed reminders and pop-up alarms.
+* A friendly graphical front-end for people who don't want to learn the scripting language.
+* Facilities for both the Gregorian and Hebrew calendars.
+* Support for 12 different languages.
+<<<
+
+She's not a fan of Apple or Microsoft, and goes so far as to hobble the app when it's built on a Mac. It's not hard to find and remove the code doing that. I understand her point, but it's a bit heavy handed in my opinion, so I remove it.
+
+I used to use Remind with a curses app called Wyrd but I am unable to find a way to download that. All of the related web pages are missing. It's too bad, Remind/Wyrd was a powerful combination.
+
+I posted about the update [[here|https://www.baty.blog/2018/remind-gets-an-update-after-3-years]]
+

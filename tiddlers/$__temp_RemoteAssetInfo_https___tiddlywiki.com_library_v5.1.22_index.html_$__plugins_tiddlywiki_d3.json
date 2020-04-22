@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/d3",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033593",
+        "creator": "jack",
+        "dependents": "",
+        "description": "D3 data visualisation demo",
+        "list": "readme",
+        "modified": "20200415163033593",
+        "modifier": "jack",
+        "name": "D3",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/d3",
+        "original-type": "application/json",
+        "readme": "The D3 plugin is a proof-of-concept demo of integration with the D3.js data visualisation framework (http://d3js.org).\n\nIt is not currently in a state where it can be used for anything useful.\n\n[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/d3]]\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

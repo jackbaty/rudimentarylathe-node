@@ -1,0 +1,31 @@
+created: 20190211222342790
+creator: jack
+modified: 20190211222605319
+modifier: jack
+revision: 0
+tags: Link
+title: 2019.02.11 - Link: Questions for a new technology
+type: text/vnd.tiddlywiki
+
+[[Kellan Elliott-McCrea|https://kellanem.com/notes/new-tech]]
+
+<<<
+In the mean time I want to share a short list of questions I’ve been using in various forms for over a decade to engage with The Dreaded Question.
+<<<
+
+Here are the questions:
+
+
+<<<
+They aren’t particularly subtle in their bias. They aren’t supposed to be. They also aren’t mean to be a series of boxes to be checked or hoops to be jumped through.
+<<<
+
+
+# What problem are we trying to solve? (Tech should never be introduced as an end to itself)
+# How could we solve the problem with our current tech stack? (If the answer is we can’t, then we probably haven’t thought about the problem deeply enough)
+# Are we clear on what new costs we are taking on with the new technology? (monitoring, training, cognitive load, etc)
+# What about our current stack makes solving this problem in a cost-effective manner (in terms of money, people or time) difficult?
+# If this new tech is a replacement for something we currently do, are we committed to moving everything to this new technology in the future? Or are we proliferating multiple solutions to the same problem? (aka “Will this solution kill and eat the solution that it replaces?”)
+# Who do we know and trust who uses this tech? Have we talked to them about it? What did they say about it? What don’t they like about it? (if they don’t hate it, they haven’t used it in depth yet)
+# What’s a low risk way to get started?
+# Have you gotten a mixed discipline group of senior folks together and thrashed out each of the above points? Where is that documented?

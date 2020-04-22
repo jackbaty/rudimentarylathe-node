@@ -1,0 +1,16 @@
+created: 20190112124729102
+creator: jack
+modified: 20190112125012788
+modifier: jack
+revision: 0
+tags: Wiki
+title: 2019.01.12 - Wiki: Dictionary lookup macro
+type: text/vnd.tiddlywiki
+
+I asked a question about how to format links on the TiddlyWiki google group and ended up learning not only what I had asked for, but was also shown a nice macro for automatically displaying a list of links to definitions in various dictionaries.
+
+[[The macro|Dictionary Macro]] was provided by "S.S." in [[this message|https://groups.google.com/d/msg/tiddlywiki/PiUwdVpdyzQ/KVszhSJbCQAJ]]
+
+Here's how to call it:
+
+`<$macrocall $name="dictionary" word={{{ [<currentTiddler>removeprefix[Word: ]] }}} />`

@@ -1,0 +1,12 @@
+created: 20190121205821386
+creator: jack
+modified: 20190121234241437
+modifier: jack
+revision: 0
+tags: 
+title: 2019.01.21 - Changed www.baty.blog to a CNAME
+type: text/vnd.tiddlywiki
+
+You read that right! I've resurrected [[Baty.blog]] by changing www.baty.blog to a CNAME pointing to blot.im and changing baty.blog to a normal A record pointing at the static.baty.net IP. On static.baty.net I have nginx redirecting requests to baty.blog. Got it?
+
+I'm not sure [[inertia|2019.01.19 - About Blot vs Hugo]] is enough.

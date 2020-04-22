@@ -1,0 +1,14 @@
+created: 20190302202632527
+creator: jack
+modified: 20190302203646285
+modifier: jack
+revision: 0
+tags: 
+title: Isso Comments
+type: text/vnd.tiddlywiki
+
+My blog at baty.blog is now running a self-hosted [[Isso|https://posativ.org/isso/]] instance for comments.
+
+I should write up the somewhat funky process of installation. Maybe later. I mostly just followed instructions found online.
+
+Running as a service on the static.baty.net instance on port 8081. Proxied via nginx.

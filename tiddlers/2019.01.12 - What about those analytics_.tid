@@ -1,0 +1,31 @@
+created: 20190112155856791
+creator: jack
+modified: 20190112163637723
+modifier: jack
+revision: 0
+tags: 
+title: 2019.01.12 - What about those analytics?
+type: text/vnd.tiddlywiki
+
+The post, [[Removed Google Analytics|https://www.thingelstad.com/2017/removed-google-analytics/]], by Jamie Thingelstad is a good example of making the case for not using site analytics. I understand the sentiment, but feel no urge to remove analytics from my sites.
+
+<<<
+If your goal is to addict a user then, by all means, use every means possible to create feedback loops. If your goal is to drive attention and engagement on content, then show writers analytics so they can optimize that. I don’t have these goals for my sites, so I don’t need it. I’m needlessly toying with an addictive substance that I don’t need.
+<<<
+
+I watch my stats, but I don't change my posting behavior or writing in order to optimize for stats. Never have. I don't worry about this becoming a problem. I'm just interested in if people are reading my stuff. There's a bit of positive feedback there, but that's a good thing, not a problem.
+
+<<<
+Visiting my websites should be closer to visiting me, personally. If you are having dinner at my house and comment on my espresso machine, I don’t send a note to a tracking service to let them know you might be interested in buying a coffee machine. I don’t think that should happen on my website either.
+<<<
+
+This is a concern, which is why I use [[Fathom Analytics]] on all my sites. "Fathom Analytics provides simple, useful websites stats without tracking or storing personal data of your users." I feel no guilt with making note of people visiting my sites, as long as that's all I'm doing. With Fathom, that's all I'm doing.
+
+<<<
+I run 1Blocker and Ghostery in my browsers to protect my privacy. In those tools, I block hundreds, and perhaps thousands, of 3rd party services and scripts. I think you should do the same. It is hypocritical for me to embed a tracking service on my sites, that I block on other people websites, and encourage people to block themselves.
+<<<
+
+I run blockers myself and have no problem if people block the fathom trackers on my sites.
+
+
+See also: [[post on Fathom by bsag|https://www.rousette.org.uk/archives/keeping-track-with-fathom/]]

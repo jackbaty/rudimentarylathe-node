@@ -1,0 +1,28 @@
+caption: Utility macro
+created: 20181101165227068
+creator: Mohammad
+modified: 20181101170007981
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/utility
+
+There some utility macros in kookma. Here are examples to use them
+
+* ''.lorem''
+creates a dummy text
+
+<$macrocall $name="wikitext-example-without-html" src="<<.lorem>>" />
+
+* ''vspace''
+creates a vertical space. You can pass any uints
+
+<$macrocall $name="wikitext-example-without-html" 
+src="Hello this 2 cm spaces
+<<vspace 2cm>>
+and here is the next line of text." />
+
+* ''hspace''
+creates a horizontal space. You can pass any uints
+
+<$macrocall $name="wikitext-example-without-html" 
+src="Hello this 2 cm horizontal spaces <<hspace 2cm>> and here is the remaining text." />

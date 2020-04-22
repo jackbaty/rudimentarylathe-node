@@ -1,0 +1,18 @@
+created: 20190917162115555
+creator: jack
+modified: 20190917162534328
+modifier: jack
+revision: 0
+tags: Software Utility
+title: Syncthing
+type: text/vnd.tiddlywiki
+
+I've re-introduced [[Syncthing|https://syncthing.net]] into my setup. I'd stopped doing this because I didn't like things split between dropbox and syncthing. Then I tried setting up a new machine with a tiny hard drive and I couldn't do //anything// with it because I didn't want to sync 100GB or more of //stuff// just so I could have my Emacs config and other dotfiles available
+
+Syncthing is for environment dotfiles and other items that I need right away and all the time on a given machine.
+
+I like that I can add individual folders as needed and sync them with whichever other computer I wish. 
+
+No iOS client is weird, but I can live with it since my dotfile stuff is irrelevant there anyway.
+
+I don't want to rely on git for managing this since I //always// forget to commit/push every time I make a change.

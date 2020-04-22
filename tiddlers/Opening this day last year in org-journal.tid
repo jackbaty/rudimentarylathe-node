@@ -1,0 +1,38 @@
+created: 20190228152739037
+creator: jack
+modified: 20190228153748079
+modifier: jack
+revision: 0
+tags: Orgmode
+title: Opening this day last year in org-journal
+type: text/vnd.tiddlywiki
+
+Here's a bit of lisp [[stolen from Github|https://github.com/bastibe/org-journal/issues/81#issuecomment-343473227]] that jumps to this day last year in [[Org-journal]]
+
+```lisp
+(defun journal-last-year-file ()
+  "Returns the string corresponding to the journal entry that
+happened 'last year' at this same time (meaning on the same day
+of the week)."
+(let* ((last-year-seconds (- (float-time) (* 365 24 60 60)))
+       (last-year (seconds-to-time last-year-seconds))
+       (last-year-dow (nth 6 (decode-time last-year)))
+       (this-year-dow (nth 6 (decode-time)))
+       (difference (if (> this-year-dow last-year-dow)
+                       (- this-year-dow last-year-dow)
+                     (- last-year-dow this-year-dow)))
+       (target-date-seconds (+ last-year-seconds (* difference 24 60 60)))
+       (target-date (seconds-to-time target-date-seconds)))
+  (format-time-string "%Y%m%d" target-date)))
+
+(defun journal-last-year ()
+  "Loads last year's journal entry, which is not necessary the
+same day of the month, but will be the same day of the week."
+  (interactive)
+  (let ((journal-file (concat org-journal-dir (journal-last-year-file))))
+    (find-file journal-file)))
+
+  (global-set-key (kbd "C-c f L") 'journal-last-year)
+```
+
+I had to change it slightly so that the filename used my format. e.g. `YYYY-MM-DD.org` rather than the default. There's probably a way to grab that right from the org-journal configuration variables but this works.

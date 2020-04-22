@@ -1,0 +1,16 @@
+created: 20190914125733054
+creator: jack
+modified: 20190914130000787
+modifier: jack
+revision: 0
+tags: CLI
+title: oh-my-fish
+type: text/vnd.tiddlywiki
+
+[[oh-my-fish|https://github.com/oh-my-fish/oh-my-fish]] 
+
+<<<
+The Fish Shell Framework
+<<<
+
+I used this for a while but realized I didn't need most of it and it added too much "magic" to my setup so I'm back to stock [[Fish Shell]]

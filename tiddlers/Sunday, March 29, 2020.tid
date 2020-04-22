@@ -1,0 +1,14 @@
+created: 20200329113612295
+creator: jack
+modified: 20200329163401811
+modifier: jack
+tags: Journal
+title: Sunday, March 29, 2020
+
+⛅️ Partly cloudy +54°F
+
+[[Phil is right|https://youneedastereo.com/#thoughts%20vs.%20records]], lack of `blockquote` formatting in Roam is a problem.
+
+I posted to my [[Blot]] blog this morning. https://jackbaty.blot.im/2020/i-miss-blot
+
+So now I've moved the name servers for baty.blog back to Route53 and configured blot to use www.baty.blog. To get the right setup (including SSL) I created a CloudFront distribution and certificate for baty.blog and the S3 bucket does the redirect to www. Whew.

@@ -1,0 +1,22 @@
+created: 20190123220023964
+creator: jack
+modified: 20190124011131204
+modifier: jack
+revision: 0
+tags: Stub
+title: Managing Files
+type: text/vnd.tiddlywiki
+
+I should write down how I manage files. (hint, it's very similar to what )
+
+* Using [[fman]]
+* Using [[Karl Voit's tools|https://karl-voit.at/managing-digital-photographs/]]
+* Dropbox
+* Terminal
+* /archive/YYYY
+* Getting from [[Lightroom CC]] to /archive/
+* ???
+
+I [[wrote about it|https://www.baty.net/2018/using-karl-voits-file-naming-system/]]
+
+Come to think of it, I bet it would be trivial to adapt Voit's tools as fman plugins. Hmmm.

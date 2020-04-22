@@ -1,0 +1,25 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/hammerjs",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "author": "Jorik Tangelder (Eight Media)",
+        "created": "20200415163033595",
+        "creator": "jack",
+        "dependents": "",
+        "description": "HammerJS touch gesture library",
+        "list": "readme license",
+        "modified": "20200415163033595",
+        "modifier": "jack",
+        "name": "HammerJS",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/hammerjs",
+        "original-type": "application/json",
+        "readme": "This plugin packages [[HammerJS|https://hammerjs.github.io]] for use by other plugins. It does not provide any end-user visible features.\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

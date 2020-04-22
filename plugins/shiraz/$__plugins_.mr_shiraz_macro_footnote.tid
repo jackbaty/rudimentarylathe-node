@@ -1,0 +1,18 @@
+created: 20181101163809830
+creator: Mohammad
+modified: 20181101163941874
+modifier: Mohammad
+tags: $:/tags/Macro
+title: $:/plugins/.mr/shiraz/macro/footnote
+
+\define footnote(text:"" title:"Footnote")
+---
+!!! $title$
+@@.footnote
+$text$
+@@
+\end
+
+!! Footnote macro
+* footnote  (text, title)
+** when title not provided, `Footnote` is used

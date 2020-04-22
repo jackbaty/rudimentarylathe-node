@@ -1,0 +1,16 @@
+created: 20191105193938441
+creator: jack
+modified: 20191105194101042
+modifier: jack
+revision: 0
+tags: 
+title: 2019.11.05 - Upgraded gitea to 1.9.5
+type: text/vnd.tiddlywiki
+
+Simple as replacing the binary with a new one and...
+
+```
+sudo systemctl stop gitea
+sudo cp gitea /usr/local/bin/gitea
+sudo systemctl start gitea
+```

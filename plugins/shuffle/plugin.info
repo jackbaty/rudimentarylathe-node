@@ -1,0 +1,14 @@
+{
+    "title": "$:/plugins/mklauber/shuffle",
+    "author": "Matthew Lauber",
+    "bag": "default",
+    "core-version": ">=5.0.0",
+    "created": "20190126131827850",
+    "dependents": "",
+    "description": "A Shuffle filter operator",
+    "list": "readme",
+    "modified": "20190126131827850",
+    "plugin-type": "plugin",
+    "revision": "0",
+    "version": "1.0.2"
+}

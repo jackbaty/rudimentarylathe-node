@@ -1,0 +1,10 @@
+created: 20190705151548246
+creator: jack
+modified: 20190705151707834
+modifier: jack
+revision: 0
+tags: Orgmode Emacs
+title: ox-hugo
+type: text/vnd.tiddlywiki
+
+[[ox-hugo|https://ox-hugo.scripter.co]] is so good at taking one big orgmode file and using it to publish a [[Hugo]] blog.

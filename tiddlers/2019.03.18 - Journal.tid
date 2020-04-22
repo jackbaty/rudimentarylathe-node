@@ -1,0 +1,24 @@
+created: 20190318105637767
+creator: jack
+modified: 20190318232348541
+modifier: jack
+revision: 0
+tags: Journal
+title: 2019.03.18 - Journal
+type: text/vnd.tiddlywiki
+
+☀️ +23°F
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/jbaty/31421219798/in/datetaken/" title="Fuji X-100T For Sale"><img src="https://farm2.staticflickr.com/1944/31421219798_6bab3a2f2c_z.jpg" width="640" height="512" alt="Fuji X-100T For Sale"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+6:56 Had fun with my cameras this weekend. I brought out the X00T that I'd almost sold and happy that I didn't.
+
+9:31 The Vim keybindings are coming back quickly. I've missed them.
+
+10:57 [[Hook|2019.02.10 - Link: Hook for macOS]] seems like such a great idea, but I have not yet gotten it into my workflow. I just don't think of it.
+
+10:59 I should have mentioned that over the weekend I bailed on my [[home-rolled Emacs setup|2019.01.10 - Trying Emacs from scratch]] and went back to [[Doom-emacs]]. It's just better than anything I could build, but without the bloat of Spacemacs.
+
+14:21 I am not suited to [[Windows]] at all. Nothing is better and nearly everything else is worse.
+
+19:23 Somehow I stepped on my .ssh/config file and now I have to recreate it from scratch by figuring out the right keys, etc every time I fail to connect because it's missing.

@@ -1,0 +1,58 @@
+caption: Tables borderless
+created: 20180414104629468
+creator: Mohammad
+modified: 20181022130212168
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/tables-borderless
+
+Also see [[Table classes|$:/plugins/.mr/shiraz/demo/tables]]
+
+! Class table-lines
+The ''table-lines'' class is a custom table style for definition, abbreviation and description in those a two columns layout is required.
+
+!! Syntax
+
+```
+|table-lines|k
+|term|definition|
+|term|description|
+|term|explanation|
+```
+
+!! Demo
+|table-lines|k
+|TiddlyFor|A new edition of TiddlyWiki for fortran programmer|
+|Github|A web-based hosting service for version control using git|
+|CSS|Cascading Style Sheets is a style sheet language|
+
+
+
+!!! Example with header row
+
+|table-lines|k
+|Source|Description|h
+|TiddlyFor|A new edition of TiddlyWiki for fortran programmer|
+|Github|A web-based hosting service for version control using git|
+|CSS|Cascading Style Sheets is a style sheet language|
+
+
+!! Class table-borderless
+The ''table-borderless'' class is a custom table style without border.
+!!! Syntax
+
+```
+|table-borderless|k
+|TiddlyFor|A new edition of TiddlyWiki for fortran programmer|
+|Github|A web-based hosting service for version control using git|
+|CSS|Cascading Style Sheets is a style sheet language|
+```
+
+!!! Demo
+
+|table-borderless|k
+|TiddlyFor|A new edition of TiddlyWiki for fortran programmer|
+|Github|A web-based hosting service for version control using git|
+|CSS|Cascading Style Sheets is a style sheet language|
+
+

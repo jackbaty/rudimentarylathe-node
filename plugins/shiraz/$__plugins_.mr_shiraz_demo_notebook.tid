@@ -1,0 +1,24 @@
+caption: Notebook tiddler
+created: 20180412105840293
+creator: Mohammad
+modified: 20181022183631090
+modifier: Mohammad
+tags: notebook
+title: $:/plugins/.mr/shiraz/demo/notebook
+
+! Homework
+[[This|$:/plugins/.mr/shiraz/demo/notebook]] is a demo of notebook style background.
+
+Each tiddler tagged with `notebook` gets automatically a notebook style background.
+
+```
+def fun(x)
+  return 2x;
+```
+
+* One
+* Two
+<<textcolor text:"""
+
+;Due Date
+:26th October 2018""" color:"darkred">>

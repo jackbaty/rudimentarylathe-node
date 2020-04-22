@@ -1,0 +1,21 @@
+created: 20181226204858522
+creator: jack
+list: 
+modified: 20190108202131458
+modifier: jack
+revision: 0
+tags: Hardware
+title: UHK Ultimate Hacking Keyboard
+type: text/vnd.tiddlywiki
+
+Quick notes:
+
+* Remapped Mouse to Control
+* Remapped HJKL to Left, Down, Up, Right (Vim-like)
+* Remapped left Mod to Space (I always hit Space with my left hand)
+* Remapped left Space to Mod
+* Remapped ```~ to Esc`` and ```~ to Mod-Esc``
+
+So far I'm still finding it almost impossible to adjust to the new keyboard, but I'm going to stick it out for a bit and see.
+
+Update: After several days and 2 failed attempts, I'm not keeping the keyboard. I instead ordered a second [[Happy Hacking Keyboard (HHKB)]]

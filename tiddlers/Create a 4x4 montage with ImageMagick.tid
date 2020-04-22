@@ -1,0 +1,14 @@
+created: 20191030231002432
+creator: jack
+modified: 20191031110316125
+modifier: jack
+revision: 0
+tags: CLI
+title: Create a 4x4 montage with ImageMagick
+type: text/vnd.tiddlywiki
+
+```
+montage L1000845-C1.jpg L1000846-C1.jpg L1000848-C1.jpg L1000849-C1.jpg -geometry +2+2 montage.jpg
+```
+
+Of course there are like a million options with ImageMagick's `montage` but this is the one I use most often

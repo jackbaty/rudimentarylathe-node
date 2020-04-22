@@ -1,0 +1,31 @@
+caption: Footnote
+created: 20180830162917069
+creator: Mohammad
+modified: 20181108181633482
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/footnote
+
+! Footnote macro
+Footnote macro can accept a title and a text and show them in a smaller font size at the bottom of page.
+
+!!!''Syntax''
+```
+<<footnote text:"" title:"">>
+```
+
+!!!! ''Example 1''
+```
+<<footnote "This is a footnote" "Test Note:">>
+```
+
+<<footnote "This is a footnote" "Test Note:">>
+
+
+!!!! ''Example 2''
+
+<$macrocall $name="wikitext-example-without-html" src="""<<footnote "
+# This is a footnote
+# Shiraz is plugin with many useful tools
+">>
+""" />

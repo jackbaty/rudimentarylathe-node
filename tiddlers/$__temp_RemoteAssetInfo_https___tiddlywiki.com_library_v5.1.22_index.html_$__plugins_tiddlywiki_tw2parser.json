@@ -1,0 +1,25 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/tw2parser",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "author": "Jeffrey Wilkinson",
+        "created": "20200415163033597",
+        "creator": "jack",
+        "dependents": "",
+        "description": "TiddlyWiki Classic parser",
+        "list": "readme",
+        "modified": "20200415163033597",
+        "modifier": "jack",
+        "name": "TW2 Parser",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/tw2parser",
+        "original-type": "application/json",
+        "readme": "This experimental plugin provides support for parsing and rendering tiddlers written in TiddlyWiki Classic format (`text/x-tiddlywiki`).\n\n[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/tw2parser]]\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

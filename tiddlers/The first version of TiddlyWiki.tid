@@ -1,0 +1,14 @@
+created: 20190122210948165
+creator: jack
+modified: 20190122211126724
+modifier: jack
+revision: 0
+tags: 
+title: The first version of TiddlyWiki
+type: text/vnd.tiddlywiki
+
+The first version of [[TiddlyWiki]] was released 20th September 2004 and is [[still online|https://classic.tiddlywiki.com/archive/firstversion.html]]
+
+<<<
+A TiddlyWiki is like a blog because it's divided up into neat little chunks, but it encourages you to read it by hyperlinking rather than sequentially: if you like, a non-linear blog analogue that binds the individual microcontent items into a cohesive whole. I think that TiddlyWiki represents a novel medium for writing, and will promote it's own distinctive WritingStyle. This is the first version of TiddlyWiki and so, as discussed in TiddlyWikiDev, it's bound to be FullOfBugs, have many MissingFeatures and fail to meet all of the DesignGoals. And of course there's NoWarranty, and it might be judged a StupidName.
+<<<Jeremy Ruston

@@ -1,0 +1,23 @@
+created: 20190228124405555
+creator: jack
+modified: 20190522105857156
+modifier: jack
+revision: 0
+tags: Emacs Spacemacs
+title: 2019.02.28 - Refile error in Emacs
+type: text/vnd.tiddlywiki
+
+<<<
+org-copy-subtree: Invalid function: org-preserve-local-variables
+<<<
+
+Fixed by one of these:
+
+Deleting ~/.emacs.d/elpa/26.1/develop/org-plus-contrib-NNNNN and relaunching.
+
+or
+
+```
+cd ~/.emacs.d/elpa
+find org*/*.elc -print0 | xargs -0 rm
+```

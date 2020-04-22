@@ -1,0 +1,18 @@
+created: 20190405110051503
+creator: jack
+modified: 20190405180022579
+modifier: jack
+revision: 0
+tags: Journal
+title: 2019.04.05 - Journal
+type: text/vnd.tiddlywiki
+
+🌦 +34°F
+
+<a data-flickr-embed="true" style="float:right;"  href="https://www.flickr.com/photos/jbaty/47483519702/in/dateposted-public/" title="Crab races"><img src="https://live.staticflickr.com/7903/47483519702_b7f6c16199_q.jpg" width="150" height="150" alt="Crab races"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+7:01 Back in the office today, but pretend I'm not here.
+
+10:44 org-journal's search in [[Doom-emacs]] is broken. For now I've switched to my home-grown emacs.d/, with the addition of `evil-mode`
+
+10:46 I disliked using my MBP's keyboard so much this past week that I've gone back to hedging my bets against Apple. e.g. using Firefox, TiddlyWiki, Emacs, and org-journal so that I can more easily switch to another OS at some point. How the hell did it come to this?

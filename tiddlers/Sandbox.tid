@@ -1,0 +1,37 @@
+created: 20181031144654474
+creator: jack
+modified: 20190204231807308
+modifier: jack
+revision: 0
+tags: 
+title: Sandbox
+type: text/vnd.tiddlywiki
+
+A place to play
+
+
+How about a <<footnote "1" "This is a footnote">>
+
+Using the [[sameday operator|https://tiddlywiki.com/#sameday%20Operator%20(Examples)]] (1/21/19)
+
+<<list-links filter:"[sameday:created[20190122]]">>
+
+Using the [[days operator|https://tiddlywiki.com/#days%20Operator%20(Examples)]] (14 days ago)
+
+<<list-links filter:"[!days:created[-14]days:created[-14]]">>
+
+
+----
+List of links with a date prefix of current month
+
+<$set name="mydate" value=<<now YYYY.0MM.>>>
+<<list-links [prefix<mydate>]">>
+</$set>
+
+----
+Transclude all tiddlers with title matching regexp
+
+<$list filter="[regexp[Quote]]">
+
+{{!!text}}
+</$list>

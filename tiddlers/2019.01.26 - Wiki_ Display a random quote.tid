@@ -1,0 +1,25 @@
+created: 20190126134512259
+creator: jack
+modified: 20200415111243223
+modifier: jack
+revision: 0
+tags: hide Wiki
+title: 2019.01.26 - Wiki: Display a random quote
+type: text/vnd.tiddlywiki
+
+Install [[Matt's 'Shuffle Operator' plugin|https://mklauber.github.io/tw5-plugins/#Shuffle%20Operator]]
+
+Create a new tiddler to display the random quote, e.g. [[Random Quote]].
+
+Add the following to the tiddler.
+
+```
+<$list filter="[tag[Quote]shuffle<now>limit[1]]">
+
+{{!!text}}
+
+</$list>
+```
+
+That's it. Now the Random Quote tiddler will display a single, (relatively) random tiddler selected from all tiddlers tagged with "Quote".
+

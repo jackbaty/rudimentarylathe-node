@@ -1,0 +1,24 @@
+created: 20190212235839043
+creator: jack
+modified: 20190302162943078
+modifier: jack
+revision: 0
+tags: 
+title: Website comment systems
+type: text/vnd.tiddlywiki
+
+I have always disliked Disqus, so I went looking for a replacement.
+
+
+* [[IntenseDebate|https://intensedebate.com/]] - Run by Automattic
+* [[CommentBox|https://commentbox.io/]] - Hosted. Was slow when I tested it
+* [[Remarkbox|https://www.remarkbox.com]] - Hosted. Found via [[Brett Terpstra|https://brettterpstra.com/]]
+* [[Commento|https://commento.io/]] - Hosted. Fast and looks clean enough.
+* [[Isso|https://posativ.org/isso/]] - Self-hosted (python)
+
+First, I tried [[IntenseDebate|https://intensedebate.com/]]. It's owned by Automattic so I figured it was a good bet. At first I thought I was being punked. The control panel has a distinct 2004 feel and the embedded comments make the page look and act janky. Nope.
+
+The [[bsag|https://www.rousette.org.uk/]] recommended [[CommentBox|https://commentbox.io/]]. Or at least I thought that's what she recommended. What she actually recommended was [[Commento|https://commento.io/]], but by the time I figured that out I'd already added CommentBox. So far it looks good enough, and is free for my usage. It's a little slow to load so I may try Commento to see if that speeds things up. Commento starts at $5/month and I'm not sure I want yet another subscription, especially considering I get almost no comments anyway.
+
+
+2019.02.14 Moved to Commento. CommentBox is very slow and the loader is distracting. 

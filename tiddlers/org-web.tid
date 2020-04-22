@@ -1,0 +1,16 @@
+created: 20190802165157436
+creator: jack
+modified: 20190802165252571
+modifier: jack
+revision: 0
+tags: Orgmode
+title: org-web
+type: text/vnd.tiddlywiki
+
+[[Org-web|https://github.com/DanielDe/org-web/blob/master/README.org]]
+
+<<<
+org-web lets you directly edit your org files online. It syncs with Dropbox and Google Drive and is optimized for mobile use.
+<<<
+
+(via [[@hjernes|https://hjertnes.blog/posts/2019-08-02-likes/]])

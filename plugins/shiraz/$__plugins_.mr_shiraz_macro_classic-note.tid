@@ -1,0 +1,15 @@
+created: 20181101154757067
+creator: Mohammad
+modified: 20181101154943325
+modifier: Mohammad
+tags: $:/tags/Macro
+title: $:/plugins/.mr/shiraz/macro/classic-note
+
+\define success(text:"") <div class="note-success">$text$</div>
+\define warning(text:"") <div class="note-warning">$text$</div>
+\define danger(text:"")  <div class="note-danger">$text$</div>
+
+!! Classic notes
+* success (text)
+* warning (text)
+* danger  (text)

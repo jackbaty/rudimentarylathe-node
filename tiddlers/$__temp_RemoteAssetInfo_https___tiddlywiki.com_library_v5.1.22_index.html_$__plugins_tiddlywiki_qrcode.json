@@ -1,0 +1,25 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/qrcode",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "author": "Zeno Zeng",
+        "created": "20200415163033595",
+        "creator": "jack",
+        "dependents": "",
+        "description": "QR Code generator",
+        "list": "readme usage examples license",
+        "modified": "20200415163033595",
+        "modifier": "jack",
+        "name": "QR Code",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/qrcode",
+        "original-type": "application/json",
+        "readme": "The QR code plugin provides a macro that enables any text to be rendered as a [[QR code|https://en.wikipedia.org/wiki/QR_code]]. QR codes are a type of 2-dimensional bar code that encodes arbitrary data: text, numbers, links. QR code readers are available or built-in for smartphones, making them a convenient means to transfer information between devices\n\nThe QR code plugin adds the following features to TiddlyWiki:\n\n* A new [[makeqr Macro]] that renders specified text as a QR code image that can be displayed or printed\n* A new toolbar button that can display several QR code renderings of the content of a tiddler:\n** Raw content\n** Rendered, formatted content\n** URL of tiddler\n\nThe QR code plugin is based on the library [[qrcode.js by Zeno Zeng|https://github.com/zenozeng/node-yaqrcode]].",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

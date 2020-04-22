@@ -1,0 +1,19 @@
+created: 20190105170631095
+creator: jack
+modified: 20190105170813442
+modifier: Jack Baty
+revision: 0
+tags: [[Tech Note]]
+title: Restoring a deleted file using Git
+type: text/vnd.tiddlywiki
+
+I always forget this:
+
+```
+git rev-list -n 1 HEAD -- <file_path>
+
+git checkout <deleting_commit>~ -- <file_path>
+```
+
+
+(via [[StackOverflow|https://stackoverflow.com/questions/953481/find-and-restore-a-deleted-file-in-a-git-repository]])

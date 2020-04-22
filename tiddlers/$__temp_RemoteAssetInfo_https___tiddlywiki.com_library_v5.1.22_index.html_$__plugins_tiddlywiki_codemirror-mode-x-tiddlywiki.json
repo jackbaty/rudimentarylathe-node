@@ -1,0 +1,25 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/codemirror-mode-x-tiddlywiki",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033592",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Tiddlywiki Classic highlighting mode for CodeMirror",
+        "list": "readme",
+        "modified": "20200415163033592",
+        "modifier": "jack",
+        "name": "CodeMirror Mode TiddlyWiki Classic",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/codemirror-mode-x-tiddlywiki",
+        "original-type": "application/json",
+        "parent-plugin": "$:/plugins/tiddlywiki/codemirror",
+        "readme": "This plugin adds Syntax Highlighting for ~TiddlyWiki Classic tiddlers (text/x-tiddlywiki) to the [[CodeMirror|http://codemirror.net]] text editor. It needs the latest [[CodeMirror plugin|$:/plugins/tiddlywiki/codemirror]] to be installed\n\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

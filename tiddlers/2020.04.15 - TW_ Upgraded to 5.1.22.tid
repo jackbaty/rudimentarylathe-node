@@ -1,0 +1,8 @@
+created: 20200415182421027
+creator: jack
+modified: 20200415183003338
+modifier: jack
+tags: Changelog
+title: 2020.04.15 - TW: Upgraded to 5.1.22
+
+Upgraded TiddlyWiki to 5.1.22. ([[Release notes|https://tiddlywiki.com/#Release%205.1.22]]). I've added the new menubar plugin and changed the story river behavior to see if I like it. ...5 minutes later... Changed story river back to normal. I don't like the one-at-a-time thing.

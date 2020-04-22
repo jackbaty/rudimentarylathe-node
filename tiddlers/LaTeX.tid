@@ -1,0 +1,42 @@
+created: 20190106145226194
+creator: jack
+modified: 20190106150322314
+modifier: jack
+revision: 0
+tags: 
+title: LaTeX
+type: text/vnd.tiddlywiki
+
+[[LaTeX - A document preparation system|https://www.latex-project.org/]]
+
+Notes on my use of LaTeX
+
+!! Where to put my own packages
+
+`~/Library/texmf/` 
+
+in an aptly-named subfolder e.g. 
+
+`./tex/latex/[packagename]`
+
+I have it symlinked from ~/Dropbox/Sync/texmf
+
+
+```
+ln -s ~/Dropbox/Sync/texmf ~/Library/
+```
+
+!! Adding Coffee stains
+
+Add [[LaTeX Coffee Stains|http://hanno-rein.de/archives/349]] by Hanno Rein, then include the package:
+
+```
+#+LATEX_HEADER: \usepackage{coffee4}
+#+BEGIN_EXPORT latex
+\cofeAm{1}{1.0}{0}{5.5cm}{3cm}
+#+END_EXPORT
+```
+
+
+
+

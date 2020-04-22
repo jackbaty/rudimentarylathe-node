@@ -1,0 +1,39 @@
+created: 20190819204643423
+creator: jack
+modified: 20190915161901492
+modifier: jack
+revision: 0
+tags: 
+title: Manjaro install notes
+type: text/vnd.tiddlywiki
+
+Swap caps/control 
+
+`setxkbmap -option ctrl:nocaps`
+
+Installed `Yay` because I can't spell `Yaourt`
+
+https://www.ostechnix.com/yay-found-yet-another-reliable-aur-helper/
+
+```
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+"""
+Installed dropbox via yay
+Installed emacs via pacman
+installed keybase via yay
+"""
+
+For `mu` and `mu4e`
+
+Installed from source...
+
+Installed GMime via pacman
+Installed Xapian via pacman
+
+Built mu via git 
+
+
+

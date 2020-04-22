@@ -1,0 +1,20 @@
+created: 20190114144302945
+creator: jack
+modified: 20190128134404127
+modifier: jack
+revision: 0
+tags: Emacs
+title: 2019.01.14 - Refile error in Doom Emacs
+type: text/vnd.tiddlywiki
+
+I'm unable to refile a subtree in [[OrgMode]]. Submitted issue here: https://github.com/hlissner/doom-emacs/issues/1116
+
+> Invalid function: org-preserve-local-variables
+
+Feels like a package problem with [[Doom-emacs]].
+
+Tried reinstalling but didn't help
+
+Update 2019.01.23: Huh, the following worked:
+
+`~/.emacs.d/bin/doom compile :plugins`

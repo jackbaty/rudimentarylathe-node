@@ -1,0 +1,19 @@
+created: 20200422123203878
+creator: jack
+modified: 20200422124426676
+modifier: jack
+tags: 
+title: 2020.04.22 - TW: Converted to node.js again
+type: text/vnd.tiddlywiki
+
+Tags: [[Wednesday, April 22, 2020]], [[TiddlyWiki]]
+
+The only reason I have Firefox running is so I can save static TiddlyWiki files using the Timimi plugin. Safari doesn't work with the html version (no way to easily save changes). I'd prefer to use Safari, so I've converted this wiki from a static HTML file to a version running via node.
+
+!! Notes
+
+From [[Converting html TiddlyWiki to node version]]...
+
+{{Converting html TiddlyWiki to node version}}
+
+I was missing two plugins, "tiddlywiki/filesystem" and "tiddlywiki/tiddlyweb", which meant the wiki wouldn't save properly, so I added them to the `tiddlywiki.info` file and restarted.

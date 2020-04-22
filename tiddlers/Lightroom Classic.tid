@@ -1,0 +1,35 @@
+created: 20181215131414747
+creator: jack
+modified: 20190309150950313
+modifier: jack
+revision: 0
+tags: Photography Software
+title: Lightroom Classic
+type: text/vnd.tiddlywiki
+
+Some notes about my use of Adobe Lightroom (Classic). (See also [[Lightroom CC]])
+
+[[Jeffrey Friedl's plugins|http://regex.info/]] make everything better
+
+!!! Exporting
+
+~~I use the proper "Headline" IPTC field, but Apple Photos insists in using "Title" so I've got to wrangle the fields during export. Headline->Title for Apple Photos and Flickr export.~~
+
+Ok, the rest of the world wins. I'll use the damn "Title" field. Happy now?
+
+!!! File handling and Sync
+
+2019.03.09 After much wringing of hands and a near disaster, I am back to using Lightroom Classic as the core of my workflow. One side effect of this is that I now have a lot of duplicate images because I imported everything, including the "./Processed" folders for each month. I can live with this.
+
+All files are imported into Classic on my iMac (home). If there are a lot of them to be imported, I first import them into [[Photo Mechanic]] and add keywords and captions there.
+
+The current year's photos are stored on the local hard drive. Prior years are moved (using Lightroom) to the Synology in /home/Photos/YYYY
+
+In Lightroom's preferences, I enable "Specify location for Lightroom CC ecosystem's images", set to `/Users/jbaty/Pictures/Photos`. I also enable subfolders by date and set as `YYYY/MM`. 
+
+The means that photos I happen to import into Lightroom CC on mobile (or that are automatically added from Apple Photos) end up in the same place as my local imports, e.g. `/Users/jbaty/Pictures/Photos/2019/03/`
+
+Any photos originating in Classic that I would like to have synced to CC I add to synced collections.
+
+[[posted to blog|https://www.baty.blog/2019/stuck-with-lightroom-classic]]
+

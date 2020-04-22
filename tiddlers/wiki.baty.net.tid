@@ -1,0 +1,46 @@
+created: 20181208175138769
+modified: 20181214140502127
+revision: 0
+tags: 
+title: wiki.baty.net
+type: text/vnd.tiddlywiki
+
+I publish my main Tiddlywiki at [[wiki.baty.net|https://wiki.baty.net/]]. 
+
+Currently I run the tiddlywiki server locally via...
+
+```
+tiddlywiki batywiki --server
+```
+
+Then I periodically push a copy to a publicly available web server at [[wiki.baty.net|https://wiki.baty.net]] using the following Makefile
+
+```
+PUBLIC_DIR=output/
+SERVER_HOST=static.baty.net
+SERVER_DIR=/home/jbaty/apps/wiki
+TARGET=lightsail
+
+deploy: build commit push
+	@echo "\033[0;32mDeploying updates to $(TARGET)...\033[0m"
+	rsync -v -rz --checksum --delete --no-perms ~/Dropbox/wiki/batywiki/output/index.html $(SERVER_HOST):$(SERVER_DIR)
+
+build: clean
+	@echo "\033[0;32mBuilding site...\033[0m"
+	tiddlywiki ./ --build index
+
+commit:
+	git add -A
+	git commit -m "Build site `date`"
+
+push:
+	git push origin master
+
+clean:
+	rm -rf $(PUBLIC_DIR)
+
+.FORCE:
+
+```
+
+

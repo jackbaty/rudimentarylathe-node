@@ -1,0 +1,22 @@
+caption: Abbreviation
+created: 20181022084725397
+creator: Mohammad
+modified: 20181101150015018
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/abbr
+
+! Abbreviation
+Abbreviation is a macro to provide an expansion or definition outside the flow of the document's content. This macro uses the `abbr` tag from html5.
+
+The maco uses a dictionary tiddler ([[Abbreviations|$:/plugins/.mr/shiraz/dictionary/abbreviations]]) to implement the full human-readable description or expansion of the abbreviation.
+
+* Syntax
+```
+<<abbr term>>
+```
+
+* Example
+<$macrocall $name="wikitext-example-without-html" src="""
+This is <<abbr CSS>> test.
+""">>

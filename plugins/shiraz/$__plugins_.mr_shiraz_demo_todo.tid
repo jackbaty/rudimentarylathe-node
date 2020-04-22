@@ -1,0 +1,21 @@
+caption: Task and to do list
+created: 20181108102251426
+creator: Mohammad
+modified: 20181108103612544
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/todo
+
+! Tasks and to do list
+Shiraz has a builin to-do-list. It uses a template to create new tasks, list taks and shows completed ones.
+
+To create your own list of tasks
+
+# Create a tiddler and name it what you wish, for example `My ToDos`
+# Inside it put `{{$:/plugins/.mr/shiraz/to-do-list}}`
+# If you like to have your `My ToDos` in sidebar tag it with `$:/tags/Sidebar`
+# To create new tasks, in the new `My ToDo` click `New Task`
+# Organize you list by drag and drop
+# You can also drag any tiddlers from sidebar into the //Outstanding tasks// to add it to the list of tasks.
+
+To see the to do list tiddler open: $:/plugins/.mr/shiraz/to-do-list

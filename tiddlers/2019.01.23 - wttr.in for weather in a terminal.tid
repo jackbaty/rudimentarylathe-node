@@ -1,0 +1,35 @@
+created: 20190124004546360
+creator: jack
+modified: 20190228165549673
+modifier: jack
+revision: 0
+tags: 
+title: 2019.01.23 - wttr.in for weather in a terminal
+type: text/vnd.tiddlywiki
+
+I nearly forgot about [[wttr.in|https://github.com/chubin/wttr.in]]. Curl wttr.in in a terminal with a few parameters and you get a nice "graphic" weather forecast.
+
+I use it in my [[Org-Journal]] to show the weather for the day<<footnote "1" "I used to use `wu` but they're deprecating the API">>
+
+Here's the bit i insert at the top of new journal org-mode files:
+
+```
+#+BEGIN_SRC sh :results value verbatim
+curl "wttr.in/49301?0pQT"
+#+END_SRC
+```
+
+Just execute (Ctl-c Ctl-c) that block and it outputs something like this:
+
+```
+    _`/"".-.     Light Snow
+     ,\_(   ).   21-30 °F
+      /(___(__)  ↘ 12 mph
+        *  *  *  9 mi
+       *  *  *   0.0 in
+                            .
+```
+
+I wrote about it [[here|https://www.baty.blog/2019/wttr-in-my-journal]]
+
+For this wiki, I'm thinking of using `?format=3` which is much more concise and doesn't require code fences.

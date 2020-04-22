@@ -1,0 +1,7 @@
+created: 20200127144249151
+creator: jack
+list: $:/core/ui/Buttons/more-tiddler-actions $:/.giffmex/ViewToolbar/new-note-here $:/.giffmex/ViewToolbar/new-note-here-datetime $:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/info $:/core/ui/Buttons/new-here $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/edit $:/core/ui/Buttons/delete $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/.giffmex/viewtoolbar/viewrefs $:/core/ui/Buttons/close $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold $:/core/ui/Buttons/fold-bar $:/.giffmex/ViewToolbar/viewrefscheckboxes
+modified: 20200414131328450
+modifier: jack
+tags: tb
+title: $:/tags/ViewToolbar

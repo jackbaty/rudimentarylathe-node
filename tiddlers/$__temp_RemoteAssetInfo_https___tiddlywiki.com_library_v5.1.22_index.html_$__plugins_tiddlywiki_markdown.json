@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/markdown",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033595",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Markdown parser based on remarkable by Jon Schlinkert",
+        "list": "readme usage",
+        "modified": "20200415163033595",
+        "modifier": "jack",
+        "name": "Markdown",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/markdown",
+        "original-type": "application/json",
+        "readme": "This is a TiddlyWiki plugin for parsing Markdown text, using the [[Remarkable|https://github.com/jonschlinkert/remarkable]] library.\n\nIt is completely self-contained, and doesn't need an Internet connection in order to work. It works both in the browser and under Node.js.\n\n[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/markdown]]\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

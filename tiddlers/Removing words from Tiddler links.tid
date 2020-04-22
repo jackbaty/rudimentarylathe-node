@@ -1,0 +1,35 @@
+created: 20190108172137325
+creator: jack
+modified: 20190108172323390
+modifier: jack
+revision: 0
+tags: Wiki
+title: Removing words from Tiddler links
+type: text/vnd.tiddlywiki
+
+I asked the following [[on the Google Group|https://groups.google.com/forum/#!topic/tiddlywiki/PiUwdVpdyzQ]]:
+
+
+<<<
+I have begun creating tiddlers for words I find interesting. Each tiddler's title is something like "Word: chiaroscuro" and I tag them with "Word"
+
+I am trying to display a comma-delimited list of tiddlers tagged with "Word" but would like each link to not include the "Word: " prefix, yet still link to the appropriate tiddler.
+<<<
+
+
+These both work. I think the second is cleaner...
+
+
+```
+
+<$list filter='[tag[Word]butlast[]]' >
+<$list filter='[all[current]removeprefix[Word: ]]' variable="word"><$link><<word>></$link>,</$list>
+</$list>
+<$list filter='[tag[Word]last[]]' >
+<$list filter='[all[current]removeprefix[Word: ]]' variable="word"><$link><<word>></$link></$list>
+</$list>
+
+---
+<$list filter='[tag[Word]butlast[]]'><$link><$text text={{{ [<currentTiddler>removeprefix[Word: ]] }}}/></$link>,</$list>
+<$list filter='[tag[Word]last[]]'>   <$link><$text text={{{ [<currentTiddler>removeprefix[Word: ]] }}}/></$link> </$list>
+```

@@ -1,0 +1,10 @@
+created: 20200421105930169
+creator: jack
+modified: 20200421110029227
+modifier: jack
+tags: 
+title: 2020.04.21 - TW: Changed sidebar setting
+
+[[Tuesday, April 21, 2020]]
+
+Sidebar is now 750px from left. Changed from 770px to reduce the space between story and sidebar. I was doing this with custom CSS because I wasn't aware of the setting. Removed the CSS.

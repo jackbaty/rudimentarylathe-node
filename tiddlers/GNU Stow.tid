@@ -1,0 +1,18 @@
+created: 20190407135050337
+creator: jack
+modified: 20190407135449666
+modifier: jack
+revision: 0
+tags: Software
+title: GNU Stow
+type: text/vnd.tiddlywiki
+
+<<<
+[[GNU Stow|https://www.gnu.org/software/stow/manual/stow.html]] is a tool for managing the installation of multiple software packages in the same run-time directory tree.
+<<<
+
+I've been using Stow for about a year to manage my dotfiles and it's been ideal for me. Simple to understand and use.
+
+---
+* [[Managing Dotfiles with GNU Stow|https://www.baty.net/2018/managing-dotfiles-with-gnu-stow/]] (Baty, 2018)
+* [[Rethinking my dotfiles setup|https://www.rousette.org.uk/archives/rethinking-my-dotfiles-setup/]] (BSAG, 2019)

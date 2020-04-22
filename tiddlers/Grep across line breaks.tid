@@ -1,0 +1,28 @@
+created: 20190306173657378
+creator: jack
+modified: 20190306174010392
+modifier: jack
+revision: 0
+tags: 
+title: Grep across line breaks
+type: text/vnd.tiddlywiki
+
+Say I want to remove from BEGIN to END in the following:
+
+```
+Some text
+
+BEGIN
+This is text and 
+some line breaks
+I want to remove
+END
+
+And more text continues
+```
+
+Here's the (perl-compatible) expression needed...
+
+```
+BEGIN*(\n|.)*END
+```

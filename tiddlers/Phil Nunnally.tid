@@ -1,0 +1,15 @@
+created: 20190206182721073
+creator: jack
+modified: 20190219123700520
+modifier: jack
+revision: 0
+tags: Micro.blog Person
+title: Phil Nunnally
+type: text/vnd.tiddlywiki
+
+* https://twelvety.com/tiddlywiki.html
+* https://twelvety.com/
+
+Phil is a fellow TiddlyWiki aficionado and recent Tinderbox and Org-mode user.
+
+<<list-links filter:"[tag[$(currentTiddler)$]]">>

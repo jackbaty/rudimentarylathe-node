@@ -1,0 +1,16 @@
+created: 20191005210129072
+creator: jack
+modified: 20191005210244165
+modifier: jack
+revision: 0
+tags: CLI
+title: BBJ
+type: text/vnd.tiddlywiki
+
+[[Bulletin Butter & Jelly|https://bbj-dev.github.io/bbj/site/]]
+
+<<<
+BBJ is a trivial collection of python scripts and database queries that miraculously shit out a fully functional, text-driven community bulletin board.
+<<<
+
+I've been playing with the one installed on [[tilde.club|http://tilde.club]] and it's fun.

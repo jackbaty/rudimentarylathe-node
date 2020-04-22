@@ -1,0 +1,23 @@
+created: 20181224123239601
+creator: jack
+list: 
+modified: 20190117101828979
+modifier: jack
+revision: 0
+tags: [[Tech Note]] Wiki
+title: Keeping Tiddlywiki node process running
+type: text/vnd.tiddlywiki
+
+I'm running Tiddlywiki via Node.js on my server. `forever` keeps it running. Here's an example command to start the server:
+
+```
+forever start --spinSleepTime 10000 /usr/local/bin/tiddlywiki /home/jbaty/apps/wiki/batywiki --listen "readers=(anon)" writers=jack username=notmyusername password=thisisnotmyrealpassword
+```
+
+''Update'': I //was// running it via Node on the server. Had to fall back because the node process kept being killed by the OS. Maybe a memory thing but I haven't felt like debugging it.
+
+''Update 2018-12-28'': Trying again. Moved from a 512MB Lightsail instance to a 1GB EC2 instance. Let's see if that stops the OOM errors I've been seeing.
+
+''Update 2018-12-28'': Well, now things seem to continue running, but I'm constantly finding myself "logged" out. I'm not quitting the browser or anything.
+
+''Update 2019.01.17'': The logout problem doesn't occur with Firefox so I'm using that.

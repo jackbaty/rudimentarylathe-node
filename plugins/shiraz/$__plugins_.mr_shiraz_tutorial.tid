@@ -1,0 +1,9 @@
+created: 20180907045232431
+creator: Mohammad
+modified: 20181108182936271
+modifier: Mohammad
+title: $:/plugins/.mr/shiraz/tutorial
+
+Shiraz plugin contains several macros, and extended markups and customization and can be used as a starter kit. Below is a demo of some features.
+
+<<tabs "[all[shadows+tiddlers]search:title[.mr/shiraz/demo/]sort[caption]]" "" class:"tc-vertical">>

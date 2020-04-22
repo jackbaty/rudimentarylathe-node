@@ -1,0 +1,19 @@
+created: 20190131204353502
+creator: jack
+modified: 20190131204449705
+modifier: jack
+revision: 0
+tags: Word
+title: Word: anthropocene
+type: text/vnd.tiddlywiki
+
+Anthropocene | ˈanTHrəpəˌsēn |
+
+adjective
+
+
+<<<
+relating to or denoting the current geological age, viewed as the period during which human activity has been the dominant influence on climate and the environment.
+<<<
+
+See also <$macrocall $name="dictionary" word={{{ [<currentTiddler>removeprefix[Word: ]] }}} />

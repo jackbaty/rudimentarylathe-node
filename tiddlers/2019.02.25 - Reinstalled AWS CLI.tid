@@ -1,0 +1,30 @@
+created: 20190225181232457
+creator: jack
+modified: 20190508134245704
+modifier: jack
+revision: 0
+tags: 
+title: 2019.02.25 - Reinstalled AWS CLI
+type: text/vnd.tiddlywiki
+
+My python nightmare continued so I [[wiped it|2019.02.22 - Reinstalled Python on iMac]], and also the AWS cli clients.
+
+```
+rm -rf /usr/local/aws
+```
+
+Reinstalled following the instructions [[here|https://docs.aws.amazon.com/cli/latest/userguide/install-macos.html]] but the short version is...
+
+```
+curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+unzip awscli-bundle.zip
+sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+```
+
+Still didn't work.
+
+''Update'' FFS I had PYTHONPATH set to point to some temporary project from a month ago. Whoops. All good now.
+
+''Update 2019.05.08'' Used `brew install awscli` on MBP
+
+

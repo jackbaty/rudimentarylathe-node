@@ -1,0 +1,14 @@
+created: 20181024111429893
+creator: jack
+fuzzy: created
+icon: $:/core/images/edit-button
+modified: 20190308123227944
+modifier: jack
+revision: 0
+tags: TableOfContents
+title: Journal
+type: text/vnd.tiddlywiki
+
+This is a list of the most recent 20 entries tagged with `Journal`
+
+<<list-links "[tag[Journal]!sort[created]limit[20]]">>

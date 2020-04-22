@@ -1,0 +1,27 @@
+created: 20190125154016592
+creator: jack
+modified: 20190125180355163
+modifier: jack
+revision: 0
+title: 2019.01.25 - emacs remember-notes
+type: text/vnd.tiddlywiki
+
+I often use a scratch buffer in emacs, but its contents are lost if I kill the buffer or emacs. I tried using "persistent-scratch" for a while but it felt cumbersome for some reason.
+
+I just learned about the now built-in [[remember-notes|https://www.masteringemacs.org/article/whats-new-in-emacs-24-4]], and it's totally useful.
+
+<<<
+The new command ``remember-notes`` creates a buffer which is saved on ``kill-emacs``.
+
+You may think of it as a \*scratch\* buffer whose content is preserved.
+
+In fact, it was designed as a replacement for \*scratch\* buffer and can be used that way by setting ``initial-buffer-choice`` to ``remember-notes`` and ``remember-notes-buffer-name`` to “\*scratch\*”.
+
+Without the second change, \*scratch\* buffer will still be there for notes that do not need to be preserved.
+
+The Remember package can now store notes in separates files.
+
+You can use the new function ``remember-store-in-files`` within the ``remember-handler-functions`` option.
+
+See ``remember-data-directory`` and ``remember-directory-file-name-format`` for new options related to this function.
+<<<

@@ -1,0 +1,12 @@
+created: 20190420113924420
+creator: jack
+modified: 20190813132816764
+modifier: jack
+revision: 0
+tags: Wiki Changelog
+title: 2019.04.20 - Wiki: Back on Node
+type: text/vnd.tiddlywiki
+
+I tried [[going back to syncing a single-file wiki|2019.04.18 - Wiki: Back to using single HTML file version]] but I don't like working that way. I love the //idea// of just serving a static HTML file and not having to run Node and proxies, etc but adds friction to the publishing process.
+
+I like editing the wiki "in place". This is the same feeling that causes me to go back to blogging with WordPress every so often.

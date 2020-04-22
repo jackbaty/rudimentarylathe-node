@@ -1,0 +1,10 @@
+created: 20190124133115456
+creator: jack
+modified: 20190124133119925
+modifier: jack
+revision: 0
+tags: 
+title: Adding a favicon to TiddlyWiki
+type: text/vnd.tiddlywiki
+
+To add a Favicon, drag an image to your wiki. Import it, the rename it $:/favicon.ico

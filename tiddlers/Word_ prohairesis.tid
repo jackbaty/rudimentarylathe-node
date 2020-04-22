@@ -1,0 +1,16 @@
+created: 20190204114534632
+creator: jack
+modified: 20190204114641726
+modifier: jack
+revision: 0
+tags: Word
+title: Word: prohairesis
+type: text/vnd.tiddlywiki
+
+''prohairesis'' noun
+
+<<<
+Practical deliberation or reasoning leading to choice; the power to choose or make a decision.
+<<<
+
+See also: <$macrocall $name="dictionary" word={{{ [<currentTiddler>removeprefix[Word: ]] }}} />

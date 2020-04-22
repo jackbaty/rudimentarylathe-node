@@ -1,0 +1,15 @@
+created: 20181107010319972
+modified: 20181107010442652
+revision: 0
+tags: Software Utility
+title: NCurses Disk Usage
+type: text/vnd.tiddlywiki
+
+[[NCDU|https://dev.yorhel.nl/ncdu]]
+
+<<<
+Ncdu is a disk usage analyzer with an ncurses interface. It is designed to find space hogs on a remote server where you don't have an entire graphical setup available, but it is a useful tool even on regular desktop systems. Ncdu aims to be fast, simple and easy to use, and should be able to run in any minimal POSIX-like environment with ncurses installed.
+<<<
+
+I installed it (2018-11-06) using... `brew install ncdu`
+

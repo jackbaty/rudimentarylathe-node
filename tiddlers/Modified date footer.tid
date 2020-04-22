@@ -1,0 +1,12 @@
+created: 20190110001257138
+creator: jack
+modified: 20190110001412643
+modifier: jack
+revision: 0
+tags: $:/tags/ViewTemplate
+title: Modified date footer
+type: text/vnd.tiddlywiki
+
+<br><div class="tc-subtitle">
+(Last updated: <$view field="modified" format="date" template={{$:/language/Tiddler/DateFormat}}/>)
+</div>

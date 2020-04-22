@@ -1,0 +1,14 @@
+created: 20190113180635537
+creator: jack
+modified: 20190113201024751
+modifier: jack
+revision: 0
+tags: 
+title: Orbit - A MetaWeblog API Server for Hugo
+type: text/vnd.tiddlywiki
+
+I ~~should check out~~ tried [[Orbit|https://github.com/elliotekj/orbit]] for [[Hugo]]
+
+(h/t [[@aqeelfikree|https://micro.blog/aqeelfikree/1852847]])
+
+I had to update ruby and bundler, but eventually it worked. The deal-stopper was that it names files with just the date/time and if I need to mess with renaming files I may just as well make my own.

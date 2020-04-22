@@ -1,0 +1,10 @@
+<$list filter="[all[current]tag[wizard]]">
+<div class="wizard-footer">
+  <div class="wizard-item">
+    <$link to={{!!previous}} tooltip="Previous item: {{!!previous}}" >{{!!previous}}</$link>
+  </div>
+  <div class="wizard-item">
+    <$link to={{!!next}} tooltip="Next item: {{!!next}}">{{!!next}}</$link>
+  </div>
+</div>
+</$list>

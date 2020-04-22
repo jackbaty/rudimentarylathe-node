@@ -1,0 +1,40 @@
+caption: Text and background colors
+created: 20180830150744862
+creator: Mohammad
+modified: 20181101163722607
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/text-background-colors
+
+! Colorify macros
+There are two macros for changing the text and background color.
+
+!!! ''Syntax''
+```
+<<tc text:"" color:"">>
+<<bc text:"" color:"">>
+```
+The color parameter is optional.
+
+!!!! ''Example''
+```
+<<tc "Hello world!">>
+<<bc "Hi, I have a different background color">>
+```
+<<tc "Hello world!">>
+
+<<bc "Hi, I have a different background color">>.
+
+!!!! ''Changing color''
+```
+<<tc "Hello world!" color:"blue">>
+<<bc "Hi, I have a different background color" color:"lightgreen">>
+```
+<<tc "Hello world!" color:"blue">> <<bc "Hi, I have a different background color" color:"lightgreen">>
+
+```
+<<tc "Hello world!" color:"#db44aa">>
+<<bc "Hi, I have a different background color" color:"#fc9">>
+```
+
+<<tc "Hello world!" color:"#db44aa">> <<bc "Hi, I have a different background color" color:"#fc9">>.

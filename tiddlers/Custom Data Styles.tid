@@ -1,0 +1,21 @@
+created: 20181031200312892
+creator: jack
+modified: 20200421105837508
+modifier: jack
+revision: 0
+tags: $:/tags/Stylesheet
+title: Custom Data Styles
+type: text/vnd.tiddlywiki
+
+[data-tiddler-title="Rudimentary Lathe"] {
+  border: 1px solid #999999;
+  background-color: #FFF;
+  color: #000;
+}
+
+h2, h3 {font-weight:bold;}
+
+.tc-sidebar-lists a.tc-tiddlylink {
+    color: #5778d8;
+}
+

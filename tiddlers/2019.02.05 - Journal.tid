@@ -1,0 +1,26 @@
+created: 20190205124538555
+creator: jack
+modified: 20190206003909416
+modifier: jack
+revision: 0
+tags: Journal
+title: 2019.02.05 - Journal
+type: text/vnd.tiddlywiki
+
+```
+               Overcast
+      .--.     24-32 °F
+   .-(    ).   → 9 mph
+  (___.__)__)  9 mi
+               0.0 in
+```
+
+I need to get some real work done today
+
+14:24 When I need to do some task, instead of asking "I wonder what shiny new tool I could use for this?" I should be asking "What's the best way to do this in Emacs"
+
+14:45 But here's the problem... TiddlyWiki is working better for project notes and documentation than Emacs ever has. I think I have to keep using TiddlyWiki for that.
+
+18:57 Trying a light theme for Emacs, [[twilight-bright|https://github.com/jimeh/twilight-bright-theme.el]]. Dark themes just feel too oppressive somehow.
+
+19:03 I spend //hours// getting some workflow or app or whatever JUST RIGHT, then stop using it the next day.

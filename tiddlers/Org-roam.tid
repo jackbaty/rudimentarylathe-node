@@ -1,0 +1,17 @@
+created: 20200204124127083
+creator: jack
+modified: 20200204124303130
+modifier: jack
+revision: 0
+tags: Orgmode
+title: Org-roam
+type: text/vnd.tiddlywiki
+
+https://github.com/jethrokuan/org-roam
+
+<<<
+Org-roam is a rudimentary Roam replica in Org-mode. This project intends to adaptively implement the core features of Roam in org-mode and eventually introduce newer features suitable for the Emacs ecosystem. It offers a non-hierarchical note-taking approach which is effortless yet powerful. Note-taking becomes fluent and easy when you don't have to worry about where a particular note should go: you just start writing from anywhere about anything.
+<<<
+
+I //have// to give this a try. It's early yet, but with time it could give me just enough of [[Roam]] to make [[OrgMode]] similarly useful for notes.
+

@@ -1,0 +1,15 @@
+created: 20190718165931620
+creator: jack
+modified: 20190718170053427
+modifier: jack
+revision: 0
+tags: Tip
+title: Extract Key and cert from PFX SSL file
+type: text/vnd.tiddlywiki
+
+I sometimes receive SSL keys as .pfx files, which I don't want. Here's how to split them up...
+
+```
+openssl pkcs12 -in myfile.pfx -nocerts -out private-key.pem -nodes
+openssl pkcs12 -in myfile.pfx -nokeys -out certificate.crt
+```

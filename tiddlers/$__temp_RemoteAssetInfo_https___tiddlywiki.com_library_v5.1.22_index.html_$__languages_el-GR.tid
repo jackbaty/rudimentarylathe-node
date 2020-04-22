@@ -1,0 +1,20 @@
+author: Stratis Aravias@ΓΕΛ Σαμοθράκης
+core-version: >=5.0.0
+created: 20200415163033599
+creator: jack
+dependents: 
+description: Greek (Greece)
+icon: data:image/svg+xml,%3Csvg%20width%3D%22600%22%20height%3D%22400%22%20viewBox%3D%220%200%2027%2018%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%3Cdesc%3EFlag%20of%20Greece%3C%2Fdesc%3E%0A%20%20%3Crect%20width%3D%2227%22%20height%3D%2218%22%20fill%3D%22%230d5eaf%22%2F%3E%0A%20%20%3Cpath%20fill%3D%22none%22%20stroke-width%3D%222%22%20stroke%3D%22white%22%20d%3D%22M5%2C0V11%20M0%2C5H10%20M10%2C3H27%20M10%2C7H27%20M0%2C11H27%20M0%2C15H27%22%2F%3E%0A%3C%2Fsvg%3E
+modified: 20200415163033599
+modifier: jack
+name: el-GR
+original-plugin-type: language
+original-tags: 
+original-title: $:/languages/el-GR
+original-type: application/json
+requires-reload: no
+server-url: https://tiddlywiki.com/library/v5.1.22/index.html
+tags: $:/tags/RemoteAssetInfo
+title: $:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/languages/el-GR
+type: text/vnd.tiddlywiki
+version: 5.1.22

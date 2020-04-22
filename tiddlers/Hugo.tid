@@ -1,0 +1,25 @@
+created: 20190113123127649
+creator: jack
+modified: 20190917112914706
+modifier: jack
+revision: 0
+tags: Software
+title: Hugo
+type: text/vnd.tiddlywiki
+
+My blog at [[baty.net|https://www.baty.net]] has been managed using [[Hugo|https://gohugo.io/]] for a while now.
+
+Hugo is a very fast and flexible static site generator.
+
+
+!! Notes
+
+To get out of WordPress: [[WordPress-to-Hugo exporter|https://github.com/SchumacherFM/wordpress-to-hugo-exporter]]
+
+To update a submodule (theme)...
+
+`$ git submodule update --remote themes/hugo-theme-jane`
+
+
+---
+<<list-links filter:"[tag[$(currentTiddler)$]]">>

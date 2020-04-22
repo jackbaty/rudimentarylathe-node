@@ -1,0 +1,23 @@
+created: 20200422123616044
+creator: jack
+modified: 20200422140714366
+modifier: jack
+tags: 
+title: Exporting TiddlyWiki as static website
+type: text/vnd.tiddlywiki
+
+[[This post|https://nesslabs.com/tiddlywiki-static-website-generator]] from [[Anne-Laure Le Cunff]] got me thinking about making the wiki into a static website.
+
+Commands are below. I had to run these in bash rather than [[Fish Shell]] because Fish threw errors. I think it's probably due to the `$` so I'll figure out escaping those later.
+
+```
+tiddlywiki --rendertiddlers [!is[system]] $:/core/templates/static.tiddler.html static text/plain
+tiddlywiki --rendertiddler $:/core/templates/static.template.html static.html text/plain
+tiddlywiki --rendertiddler $:/core/templates/static.template.css static/static.css text/plain
+```
+
+I got an error `TypeError: Math.seedrandom is not a function` which was caused by the Shuffle plugin I use to generate [[Random Quote]]s. I disabled the plugin and re-ran the export with no errors.
+
+See also: https://www.didaxy.com/exporting-static-sites-from-tiddlywiki
+
+

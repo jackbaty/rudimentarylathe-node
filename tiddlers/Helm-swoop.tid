@@ -1,0 +1,13 @@
+created: 20190201185510902
+creator: jack
+modified: 20190201185714872
+modifier: jack
+revision: 0
+tags: Emacs
+title: Helm-swoop
+type: text/vnd.tiddlywiki
+
+Installed [[helm-swoop|https://github.com/ShingoFukuyama/helm-swoop]] in my [[emacs from scratch|2019.01.10 - Trying Emacs from scratch]] config.
+
+Basically copied configuration directly from the github readme.
+

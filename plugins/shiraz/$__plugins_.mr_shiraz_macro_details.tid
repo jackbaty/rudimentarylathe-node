@@ -1,0 +1,15 @@
+created: 20181101185833098
+creator: Mohammad
+modified: 20181101185856872
+modifier: Mohammad
+tags: $:/tags/Macro
+title: $:/plugins/.mr/shiraz/macro/details
+
+\define details(sum:"",text:"",class:"")
+<details>
+ <summary>$sum$</summary>
+  <div class="$class$">
+   $text$
+  </div>
+</details>
+\end

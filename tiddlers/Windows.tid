@@ -1,0 +1,32 @@
+created: 20190314204750327
+creator: jack
+modified: 20190314215511988
+modifier: jack
+revision: 0
+tags: 
+title: Windows
+type: text/vnd.tiddlywiki
+
+I guess I'll start a new topic/tiddler for Windows, since [[I'm running it on the ThinkPad now|Installing Windows10 over Linux]].
+
+Keeping my notes here for now. I'll try to clean it up later.
+
+---
+!! Questions and To Do
+
+* How to remap caps lock to control?
+* What is a good email client? Is there such a thing?
+* Find a TextExpander replacement. probably AutoHotKeys
+* Whatever you do, don't install ConnectedText. I mean it!
+
+---
+!! Log
+
+* 2019.03.14 Installed Windows 10 Home via ISO on an attached USB drive (formatted NTFS).
+* Dealt with [[trackpad issues|How to disable tap-to-click in Windows]]
+* Uninstalled a bunch of apps I didn't want
+* Installed [[TheBrain]] (one of the apps that made me start this whole process in the first place)
+* Installed Dropbox
+* Installed Firefox
+* Remapped CapsLock to Control using [[SharpKeys]] (because no way I'm editing the registry by hand. Can't believe that's what it takes.
+* Installed Office 365 Home

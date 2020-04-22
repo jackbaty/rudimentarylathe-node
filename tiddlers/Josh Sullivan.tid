@@ -1,0 +1,16 @@
+created: 20190220205337881
+creator: jack
+modified: 20190221202602004
+modifier: jack
+revision: 0
+tags: Person
+title: Josh Sullivan
+type: text/vnd.tiddlywiki
+
+Josh is a fellow wiki traveler is rockin' his new TiddlyWiki wiki.
+
+* https://blog.joshsullivan.io (Blog)
+* https://joshisms.io/ (TiddlyWiki!)
+* https://micro.blog/joshsullivan (Microblog)
+
+<<list-links filter:"[tag[$(currentTiddler)$]]">>

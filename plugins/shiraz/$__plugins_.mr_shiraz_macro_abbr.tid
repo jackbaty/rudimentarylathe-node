@@ -1,0 +1,13 @@
+created: 20181022071907838
+creator: Mohammad
+modified: 20181022091210043
+modifier: Mohammad
+tags: $:/tags/Macro
+title: $:/plugins/.mr/shiraz/macro/abbr
+
+\define abbr(term:"")
+<$set name="abbreviation" value={{$:/plugins/.mr/shiraz/dictionary/abbreviations##$term$}} emptyValue="Term not found">
+<abbr title=<<abbreviation>> >$term$</abbr>
+</$set>
+\end
+

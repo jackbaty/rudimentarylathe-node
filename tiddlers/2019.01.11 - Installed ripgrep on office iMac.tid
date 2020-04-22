@@ -1,0 +1,24 @@
+created: 20190111150121678
+creator: jack
+modified: 20190114235543125
+modifier: jack
+revision: 0
+title: 2019.01.11 - Installed ripgrep on office iMac
+type: text/vnd.tiddlywiki
+
+[[Ripgrep|https://github.com/BurntSushi/ripgrep]] is so fast!
+
+```
+~ ❯❯❯ brew install ripgrep
+==> Downloading https://homebrew.bintray.com/bottles/ripgrep-0.10.0.mojave.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring ripgrep-0.10.0.mojave.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+==> Summary
+🍺  /usr/local/Cellar/ripgrep/0.10.0: 11 files, 6.4MB
+```

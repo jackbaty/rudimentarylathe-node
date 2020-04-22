@@ -1,0 +1,10 @@
+created: 20190508131542233
+creator: jack
+modified: 20190508131653176
+modifier: jack
+revision: 0
+tags: 
+title: 2019.05.08 - Switched back to zsh and oh-my-zsh
+type: text/vnd.tiddlywiki
+
+Fish shell was being goofy and I don't feel like learning how to fix it today, so back to [[oh-my-zsh]]

@@ -1,0 +1,18 @@
+created: 20190314173012845
+creator: jack
+modified: 20190314173111103
+modifier: jack
+revision: 0
+tags: 
+title: Installing Windows10 over Linux
+type: text/vnd.tiddlywiki
+
+Don't hate me...
+
+Formatted an external drive as NTFS because the ISO is larger than 4GB.
+
+Installed woeusb
+
+`sudo woeusb --device Windows-10-Pro-X64.iso /dev/sdb \
+--target-filesystem ntfs`
+

@@ -1,0 +1,22 @@
+caption: Sticky footer
+created: 20180907065146246
+creator: Mohammad
+modified: 20181108201710194
+modifier: Mohammad
+sticky-footer: ''Hello'', this is a sticky footer. //<<now>>//
+tags: sticky-footer
+title: $:/plugins/.mr/shiraz/demo/sticky-footer
+
+!! Fixed/Sticky Footer Example
+
+There is two tiddlers to implement the sticky footer
+<<list-links "[search:title[sticky-footer]]" type:"ol">>
+
+!! How to use
+Each tiddler has a `sticky-footer` field will show a sticky footer at the bottom of that tiddler with the contents come from `sticky-footer` filed.
+
+!! Mechanism
+The mechanism is to use a css [[$:/plugins/.mr/shiraz/stylesheet/sticky-footer]] that defines the stylesheet and a [[viewtemplate tiddler|$:/plugins/.mr/shiraz/viewtemplate/sticky-footer]] tagged with `$:/tags/ViewTemplate` to conditionally apply the footer to tiddlers has the `sticky-footer` field.
+
+!! Example
+[[This tiddler|$:/plugins/.mr/shiraz/demo/sticky-footer]] has a `sticky-footer` filed, see the footer at the tiddler bottom.

@@ -1,0 +1,13 @@
+created: 20190917112654317
+creator: jack
+modified: 20190917145435668
+modifier: jack
+revision: 0
+tags: Hugo
+title: 2019.09.17 - Fix for blank home page in Hugo
+type: text/vnd.tiddlywiki
+
+I think this is due to changes in Hugo 0.58 and changing `.Data.Pages` to `.Site.RegularPages` in `./layouts/index.html` fixed the problem for me. (found here: https://discourse.gohugo.io/t/home-blank/20818/4])
+
+
+UPDATE: This was already fixed in my Jane theme in master so it was just a matter of pulling.

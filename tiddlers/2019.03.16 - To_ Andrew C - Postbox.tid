@@ -1,0 +1,22 @@
+created: 20190316122623288
+creator: jack
+modified: 20190316123127628
+modifier: jack
+revision: 0
+tags: [[Andrew Canion]] Letter
+title: 2019.03.16 - To: Andrew C - Postbox
+type: text/vnd.tiddlywiki
+
+Andrew,
+
+Re: [[The Workflow Problem|https://andrewcanion.com/wiki/doku.php?id=software:postbox]]:
+
+<<<
+I’ve quickly become addicted to triggering an AppleScript using TextExpander, which creates a link back to the email currently selected in Mail.app. I don’t have the necessary skill (or know if it’s possible) to recreate this for Postbox. 
+<<<
+
+With [[Postbox]] you don't need AppleScript to get a link to the message. Not having "Copy link to message" in Apple Mail is one of the things that puts me off about it. If I'm understanding you correctly, will this do?...
+
+[img[/files/2019-03-16-copylink.png]]
+
+I still don't know if Postbox will become my default mail app, but I do like it quite a lot.

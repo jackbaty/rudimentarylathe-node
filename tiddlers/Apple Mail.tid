@@ -1,0 +1,18 @@
+created: 20190429145741177
+creator: jack
+modified: 20190429150919641
+modifier: jack
+revision: 0
+tags: Software
+title: Apple Mail
+type: text/vnd.tiddlywiki
+
+I would love Apple's Mail app to work for me. It really does everything I need, looks good, comes with the OS, etc. I overthink email, so I use [[MailMate]]. MailMate is great. It does email properly.
+
+Still, Mail integrates wonderfully with the rest of my Mac, and it's pleasant to look at.
+
+!!! Notes
+
+* Drag and drop to Tinderbox creates a note with the entire content of the email in the note, but no link back to the email
+* Drag and drop to DEVONthink seems to be identical to MailMate.
+* Occasionally it can't figure out which SMTP server to use, and fails to send.

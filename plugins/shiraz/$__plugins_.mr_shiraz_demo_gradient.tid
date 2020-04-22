@@ -1,0 +1,18 @@
+caption: Gradient macro
+created: 20181022151114346
+creator: Mohammad
+modified: 20181101163309204
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/gradient
+
+The `gradient` macro create a linear gradient background. 
+
+At the moment three different colors (red, green, blue) are supported and the default color is //green//.
+. Check and change for macro
+<$macrocall $name="wikitext-example-without-html" src="""
+<<gradient "This a gradient with defualt color">>
+<<gradient "This is a blue gradient" blue>>
+<<gradient "This is a red gradient" red>>
+<<gradient "This is a green gradient" green>>
+""">>

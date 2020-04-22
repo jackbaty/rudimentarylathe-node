@@ -1,0 +1,26 @@
+created: 20200209111731841
+creator: jack
+modified: 20200210021758845
+modifier: jack
+revision: 3
+tags: Journal
+title: Sunday, February 9, 2020
+
+🌫 Mist +25°F
+
+"""
+[img[https://galleries.baty.net/uploads/medium/3fe7947212232bd5be90e85af9c4ab61.jpg]]
+//Chips at Jose's (2020).// I love chips and salsa.
+"""
+
+I'm thinking of publishing this wiki as a standalone HTML file rather than running it as a Node app. If you're reading this, I've done just that. [[2020.02.09 - Back to static HTML]]
+
+Not every film is meant to be a moral compass.
+
+I let my [[1Password]] subscription expire. Guess I'm all-in with [[Bitwarden]] now.
+
+I updated my baty.net blog (Hugo) and posted a couple things there yesterday. Can you tell I'm feeling "static" again?
+
+In my subscription purge, I've canceled [[YNAB]]. That's $50/year I can live without. This may mean I fire up [[Ledger]] again. Hooboy.
+
+Yep, I got Ledger all set up. [[Ledger-mode|https://github.com/ledger/ledger-mode]] helps. This time I'm going to need to try and get some imports from CSV working better. That was always a pain last time I tried this.

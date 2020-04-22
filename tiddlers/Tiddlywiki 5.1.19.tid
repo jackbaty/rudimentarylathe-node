@@ -1,0 +1,10 @@
+created: 20181221120926456
+creator: jack
+modified: 20181229185649773
+modifier: jack
+revision: 0
+tags: Wiki
+title: Tiddlywiki 5.1.19
+type: text/vnd.tiddlywiki
+
+[[Tiddlywiki 5.1.19|https://tiddlywiki.com]] was released, with a [[fix for basic authentication|https://github.com/Jermolene/TiddlyWiki5/issues/3647]] that may come in handy.

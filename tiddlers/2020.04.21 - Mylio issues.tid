@@ -1,0 +1,17 @@
+created: 20200421145335959
+creator: jack
+modified: 20200421145721443
+modifier: jack
+tags: 
+title: 2020.04.21 - Mylio issues
+
+Tags: [[Tuesday, April 21, 2020]], [[Mylio]]
+
+The idea and execution of [[Mylio]] is good enough that I'm willing to pretend I haven't wasted two days getting things going.
+
+First, I tried adding a vault and some folders and then copying thousands of files into the folders. Mylio got confused. Then I got confused. So, yesterday I started over. Re-copied 80,000 files from the Synology to an attached USB. Then created the vault and added the folder with the photos. It cranked overnight and looked like everything came in.
+
+Then I noticed that the Vaults listed only included "Media Two", which is //not// the drive I added. I added "Media One". Then overnight Chronosyn synced Media One to Media Two. Now, suddenly, Mylio thinks my vault is on Media Two.
+
+I've [[asked about this on the forums|https://community.mylio.com/t/mylio-is-confused-about-my-usb-vault-location/861/2]]
+

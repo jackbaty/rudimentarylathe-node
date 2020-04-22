@@ -1,0 +1,28 @@
+caption: Details macro
+created: 20181101170023905
+creator: Mohammad
+modified: 20181101191659715
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/detials
+
+The `details` macro is used to resemble the details tag in html5. It gets three parameters
+
+* sum: summary
+* text: the text to be disclosed
+* class: a css class to be used for div element showing the disclosed text
+** All alert-classes can be used
+
+<$macrocall $name="wikitext-example-without-html"
+src="""
+<<details sum:"Default" "This is a test!">>
+<<details sum:"Primary" "This is a test!" class:"alert-primary">>
+<<details sum:"Secondary" "This is a test!" class:"alert-secondary">>
+<<details sum:"success" "This is a test!" class:"alert-success">>
+<<details sum:"info" "This is a test!" class:"alert-info">>
+<<details sum:"warning" "This is a test!" class:"alert-warning">>
+<<details sum:"danger" "This is a test!" class:"alert-danger">>
+<<details sum:"light" "This is a test!" class:"alert-light">>
+<<details sum:"dark" "This is a test!" class:"alert-dark">>
+"""/>
+

@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/tahoelafs",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033597",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Tahoe-LAFS saver",
+        "list": "readme",
+        "modified": "20200415163033597",
+        "modifier": "jack",
+        "name": "TahoeLAFS",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/tahoelafs",
+        "original-type": "application/json",
+        "readme": "This plugin provides a ''saver'' module for saving changes under the [[Tahoe Least Authority File System|https://tahoe-lafs.org/]].\n\nAt this point it is largely for experimentation by @zooko.\n\n[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/tahoelafs]]\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

@@ -1,0 +1,29 @@
+created: 20191030120644529
+creator: jack
+modified: 20191103112926613
+modifier: jack
+revision: 0
+tags: 
+title: Add proportional watermark to image
+type: text/vnd.tiddlywiki
+
+I wanted to watermark images of varying sizes using the same watermark file. The idea is that the mark would be small, and in the lower right corner and be the same relative size regardless of the size of the original image
+
+I'm using ImageMagick. Here's a little shell script for doing this...
+
+```
+#!/bin/bash
+
+WATERMARK=~/sync/graphics/Watermarks/signature-watermark-600.png
+
+for IMAGE in "$@"
+do
+    BASENAME=`basename -s .jpg $IMAGE`
+    echo "Watermarking $IMAGE"
+    magick $IMAGE -set option:WMSIZE %[fx:w/2]x%[fx:h/25] \
+	   \( $WATERMARK -resize %[WMSIZE] \) -gravity southeast -composite "$BASENAME"-wm.jpg
+done
+```
+
+---
+* 2019.11.03 Updated so that the file extension isn't used twice. Also, this won't work with anything other than ".jpg" files.

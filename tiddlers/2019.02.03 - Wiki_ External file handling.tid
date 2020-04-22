@@ -1,0 +1,18 @@
+created: 20190203133238703
+creator: jack
+modified: 20190203134154960
+modifier: jack
+revision: 0
+tags: Wiki
+title: 2019.02.03 - Wiki: External file handling
+type: text/vnd.tiddlywiki
+
+I didn't know i could [[use the built-in TiddlyWiki server to serve external images|https://tiddlywiki.com/#Using%20the%20integrated%20static%20file%20server]]
+
+When running under Node, put a /files folder in the main wiki folder. Anything in that folder can be referenced via a URL like `/files/myimage.jpg`.
+
+This is great, but the problem is that when a local copy of the wiki is saved via the browser, the resulting single-file wiki does not contain the images, so all those links break.
+
+I've been putting images in my [[static site|http://static.baty.net/wiki/images/]] and using full URLs in image references. I may have to continue doing this unless I can find a better backup method.
+
+''Update:'' A workaround is to also download the /files folder and keep it locally next to the wiki backup file and server the standalone html file via a local webserver (e.g. [[Caddy|Static website with Caddy]]. That's inconvenient but since the local copy really is only for emergencies it would work.

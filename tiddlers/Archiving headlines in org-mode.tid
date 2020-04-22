@@ -1,0 +1,18 @@
+created: 20190319142818422
+creator: jack
+modified: 20190319143729538
+modifier: jack
+revision: 0
+tags: Emacs Orgmode
+title: Archiving headlines in org-mode
+type: text/vnd.tiddlywiki
+
+For client-specific org files, I like to archive completed tasks and projects in the same file rather than in the default file named *_archive.
+
+What I do is set a file-local variable like this:
+
+```
+#+ARCHIVE: ::* ARCHIVES
+```
+
+Typing `C-c C-x C-a` will now file the current headline under a top-level "ARCHIVES" headline.

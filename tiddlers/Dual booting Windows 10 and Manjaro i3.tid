@@ -1,0 +1,13 @@
+created: 20190317154727418
+creator: jack
+modified: 20190317154948775
+modifier: jack
+revision: 0
+tags: 
+title: Dual booting Windows 10 and Manjaro i3
+type: text/vnd.tiddlywiki
+
+I really dislike using [[Windows]]. After a few days of using Windows 10 on my [[ThinkPad X1 Carbon]], I decided to try and add [[Manjaro Linux]], specificiall the i3 edition and dual-boot with Windows. That way I can use a //fun// OS until I need something that only Windows has (e.g. TheBrain).
+
+I mostly used [[this|https://steemit.com/linux/@ribalinux/how-to-dual-boot-windows-10-and-manjaro-linux]] and [[this|https://markontech.com/linux/how-to-dual-boot-manjaro-and-windows-10-tutorial/]] as guides.
+

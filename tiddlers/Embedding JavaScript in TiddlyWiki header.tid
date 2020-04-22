@@ -1,0 +1,15 @@
+created: 20181230151312616
+creator: jack
+list: 
+modified: 20190108202132722
+modifier: jack
+revision: 0
+tags: Wiki [[Tech Note]]
+title: Embedding JavaScript in TiddlyWiki header
+type: text/vnd.tiddlywiki
+
+<<<
+The easiest way for testing is probably to put the javascript code in the text of a tiddler and then tag that tiddler with $:/tags/RawMarkup this puts the text of the tiddler into the html head element so you have to save the wiki and reload it to see the effects of any changes you make to the code.
+<<<Jed Carty
+
+This worked great for me. I used it to embed Fathom tracking.

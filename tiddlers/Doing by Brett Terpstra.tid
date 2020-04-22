@@ -1,0 +1,13 @@
+aliases: doing
+created: 20190415111459751
+creator: jack
+modified: 20190417112623874
+modifier: jack
+revision: 0
+tags: Software CLI
+title: Doing by Brett Terpstra
+type: text/vnd.tiddlywiki
+
+[[Doing|https://brettterpstra.com/projects/doing/]] from Brett Terpstra is a small Ruby script for the command line which makes it easy to track what I'm, uh, doing.
+
+It's super simple and works like a charm. A good example of a tool that doesn't over-think things.

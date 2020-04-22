@@ -1,0 +1,19 @@
+created: 20190112172003051
+creator: jack
+modified: 20190112174331257
+modifier: jack
+revision: 0
+tags: Emacs
+title: 2019.01.12 - Using Doom-emacs
+type: text/vnd.tiddlywiki
+
+I have been [[trying to build my own Emacs environment from scratch|2019.01.10 - Trying Emacs from scratch]] but it's not taking.
+
+With apologies to Emacs purists, there's just no way you'll convince me that using Emacs keybindings make sense as long as Evil-mode is available. I'm hardwired for modal, Vim-like editing, and can imagine<<ref "1">> no benefit that would make it worth the necessary rewiring.
+
+But, I don't want to go all the way back to [[Spacemacs]] so I'm once again giving [[Doom-emacs|https://github.com/hlissner/doom-emacs]] a shot.
+
+Stay tuned.
+
+
+<<footnotes "1" "There //are// advantages, but none worth the effort">>

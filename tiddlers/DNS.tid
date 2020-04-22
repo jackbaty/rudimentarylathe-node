@@ -1,0 +1,16 @@
+created: 20191212165418766
+creator: jack
+modified: 20191212165553322
+modifier: jack
+revision: 0
+tags: 
+title: DNS
+type: text/vnd.tiddlywiki
+
+Just notes around DNS stuff I run into
+
+Check or create CAA records: https://sslmate.com/caa/
+
+Refresh DNS on macOS
+
+{{One-liner: Refresh local DNS resolver on macOS}}

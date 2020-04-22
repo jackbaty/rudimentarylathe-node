@@ -1,0 +1,17 @@
+created: 20190130182618074
+creator: jack
+modified: 20190716110126977
+modifier: jack
+revision: 0
+tags: 
+title: Synology
+type: text/vnd.tiddlywiki
+
+I have a [[Synology DS918+ NAS|https://www.synology.com/en-us/products/DS918+]] on the home network.
+
+It acts as network storage for photos, videos, etc. It runs my Plex server. I'm watching the Moments app to see if it ever gets good enough.
+
+!!! Log and notes
+
+* 2019.01.30 Attached a 4TB USB drive and configured Hyperbackup to back up /homes and /Family Shared nightly.
+* 2019.07.16 Replaced C2 storage via Hyperbackup with [[Backblaze B2]]. Backing up /homes

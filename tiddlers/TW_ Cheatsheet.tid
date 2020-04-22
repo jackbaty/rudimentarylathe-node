@@ -1,0 +1,63 @@
+created: 20181011002515953
+creator: h0p3
+modified: 20190213193015652
+modifier: jack
+revision: 0
+tags: TW Cheatsheet
+title: TW: Cheatsheet
+type: text/vnd.tiddlywiki
+
+Thanks to [[h0p3|https://philosopher.life/#TW%3A%20Cheatsheet]]
+
+`<<tag [[Log Audit]]>>` -> <<tag [[Log Audit]]>>
+
+---
+
+Basic list-link using a basic tag filter.
+
+`<<list-links "[tag[FoobarTag]]">>`
+
+---
+
+Hardcoded cookiecutter monthly list-link using a basic tag filter for monthly audits.
+
+`<<list-links "[tag[FoobarTag]prefix[2018.10]]">>`
+
+---
+
+Generic Monthly List-Link
+
+```
+<$set name="mydate" value=<<now YYYY.0MM.>>>
+<<list-links "[tag[FoobarTag]prefix<mydate>]">>
+</$set>
+```
+
+---
+
+Transclude a list of tiddlers matching Foobar in title.
+
+```
+<$list filter="[regexp[Foobar]]">
+
+{{!!text}}
+</$list>
+```
+
+---
+
+List tiddlers tagged with the title of the current tiddler
+
+`<<list-links filter:"[tag[$(currentTiddler)$]]">>`
+
+---
+
+Find tiddlers with a date prefix and also title tagged
+
+`<<list-links "[regexp[^\d\d\d\d\.\d\d\.\d\d - Foobar:]]">>`
+
+---
+
+Create a button that opens a tiddler
+
+`<$button message="tm-edit-tiddler">Open</$button>`

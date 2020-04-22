@@ -1,0 +1,12 @@
+created: 20190219152407407
+creator: jack
+modified: 20190219152617652
+modifier: jack
+revision: 0
+tags: TiddlyWiki
+title: TW: Disqus comments plugin
+type: text/vnd.tiddlywiki
+
+[[TW5 Disqus comments plugin repo|https://gitlab.com/bimlas/tw5-disqus]]
+
+I kind of want unobtrusive comments here, but I don't think I want to use Disqus. I'd rather use [[Commento]]. Maybe I could fork it and make one.

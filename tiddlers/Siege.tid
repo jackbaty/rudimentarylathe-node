@@ -1,0 +1,39 @@
+created: 20190205141557055
+creator: jack
+modified: 20190205152514008
+modifier: jack
+revision: 0
+tags: 
+title: Siege
+type: text/vnd.tiddlywiki
+
+Running [[Siege|https://https://github.com/JoeDog/siege]] for site performance testing.
+
+[[this was helpful|https://www.sitepoint.com/web-app-performance-testing-siege-plan-test-learn/]]
+
+
+Run it first with one request to give a count of requests needed per page load.
+
+```
+siege -c=1 --reps=1 https://www.baty.blog/
+```
+
+
+Example (50 concurrent, delay 1sec, run for 1 minute)
+
+```
+$ siege -c50 -d1 -t1m https://www.baty.blog/
+
+Transactions:		        4000 hits
+Availability:		      100.00 %
+Elapsed time:		       63.65 secs
+Data transferred:	      687.49 MB
+Response time:		        0.68 secs
+Transaction rate:	       62.84 trans/sec
+Throughput:		       10.80 MB/sec
+Concurrency:		       43.01
+Successful transactions:        3500
+Failed transactions:	           0
+Longest transaction:	        7.51
+Shortest transaction:	        0.05
+```

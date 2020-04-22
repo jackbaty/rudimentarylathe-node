@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/share",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033596",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Sharing tiddlers via URLs",
+        "list": "readme wizard settings",
+        "modified": "20200415163033596",
+        "modifier": "jack",
+        "name": "Share",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/share",
+        "original-type": "application/json",
+        "readme": "<div class=\"tc-message-box\">Do not install this plugin unless you understand exactly what it does</div>\n\nThis experimental plugin provides tools to share tiddlers via URLs, comprising:\n\n* The ability to load a group of tiddlers from the browser location hash at startup\n* Wizard and templates to create URLs from group of tiddlers\n\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/github-fork-ribbon",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "author": "Simon Whitaker",
+        "created": "20200415163033594",
+        "creator": "jack",
+        "dependents": "",
+        "description": "GitHub-inspired corner ribbon",
+        "list": "readme usage",
+        "modified": "20200415163033594",
+        "modifier": "jack",
+        "name": "GitHub Fork Ribbon",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/github-fork-ribbon",
+        "original-type": "application/json",
+        "readme": "This plugin provides a diagonal ribbon across the corner of the window. It resembles the design used by ~GitHub for their \"Fork me on ~GitHub\" ribbons.\n\nThe ribbon can be positioned over any corner, and can incorporate user defined text, colours and a link.\n\nThe CSS stylesheet is adapted from work by Simon Whitaker:\n\nhttps://github.com/simonwhitaker/github-fork-ribbon-css/\n\n[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/github-fork-ribbon]]\n",
+        "requires-reload": "no",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

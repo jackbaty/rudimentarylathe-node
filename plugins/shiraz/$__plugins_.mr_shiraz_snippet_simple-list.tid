@@ -1,0 +1,10 @@
+caption: Simple list
+created: 20180629042746842
+creator: Mohammad
+modified: 20181021042350570
+modifier: Mohammad
+tags: $:/tags/TextEditor/Snippet
+title: $:/plugins/.mr/shiraz/snippet/simple-list
+
+<$list filter="" variable="">
+</$list>

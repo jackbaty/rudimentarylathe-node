@@ -1,0 +1,44 @@
+created: 20180821095049685
+creator: Mohammad
+modified: 20181021035443513
+modifier: Mohammad
+tags: bootstrap $:/tags/Macro
+title: $:/plugins/.mr/shiraz/macro/alerts
+
+\define alert(text:"", width:"100%", type:"alert-secondary")
+<div class="alert $type$" style="width:$width$;">
+$text$
+</div>
+\end
+
+\define alert-primary(text, width:"100%")
+<<alert text:"""$text$""" type:"alert-primary" width:"$width$">>
+\end
+
+\define alert-secondary(text, width:"100%")
+<<alert text:"""$text$""" type:"alert-secondary" width:"$width$">>
+\end
+
+\define alert-success(text, width:"100%")
+<<alert text:"""$text$""" type:"alert-success" width:"$width$">>
+\end
+
+\define alert-danger(text, width:"100%")
+<<alert text:"""$text$""" type:"alert-danger" width:"$width$">>
+\end
+
+\define alert-warning(text, width:"100%")
+<<alert text:"""$text$""" type:"alert-warning" width:"$width$">>
+\end
+
+\define alert-info(text, width:"100%")
+<<alert text:"""$text$""" type:"alert-info" width:"$width$">>
+\end
+
+\define alert-light(text, width:"100%")
+<<alert text:"""$text$""" type:"alert-light" width:"$width$">>
+\end
+
+\define alert-dark(text, width:"100%")
+<<alert text:"""$text$""" type:"alert-dark" width:"$width$">>
+\end

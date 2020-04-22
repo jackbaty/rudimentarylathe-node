@@ -1,0 +1,24 @@
+created: 20191210125611058
+creator: jack
+modified: 20191212135059901
+modifier: jack
+revision: 0
+tags: Journal
+title: Tuesday, December 10, 2019
+type: text/vnd.tiddlywiki
+
+🌨 +25°F
+
+I'm setting up an EKS cluster in AWS and wow the things I don't know about Kubernetes!
+
+Once in a while I become bored with [[Emacs]] and think I'm going to leave
+it completely. What always ends up happening is that two weeks later I
+open it in order to find some Orgmode thing and am immediately wanting
+to jump back in. I mean, it's so good at so much, right? Also, I know
+where everything is. It's in Emacs! Somewhere. So then I think that
+maybe I'll just journal and write documents in Emacs and no longer do
+email/RSS/Tasks, etc. But then I'm in there and making a new task is
+easy as C-c c and done. But then how do I get tasks from MailMate into
+Orgmode? So I'm off on a tangent writing little scripts to help with
+that. I get frustrated with the hassle so I re-install Mu4e and there
+we are.

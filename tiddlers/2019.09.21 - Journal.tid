@@ -1,0 +1,14 @@
+created: 20190921152537873
+creator: jack
+modified: 20190922101039248
+modifier: jack
+revision: 0
+tags: Journal
+title: 2019.09.21 - Journal
+type: text/vnd.tiddlywiki
+
+I'm bored but don't want to actually //do// anything.
+
+What I //did// do is do some testing again with both [[Spacemacs]] and [[Doom-emacs]] and failed at both. I think I may have fixed my home-rolled config but that means I'm still not using Evil-mode and I kind of want to quit trying.
+
+The new [[alpha of TheBrain v11|https://www.thebrain.com/products/thebrain/thebrain11]] is interesting. I've avoided using the notes editor in TheBrain because it's never felt right. The new one is markdown-based and seems better. I've gone all-in with v11 even though it's a terrible idea. My first request is that the note area extend all the way down the side panel. Currently it's only as long as the note's contents and it feels weird. Some crashes with the editor's menu but otherwise it's been ok. I like the new icon collection better than the old one, but they still feel kind of Playschool.

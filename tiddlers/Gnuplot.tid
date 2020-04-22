@@ -1,0 +1,18 @@
+created: 20190117174728952
+creator: jack
+modified: 20190117214803222
+modifier: jack
+revision: 0
+tags: Software
+title: Gnuplot
+type: text/vnd.tiddlywiki
+
+[[Gnuplot Home|http://www.gnuplot.info/]]
+
+<<<
+Gnuplot is a portable command-line driven graphing utility for Linux, OS/2, MS Windows, OSX, VMS, and many other platforms. The source code is copyrighted but freely distributed (i.e., you don't have to pay for it). It was originally created to allow scientists and students to visualize mathematical functions and data interactively, but has grown to support many non-interactive uses such as web scripting. It is also used as a plotting engine by third-party applications like Octave. Gnuplot has been supported and under active development since 1986. 
+<<<
+
+In order to use my scripts for generating plots from [[Ledger]], I had to install with QT e.g.
+
+`brew install gnuplot --with-qt'

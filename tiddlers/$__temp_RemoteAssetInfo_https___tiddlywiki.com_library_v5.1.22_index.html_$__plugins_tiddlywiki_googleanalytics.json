@@ -1,0 +1,25 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/googleanalytics",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "contributor": "Sylvain Comte",
+        "created": "20200415163033595",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Website visitor statistics from Google",
+        "list": "readme settings usage",
+        "modified": "20200415163033595",
+        "modifier": "jack",
+        "name": "Google Analytics",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/googleanalytics",
+        "original-type": "application/json",
+        "readme": "This plugin enables you to use Google Analytics to track access to your online TiddlyWiki document. Based upon the [[official Google code|https://developers.google.com/analytics/devguides/collection/analyticsjs]].\n\n[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/googleanalytics]]\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

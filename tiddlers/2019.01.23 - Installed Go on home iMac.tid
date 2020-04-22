@@ -1,0 +1,15 @@
+created: 20190124001619363
+creator: jack
+modified: 20190124001755596
+modifier: jack
+revision: 0
+tags: 
+title: 2019.01.23 - Installed Go on home iMac
+type: text/vnd.tiddlywiki
+
+Installed [[Golang|https://golang.org]] on the iMac using the latest package for macOS.
+
+Created ~/go and added $GOPATH in config.fish...
+
+`set -x -U GOPATH $HOME/go`
+

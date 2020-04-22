@@ -1,0 +1,36 @@
+created: 20190204233923833
+creator: jack
+modified: 20191212202147195
+modifier: jack
+revision: 0
+tags: Letter
+title: 2019.02.04 - Phil N: Org-mode answers
+type: text/vnd.tiddlywiki
+
+Phil, about your [[Org-mode questions|https://twelvety.com/tiddlywiki.html#OrgMode%20TODO%20and%20questions]]
+
+I'm not an expert, but what the hell...
+
+''Q: how do you define a bunch of :tags: to have them ready to go?''
+
+You can use #+TAGS: in the file somewhere like this
+
+```
+#+TAGS: foo bar baz
+```
+
+Then when you `C-c C-c` on a headline, you'll see them listed.
+
+Or you can set them globally with `org-tag-alist`  ([[some examples|https://orgmode.org/manual/Setting-tags.html]])
+
+''Q: make systemwide keyboard shortcut to add new journal entry to today from anywhere''
+
+I use the following in init.el
+
+`(global-set-key (kbd "C-c C-j") 'org-journal-new-entry)`
+
+If you mean like //anywhere in the OS// it's trickier. I use Keyboard Maestro to trigger org-capture and then I have a capture template for adding an entry. I suppose I could use a separate KM trigger that would just bring Emacs up and simulate `C-c C-j`.
+
+''Q: How do you select a bunch of words all at once?''
+
+Good question. I usually end up grabbing the mouse :)

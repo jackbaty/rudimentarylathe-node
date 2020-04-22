@@ -1,0 +1,10 @@
+created: 20190222220938734
+creator: jack
+modified: 20190222221046124
+modifier: jack
+revision: 0
+tags: 
+title: 2019.02.22 - Upgraded Plex Server
+type: text/vnd.tiddlywiki
+
+Since the [[Synology]] package never seems to be updated I manually installed Plex Server version 1.14.1.5488. Downloaded the .spk file and upload using "Manual Install"

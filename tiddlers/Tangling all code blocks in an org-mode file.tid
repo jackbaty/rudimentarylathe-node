@@ -1,0 +1,14 @@
+created: 20190110122705539
+creator: jack
+modified: 20190110122832866
+modifier: jack
+revision: 0
+tags: [[Tech Note]]
+title: Tangling all code blocks in an org-mode file
+type: text/vnd.tiddlywiki
+
+I use [[Literate Config]] for my [[Emacs]] setup and sometimes forget how to tangle all the code blocks without configuring each block. Use the following:
+
+```
+#+PROPERTY: header-args :tangle yes
+```

@@ -1,0 +1,67 @@
+created: 20190222154418077
+creator: jack
+modified: 20190222155031117
+modifier: jack
+revision: 0
+tags: 
+title: 2019.02.22 - Reinstalled Python on iMac
+type: text/vnd.tiddlywiki
+
+In an attempt to fix pip3 errors on my work iMac, I reinstalled Python 3. Hammer?
+
+Permissions errors while uninstalling so...
+
+```
+sudo chown -R jbaty /usr/local/Cellar/python/3.7.1/
+brew uninstall --force python
+```
+
+Then per [[these instructions|https://docs.python-guide.org/starting/install3/osx/]] I added the following to set my path in config.fish 
+
+`set -g fish_user_paths ~/bin /usr/local/opt/python/libexec/bin $fish_user_paths`
+
+I think ` .../libexec/bin` is for holding symlinks to v3 binaries.
+
+Then installed python3
+
+```
+~> brew install python
+~> python --version
+Python 3.7.2
+```
+
+But pip is still broken...
+
+```
+~> pip --version
+Traceback (most recent call last):
+  File "/usr/local/opt/python/libexec/bin/pip", line 11, in <module>
+    load_entry_point('pip==19.0.2', 'console_scripts', 'pip3')()
+  File "/usr/local/lib/python3.7/site-packages/pkg_resources/__init__.py", line 489, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File "/usr/local/lib/python3.7/site-packages/pkg_resources/__init__.py", line 2793, in load_entry_point
+    return ep.load()
+  File "/usr/local/lib/python3.7/site-packages/pkg_resources/__init__.py", line 2411, in load
+    return self.resolve()
+  File "/usr/local/lib/python3.7/site-packages/pkg_resources/__init__.py", line 2417, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "/usr/local/lib/python3.7/site-packages/pip/_internal/__init__.py", line 40, in <module>
+    from pip._internal.cli.autocompletion import autocomplete
+  File "/usr/local/lib/python3.7/site-packages/pip/_internal/cli/autocompletion.py", line 8, in <module>
+    from pip._internal.cli.main_parser import create_main_parser
+  File "/usr/local/lib/python3.7/site-packages/pip/_internal/cli/main_parser.py", line 12, in <module>
+    from pip._internal.commands import (
+  File "/usr/local/lib/python3.7/site-packages/pip/_internal/commands/__init__.py", line 6, in <module>
+    from pip._internal.commands.completion import CompletionCommand
+  File "/usr/local/lib/python3.7/site-packages/pip/_internal/commands/completion.py", line 6, in <module>
+    from pip._internal.cli.base_command import Command
+  File "/usr/local/lib/python3.7/site-packages/pip/_internal/cli/base_command.py", line 25, in <module>
+    from pip._internal.index import PackageFinder
+  File "/usr/local/lib/python3.7/site-packages/pip/_internal/index.py", line 41, in <module>
+    from pip._internal.wheel import Wheel
+  File "/usr/local/lib/python3.7/site-packages/pip/_internal/wheel.py", line 8, in <module>
+    import csv
+  File "/Users/jbaty/Dropbox/src/emacs/Memacs/memacs/csv.py", line 12, in <module>
+    from .lib.orgformat import OrgFormat
+ImportError: attempted relative import with no known parent package
+```

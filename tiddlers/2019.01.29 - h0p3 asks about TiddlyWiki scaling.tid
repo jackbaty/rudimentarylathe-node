@@ -1,0 +1,14 @@
+created: 20190129222426705
+creator: jack
+modified: 20190129222620632
+modifier: jack
+revision: 0
+tags: TiddlyWiki
+title: 2019.01.29 - h0p3 asks about TiddlyWiki scaling
+type: text/vnd.tiddlywiki
+
+<<<
+What are the most important computational bottlenecks facing Tiddlywiki? I don't want to blindly stumble upon gotchas; I'd need advise on what kinds of Tiddlywiki functions and architectures scale the best.
+<<<[[h0p3|https://philosopher.life/#2019.01.29%20-%20Tri-Force%20Spamming%3A%20Muh%20Tags%2C%20Yo]]
+
+I would like to know this, also. The more I put in this wiki the more I //want// to put in this wiki and I don't want it to fall over after N tiddlers or whatever.

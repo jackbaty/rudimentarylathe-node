@@ -1,0 +1,29 @@
+created: 20200214175446011
+creator: jack
+modified: 20200214202149999
+modifier: jack
+tags: Journal
+title: Friday, February 14, 2020
+
+🌨 Light Snow +18°F
+
+"""
+[img[https://galleries.baty.net/uploads/big/538025a5eb4a174df01c88568ad14db3.jpg]]
+//Tractor (2011).// The last frame I ever shot on Kodachrome.
+"""
+
+Notes are only good if they're //useful//.
+
+My day so far...
+
+* 6:00am. Realize on the way to work that [[Roam]] just isn't a great idea for holding my (hopefully) long-term "second brain" and that [[org-roam]] is perfectly suited for that.
+* 7:00am. Tweak Emacs a little and settle in. Move some of the things I "accidentally" wrote in Roam yesterday into org-roam. You see? Now //everything// is in Emacs and I can stop thinking about it.
+* 11:00am. After a 90-minute rabbit hole trying to get better at managing tables in Org mode and fumble-fingering a couple commands that messed up my file, I decided that NO! org-roam //isn't// f*cking good enough and this stuff is exactly what Roam is for, for crying out loud. Also, Airtable is great at spreadsheets, why suffer the pain (and admit it, it's painful) of tables in Org mode?
+* 11:30am. Go to lunch and think about all this even though I just want to enjoy my damn lunch.
+* 1:00pm. Quit Emacs in anger and put everything from this morning into Roam, where it BELONGS, right? Tasks are way simpler in Things anyway and it hooks right into email and so on. My second brain is useless as a bunch of text files with only the slightest of help that is org-roam. Notes need to be //used//, not just written once and forgotten. Roam makes it so much easier for this to happen.
+* 2:00pm. Realize I'm doing it again. I kind of knew I was, but now it's become obvious so I jump into the wiki to share this nonsense with everyone.
+* The Future: No one knows!
+
+Now a [[blog post|https://copingmechanism.com/2020/my-day-so-far-in-roam-and-or-emacs/]]
+
+

@@ -1,0 +1,11 @@
+created: 20190109120105008
+creator: jack
+modified: 20190109120148821
+modifier: jack
+revision: 0
+tags: [[Tech Note]]
+title: Ubuntu systemd notes
+type: text/vnd.tiddlywiki
+
+Configuration files in /lib/systemd/system
+

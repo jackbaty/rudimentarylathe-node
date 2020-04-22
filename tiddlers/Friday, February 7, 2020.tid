@@ -1,0 +1,23 @@
+created: 20200207113656934
+creator: jack
+modified: 20200207214659210
+modifier: jack
+revision: 0
+tags: Journal
+title: Friday, February 7, 2020
+type: text/vnd.tiddlywiki
+
+⛅️ Partly cloudy +20°F
+
+"""
+[img[https://galleries.baty.net/uploads/big/92ef00308ec6cdb4bdba3ae97da6f896.jpg]]
+//Leica M6 with 35mm Summicron ASPH (2020)//. Finally have a 35mm Summicron again!
+"""
+
+I may take some time today moving off [[Cloudron]]. I love Cloudron, but the $30/month fee is going to wear me down. This means I have to install and configure my own [[Ghost]] for [[jack.baty.net]], [[Lychee]], [[Gitea]], [[Wallabag]] and possibly [[Monica]]. I don't want to do this.
+
+I still don't understand git submodules.
+
+I may be moving this wiki to a new host over the weekend. If you can't read this on Monday, I've failed :).
+
+I can tell you one thing, I'm not using iCloud Folder Sharing until well after it's released.

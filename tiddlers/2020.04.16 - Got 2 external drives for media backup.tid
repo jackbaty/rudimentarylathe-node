@@ -1,0 +1,10 @@
+created: 20200416183225550
+creator: jack
+modified: 20200416183457881
+modifier: jack
+tags: 
+title: 2020.04.16 - Got 2 external drives for media backup
+
+[[Thursday, April 16, 2020]]
+
+Ordered 2 Western Digital MyBook 4TB USB drives. Now that I've moved to the basement I don't have ethernet wired directly to the Synology so I want something faster for photos/video storage. I'll use one of them as a Vault for [[Mylio]] and just sync to the second one nightly as backup. Of course I'll also add them to the daily Arq backups as well.

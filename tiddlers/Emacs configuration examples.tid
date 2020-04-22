@@ -1,0 +1,17 @@
+created: 20190116192950061
+creator: jack
+modified: 20190301000712710
+modifier: jack
+revision: 0
+tags: Emacs
+title: Emacs configuration examples
+type: text/vnd.tiddlywiki
+
+A few sample configs I should pay attention to...
+
+"""
+[[Eli's tilde.el|https://github.com/eli-oat/tilde.el/blob/master/tilde.el]]
+[[Hjertnes|https://github.com/hjertnes/emacs.d]]
+[[Fogleman|https://github.com/mwfogleman/.emacs.d/blob/master/michael.org]] Lots of stuff here
+[[EmacsOS|https://youtu.be/I5ZjBzEgha0]] Arch and Emacs and that's it
+"""

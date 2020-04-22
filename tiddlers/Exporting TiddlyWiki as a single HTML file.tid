@@ -1,0 +1,9 @@
+created: 20200422134622797
+creator: jack
+modified: 20200422134640005
+modifier: jack
+tags: 
+title: Exporting TiddlyWiki as a single HTML file
+type: text/vnd.tiddlywiki
+
+`tiddlywiki --rendertiddler \$:/plugins/tiddlywiki/tiddlyweb/save/offline index.html text/plain`

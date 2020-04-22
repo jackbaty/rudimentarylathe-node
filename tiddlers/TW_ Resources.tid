@@ -1,0 +1,32 @@
+created: 20181228125924046
+creator: jack
+modified: 20190312105627432
+modifier: jack
+revision: 0
+tags: Wiki
+title: TW: Resources
+type: text/vnd.tiddlywiki
+
+!! Things I've learned:
+* [[Adding Backlinks to TiddlyWiki]]
+* [[Table Of Contents in Sidebar|Creating a Table of Contents in TiddlyWiki]]
+* [[Transcluding multiple tiddlers in TiddlyWiki]]
+* [[TW: Cheatsheet]]
+
+!! Links
+* http://tongerner.tiddlyspot.com
+* https://00ss.github.io/help/Adding-a-table-of-contents-to-the-sidebar.html
+* http://tiddlymap.org/
+* http://printriver.tiddlyspot.com
+* https://kookma.github.io/TW-Scripts/#
+* https://noteself.github.io/
+
+!! Plugins
+* [[Reddit list of plugins|https://www.reddit.com/r/TiddlyWiki5/wiki/pluginsandresources]]
+* Navigator (thanks [[@frankm on Micro.blog|https://micro.blog/frankm/1720540]])
+* [[Popup Footnotes|http://braintest.tiddlyspot.com/#PopupFootnotes]] by Danielo Rodriguez
+* [[Simple Search|https://tid.li/tw5/plugins.html]]
+* [[uni-link|https://wikilabs.github.io/editions/uni-link/]]
+* [[Tidgraph|https://ihm4u.github.io/tw5plugs/]] for small mindmaps
+
+{{TiddlyWiki examples}}

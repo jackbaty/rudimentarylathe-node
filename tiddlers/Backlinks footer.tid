@@ -1,0 +1,13 @@
+created: 20181231154807150
+creator: jack
+modified: 20200414123442395
+modifier: jack
+revision: 0
+title: Backlinks footer
+type: text/vnd.tiddlywiki
+
+<$list filter='[is[current]backlinks[]limit[1]]' variable=dummy>
+<hr>
+Backlinks: <$list filter='[<currentTiddler>backlinks[]butlast[]]'><$link><$view field="title"/></$link> | </$list>
+<$list filter='[<currentTiddler>backlinks[]last[]]'><$link><$view field="title"/></$link></$list>
+</$list>

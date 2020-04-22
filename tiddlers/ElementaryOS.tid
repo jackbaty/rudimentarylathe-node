@@ -1,0 +1,12 @@
+created: 20191213001143404
+creator: jack
+modified: 20191213011706928
+modifier: jack
+revision: 0
+tags: 
+title: ElementaryOS
+type: text/vnd.tiddlywiki
+
+I'm installing [[ElementaryOS|https://elementary.io/]] on the [[ThinkPad X1 Carbon]] for the helluvit.
+
+It was neat for a minute. Looks nice. Hardware seemed to be all good. I was able to remap caps lock to control without spending an hour in dotfiles. Then after about 20 minutes 2-finger scrolling just stopped working. No idea why. restarted, checked the setting, no luck. Life's too short to not have the simplest, basic shit working on its own

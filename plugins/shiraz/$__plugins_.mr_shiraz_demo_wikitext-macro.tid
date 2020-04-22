@@ -1,0 +1,51 @@
+caption: Wikitext macro
+created: 20180909044910836
+creator: Mohammad
+modified: 20181021085605350
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/wikitext-macro
+
+! Documentation macro
+There are two documentation macros. These are copied directly from TW 5.1.16 and the credit goes to Jeremy Ruston. These macros are perfect to demonstrate a code and its result when TW renders it.
+
+; wikitext-example
+:The `wikitext-example` gets a text and shows it, its html raw code and its rendered result
+; wikitext-example-without-html
+:The `wikitext-example-without-html` gets a text and shows it and its rendered result but //NOT// the html raw code
+
+
+!!! ''Syntax''
+```
+<<wikitext-example "//Example code//">>
+<<wikitext-example-without-html "//Example code//">>
+```
+
+!!! ''Example 1''
+<<<
+```
+<<wikitext-example 
+"
+*one
+*two">>
+```
+
+!!! ''Results''
+<<wikitext-example 
+"* one
+* two">>
+<<<
+
+!!! ''Example 2''
+<<<
+```
+<<wikitext-example-without-html 
+"* one
+ * two">>
+```
+
+!!! ''Results''
+<<wikitext-example-without-html  
+"* one
+ * two">>
+ <<<

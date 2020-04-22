@@ -1,0 +1,15 @@
+created: 20190127191744804
+creator: jack
+modified: 20190127192036706
+modifier: jack
+revision: 0
+title: TiddlyMap
+type: text/vnd.tiddlywiki
+
+[[TiddlyMap|http://tiddlymap.org/]] is a set of TiddlyWiki plugins that create visual maps of a wiki.
+
+Once I get the error figured out, use the [[instructions from sphygmus|https://sphygm.us/#190125%20%E2%80%93%20Jack%20Baty%3A%20Hello%20%26%20Visual%20TiddlyWiki!]]
+
+!!! Log
+
+* 2019.01.27 Tried it with an offline copy of my wiki and received the following error: "TypeError: r is undefined"

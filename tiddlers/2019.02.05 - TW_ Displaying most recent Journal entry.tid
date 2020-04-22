@@ -1,0 +1,25 @@
+created: 20190206002453327
+creator: jack
+modified: 20190308123007289
+modifier: jack
+revision: 0
+tags: TiddlyWiki
+title: 2019.02.05 - TW: Displaying most recent Journal entry
+type: text/vnd.tiddlywiki
+
+I've been using a <<tag [[Pinned]]>> tag as a way to keep my latest [[Journal]] entry visible in the story list. It works, but requires that I add the tag to new Journal entries and delete the tag from prior entries.
+
+[[I found this instead|https://groups.google.com/d/msg/TiddlyWiki/wClpc1cL00o/GSVtogNXAgAJ]]
+
+So I created the "Most Recent Journal" tiddler and added the following:
+
+```
+<$list filter="[tag[Journal]sort[created]last[]]">
+<h2>Journal for <$view field="created" format="date" template="DDD DDth MMM YYYY"/></h2>
+<$transclude  mode="block"/>
+
+<small><$link>Open</$link></small>
+</$list>
+```
+
+That's better.

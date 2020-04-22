@@ -1,0 +1,22 @@
+created: 20190904151803420
+creator: jack
+modified: 20190904165513295
+modifier: jack
+revision: 0
+tags: Letter
+title: 2019.09.04 - To: Phil, Org-mode
+type: text/vnd.tiddlywiki
+
+Phil,
+
+I see [[here|https://youneedastereo.com/#Most%20Recent%20Journal]] that you're back to digging into Emacs and Org-mode. I can't help but say "Do it!" even though it's bound to lead you down an endless array of rabbit holes. I don't regret any of them.
+
+Your notes about selecting text and doing things the Emacs way are great, but my suggestion is to relax and ease into that. Don't hesitate to use the mouse for now. You've got so much to explore that becoming frustrated with the actual text editing would detract from the joy of using Org-mode. Don't get hung up on the rest, would be my advice.
+
+Hell, if you're a Vim user, don't be ashamed to try Spacemacs or Doom Emacs and keep your bindings familiar.
+
+Anyway, I hope you give it a go. Nothing else comes close to the power of Emacs/Org-mode for all sorts of task management, outlining, publishing, journaling, etc etc. It's not a quick trip getting there, though. At least it wasn't for me, but I think that's because I tried everything at once and was overwhelmed.
+
+I'm not an expert, but happy to answer questions if you have them.
+
+Jack

@@ -1,0 +1,12 @@
+created: 20190111200944574
+creator: jack
+modified: 20190111201335207
+modifier: jack
+revision: 0
+tags: Wiki
+title: 2019.01.11 - Wiki: Changed default tiddler title
+type: text/vnd.tiddlywiki
+
+I'm using dates (e.g. 2019.01.11) in most tiddler titles, so I wanted the new tiddler titles to include the date in the same way as the "Journal" tiddlers do. I could just always use "New Journal" but I don't want everything tagged with <<tag Journal>>.
+
+Changed the setting (via control panel) to `<<now "YYYY.0MM.0DD">> - `

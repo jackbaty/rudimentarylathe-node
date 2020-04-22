@@ -1,0 +1,19 @@
+created: 20190113150123633
+creator: jack
+modified: 20190113150238452
+modifier: jack
+revision: 0
+tags: 
+title: Redirect all requests to another domain with nginx
+type: text/vnd.tiddlywiki
+
+Here's how I'm redirecting everything from [[jack.baty.net]] to [[www.baty.net|baty.net]]
+
+```
+server {
+    listen 80;
+    server_name     jack.baty.net;
+    return          301 http://www.baty.net$request_uri;
+}
+```
+

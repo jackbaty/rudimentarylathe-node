@@ -1,0 +1,20 @@
+author: AndreyYankin aka andrey013, Глеб Прохожев <glebujka@gmail.com>
+core-version: >=5.0.0
+created: 20200415163033601
+creator: jack
+dependents: 
+description: Russian (Russia)
+icon: data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%209%206%22%20width%3D%22900%22%20height%3D%22600%22%3E%0A%3Crect%20width%3D%229%22%20height%3D%226%22%20fill%3D%22%23D52B1E%22%2F%3E%0A%3Crect%20width%3D%229%22%20height%3D%224%22%20fill%3D%22%230039A6%22%2F%3E%0A%3Crect%20width%3D%229%22%20height%3D%222%22%20fill%3D%22%23FFF%22%2F%3E%0A%3Cpath%20d%3D%22m0%2C0h9v6H0z%22%20stroke%3D%22%23a0a0a0%22%20stroke-width%3D%22.1%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E
+modified: 20200415163033601
+modifier: jack
+name: ru-RU
+original-plugin-type: language
+original-tags: 
+original-title: $:/languages/ru-RU
+original-type: application/json
+requires-reload: no
+server-url: https://tiddlywiki.com/library/v5.1.22/index.html
+tags: $:/tags/RemoteAssetInfo
+title: $:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/languages/ru-RU
+type: text/vnd.tiddlywiki
+version: 5.1.22

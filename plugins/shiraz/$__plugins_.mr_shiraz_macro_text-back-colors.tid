@@ -1,0 +1,35 @@
+created: 20181101154956345
+creator: Mohammad
+modified: 20181101163521323
+modifier: Mohammad
+tags: $:/tags/Macro
+title: $:/plugins/.mr/shiraz/macro/text-back-colors
+
+\define standout(text:"") <h3><span class="standout-span">$text$</span></h3>
+\define tc(text:"", color:"red") <span style="color:$color$;">$text$</span>
+\define bc(text:"", color:"yellow") <span style="background-color:$color$;">$text$</span>
+
+\define gradient(text:"", color:"green") 
+<$set name="gradient-color" filter="[[$color$]addprefix[linear-gradient-]]" emptyValue="linear-gradient-green">
+ <$reveal type="match" text=<<gradient-color>> default="linear-gradient-red")>
+    <div class="gradient linear-gradient-red">$text$</div>
+ </$reveal>
+ <$reveal type="match" text=<<gradient-color>> default="linear-gradient-blue")>
+    <div class="gradient linear-gradient-blue">$text$</div>
+ </$reveal> 
+ <$reveal type="match" text=<<gradient-color>> default="linear-gradient-green")>
+    <div class="gradient linear-gradient-green">$text$</div>
+ </$reveal>
+</$set> 
+\end 
+
+!! Foreground, background and gradients
+This tiddler contains the user defined macros. Edit to see the code.
+
+* standout(text)
+* tc(text, color)
+* bc(text, color)
+* gradient(text, color)
+** for gradient only //red//, //blue// and //green// are supported now
+** when no color passed, green is used
+

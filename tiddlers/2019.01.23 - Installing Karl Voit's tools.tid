@@ -1,0 +1,46 @@
+created: 20190123202848445
+creator: jack
+modified: 20190123220214748
+modifier: jack
+revision: 0
+tags: 
+title: 2019.01.23 - Installing Karl Voit's tools
+type: text/vnd.tiddlywiki
+
+I've been using a version of [[Karl Voit's techniques for managing digital files|https://karl-voit.at/managing-digital-photographs/]] for a bit, but have been lax recently and hadn't installed his helper utilities on my new iMac. 
+
+I started with [[appendfilename|https://github.com/novoid/appendfilename]].
+
+`pip3 install appendfilename` seemed to work but running appendfilename would spit out the following:
+
+```
+baty ~/Desktop> appendfilename --text too myfile.txt
+Traceback (most recent call last):
+  File "/usr/local/bin/appendfilename", line 7, in <module>
+    from appendfilename import main
+  File "/usr/local/lib/python3.7/site-packages/appendfilename/__init__.py", line 21, in <module>
+    import readline  # for raw_input() reading from stdin
+ImportError: dlopen(/usr/local/Cellar/python/3.7.2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload/readline.cpython-37m-darwin.so, 2): Library not loaded: /usr/local/opt/readline/lib/libreadline.7.dylib
+  Referenced from: /usr/local/Cellar/python/3.7.2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload/readline.cpython-37m-darwin.so
+  Reason: image not found
+```
+
+I assumed that something was missing in readline and found that there were no *.7.dylib but there were *8.0.dylib files so I symlinked them..
+
+```
+cd /usr/local/opt/readline/lib/
+ln -s libreadline.8.0.dylib libreadline.7.dylib
+```
+
+That feels fragile, but fixed it.
+
+Also installed [[filetags|https://github.com/novoid/filetags]] and [[move2archive|https://github.com/novoid/move2archive]] and [[date2name|https://github.com/novoid/date2name]]
+
+
+Since my archives are in ~/Dropbox/archive/ I added an alias to config.fish...
+
+```
+alias m2a="/usr/local/bin/m2a --archivepath=/Users/jbaty/Dropbox/archive/"
+```
+
+See [[Managing Files]]

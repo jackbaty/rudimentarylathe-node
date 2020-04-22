@@ -1,0 +1,21 @@
+created: 20190104173636321
+creator: jack
+modified: 20190506191441551
+modifier: jack
+revision: 0
+tags: 
+title: Firefox
+type: text/vnd.tiddlywiki
+
+Notes about my use of the Firefox browser
+
+
+[[Containers|https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/]] are awesome.
+
+---
+"""
+[[2019-01-06 - Trying Firefox - again]]
+2019.05.06 - Really miss the containers feature when using Safari
+2019.05.06 - Stays authenticated more consistently at the wiki than Safari
+
+"""

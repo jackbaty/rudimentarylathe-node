@@ -1,0 +1,41 @@
+created: 20190123134938238
+creator: jack
+modified: 20190123141352964
+modifier: jack
+revision: 0
+tags: 
+title: 2019.01.23 - Intertwingling the TiddlyWiki
+type: text/vnd.tiddlywiki
+
+Video of talk by Joe Armstrong and Jeremy Ruston.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uv1UfLPK7_Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+!!! Notes
+
+TiddlyWiki properties:
+
+"All-in-one-ness"
+
+* Small-grain knowledge
+* Highly intertwingled
+* Proper transclusions
+* Logic queries "Find all tags such that..."
+
+TiddlyWiki insights (Jeremy's)
+
+* The purpose of recording information is to reuse it
+* To optimize for reuse we need to cut information up into the smallest semantically meaningful chunks
+* We must assign sufficient metadata for the fragments to be woven back together into a plurality of representations
+* Not everyone wants to run a server; the browser is the VM/container for everyone - provision a new VM with Ctrl-T.
+
+Satisfying things about TiddlyWiki
+
+* Self-contained, single file
+* Entire user interface is constructed from a handful of wiki text primatives
+* A practical Quine<<footnote "what?" "a program that prints its own source code">>
+
+<<<
+Don't build a notebook, build a tool that let's you build notebooks.
+<<<Jeremy Ruston
+

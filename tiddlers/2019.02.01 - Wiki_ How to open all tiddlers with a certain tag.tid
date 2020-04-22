@@ -1,0 +1,39 @@
+created: 20190201204955334
+creator: jack
+modified: 20190201205137591
+modifier: jack
+revision: 0
+tags: TiddlyWiki
+title: 2019.02.01 - Wiki: How to open all tiddlers with a certain tag
+type: text/vnd.tiddlywiki
+
+From [[this message|https://groups.google.com/d/msg/tiddlywiki/w1i75p03AI0/kIXQlHdHHgAJ]]
+
+
+<<<
+Here's a new version of Mohammad's first suggestion: Just 
+* copy this in a new tiddler and
+* fill in your own Tag in the first line where I put $:/tags/Sidebar
+<<<
+
+
+```
+<$vars myTag="$:/tags/SideBar">
+<$navigator story="$:/StoryList" history="$:/HistoryList">
+    <$button class="tc-btn-invisible tc-tiddlylink">
+        {{$:/core/images/folder}} Open: <<myTag>>
+        <$action-sendmessage $message="tm-close-all-tiddlers" />
+        <$list filter="[tag<myTag>sort[modified]]">
+        <$action-navigate $to=<<currentTiddler>>/>
+        </$list>
+    </$button>
+</$navigator>
+</$vars>
+```
+
+
+<<<
+Your new tiddler will be closed after pressing the button / clicking the link. Find it again via search or recent tab in the sidebar. 
+<<<
+
+I'm using this on [[Open Latest Stuff]]

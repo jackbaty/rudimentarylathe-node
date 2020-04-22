@@ -1,0 +1,32 @@
+created: 20190221123816093
+creator: jack
+modified: 20190222013628172
+modifier: jack
+revision: 0
+tags: Journal
+title: 2019.02.21 - Journal
+type: text/vnd.tiddlywiki
+
+```
+    \  /       Partly cloudy
+  _ /"".-.     17..30 °F
+    \_(   ).   → 20 mph
+    /(___(__)  9 mi
+               0.0 in
+```
+
+7:38 Alluvasudden I couldn't connect to the wifi network at work. Flailed about for a bit and rebooted the AP and that seemed to help.
+
+11:12 Trying a new Emacs theme: `doom-opera-light`. I prefer `doom-one-light` but can't find a way to prevent huge fonts for top-level headlines in Org.
+
+12:41 I can't put my finger on it, but I don't enjoy using vscode-journal as a journal. Still tinkering.
+
+13:33 Here's an example of my disorder. I didn't like the way my agenda looked in Org so I spent 2 hours tracking down the tweaks I needed and another hour making them work. Then at the end I changed my mind and now I have to start over. This is both the best and worst part of Emacs. 
+
+15:29 Opened Safari to debug some website issue and was immediately struck by just how //nice// Safari is. Looks great, fast, and better integrated into the OS than anything else. If I could edit TiddlyWiki files in Safari I'd go back in a heartbeat.
+
+15:36 I am using fewer date prefixes when creating wiki entries. Moving toward only adding them to tiddlers that //depend// on the entry date. Still thinking about this.
+
+19:35 Sometimes I go with apps that will also work on Linux or Windows just in case one day I decide to switch platforms<<footnote "1" "Could happen!">>. This is silly because I'm so good at switching apps I could be up and running smoothly on whatever platform in a week. I should use what I //like//. No point doing things based on something that may never happen. That's called [[Optimizing for the unlikely]].
+
+20:34 Oh FFS I just used BBEdit for something that I use BBEdit for and now VS Code looks janky as hell in comparison. I'm impossible.

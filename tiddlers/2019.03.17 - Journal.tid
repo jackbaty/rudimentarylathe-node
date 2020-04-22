@@ -1,0 +1,20 @@
+created: 20190317110505828
+creator: jack
+modified: 20190317215044674
+modifier: jack
+revision: 0
+tags: Journal
+title: 2019.03.17 - Journal
+type: text/vnd.tiddlywiki
+
+⛅️ +20°F
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/jbaty/46678611364/in/dateposted-public/" title="Writing desk"><img src="https://farm5.staticflickr.com/4893/46678611364_d580cb73ae_z.jpg" width="640" height="427" alt="Writing desk"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+7:05 The above image might be too big. We'll see.
+
+7:07 I've been looking at cross-platform task management options, while the whole time [[Emacs]] is frantically waving its arms, yelling, "Ooh, Ooh! Pick me!"
+
+7:21 I switched my Emacs usage from Evil to standard Emacs bindings because macOS uses Emacs bindings everywhere. What if I end up using Windows or Linux more? Should I return to Evil mode? (update, I did).
+
+7:39 As nice as [[VSCode|?]] is, it's not terribly //pleasant// in use.

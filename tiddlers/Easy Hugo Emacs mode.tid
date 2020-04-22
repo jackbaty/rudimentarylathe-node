@@ -1,0 +1,18 @@
+created: 20190111210206062
+creator: jack
+modified: 20190116174948669
+modifier: jack
+revision: 0
+tags: Emacs
+title: Easy Hugo Emacs mode
+type: text/vnd.tiddlywiki
+
+When I was still posting to [[baty.net]] regularly, I used an Emacs package called [[easy-hugo|https://github.com/masasam/emacs-easy-hugo/]]. It worked great until the upgrade to Mojave and now it hangs when creating a file.
+
+Update 2019-01-11: [[This bug is still happening|https://github.com/masasam/emacs-easy-hugo/issues/47]]
+
+Update 2019.01.16: The fix for the new-post bug was to remove the following from config.toml
+
+`newContentEditor = "vim"`
+
+Obviously :)

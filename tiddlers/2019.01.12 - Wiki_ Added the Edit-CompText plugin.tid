@@ -1,0 +1,13 @@
+created: 20190112201052923
+creator: jack
+modified: 20190112201310932
+modifier: jack
+revision: 0
+tags: Wiki
+title: 2019.01.12 - Wiki: Added the Edit-CompText plugin
+type: text/vnd.tiddlywiki
+
+The [[Edit-CompText plugin|http://snowgoon88.github.io/TW5-extendedit/]] is very helpful. It enables link completing when entering the initial `[[`
+
+Thanks to Phil Nunnally for [[bringing it to my attention|https://twelvety.micro.blog/2019/01/12/autocomplete-of-tiddlywiki.html]]
+

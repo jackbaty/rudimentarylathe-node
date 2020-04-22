@@ -1,0 +1,16 @@
+created: 20190221203320507
+creator: jack
+modified: 20190221203538453
+modifier: jack
+revision: 0
+tags: TiddlyWiki
+title: TW: Adding a loading message
+type: text/vnd.tiddlywiki
+
+The more I put into this wiki, the longer it's going to take to render in a browser.
+
+I added a simple loading message (aka Splash Screen) by creating a tiddler named [[$:/jab/splashscreen]] (name isn't important) and tagged it with `$:/tags/RawMarkupWikified/TopBody` (important). The content of this tiddler is shown immediately before the full page renders.
+
+Mine is just text now, but I'll make it fancy later.
+
+''Update'' The splash screen text was always being displayed at the bottom of pages. I found [[this comment by Thomas Elmiger|https://groups.google.com/d/msg/tiddlywiki/5D_i87ID8fI/D84wzL42DQAJ]] with a solution. I needed to include the `\rules only filteredtranscludeinline transcludeinline` line.

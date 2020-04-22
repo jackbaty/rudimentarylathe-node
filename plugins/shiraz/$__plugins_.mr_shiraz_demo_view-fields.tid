@@ -1,0 +1,11 @@
+caption: Toggle view fields
+created: 20181022042221905
+creator: Mohammad
+modified: 20181022042631769
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/view-fields
+
+The `Toggle view fields` is a feature in kookma lets you to view and edit tiddler fields in the view mode. 
+
+It adds a button ({{$:/plugins/.mr/shiraz/images/view-fields.svg}}) to the page control and you can show/hide fileds by clicking on it.

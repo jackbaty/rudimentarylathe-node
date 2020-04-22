@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/internals",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033595",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Tools for exploring the internals of TiddlyWiki",
+        "list": "readme",
+        "modified": "20200415163033595",
+        "modifier": "jack",
+        "name": "Internals",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/internals",
+        "original-type": "application/json",
+        "readme": "This plugin adds features to help explore the internals of TiddlyWiki:\n\n* New preview panes showing:\n** the parse tree\n** the widget tree\n** the raw HTML output\n\nThe first two include a dropdown for choosing block vs. inline parsing mode.\n",
+        "requires-reload": "no",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

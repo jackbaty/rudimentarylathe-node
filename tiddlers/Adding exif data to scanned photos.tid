@@ -1,0 +1,47 @@
+created: 20190106172940289
+creator: jack
+list: 
+modified: 20190203211120979
+modifier: jack
+revision: 0
+tags: Photography
+title: Adding exif data to scanned photos
+type: text/vnd.tiddlywiki
+
+After scanning photographic negatives, I like to make sure the date's correct and also to add the camera make and model to the files' exif data. I use [[exiftool|https://sno.phy.queensu.ca/~phil/exiftool/]] like this:
+
+```
+#+begin_src bash
+cd ~/Pictures/_Scans
+exiftool  "-FileModifyDate>DateTimeOriginal" -overwrite_original .
+exiftool '-m' '-Make=Leica' '-Model=M6' -overwrite_original .
+#+end_src
+
+```
+
+I copy and paste from the following list of make/model combintations
+
+"""
+exiftool '-m' '-Make=Hasselblad' '-Model=500C/M' -overwrite_original .
+exiftool '-m' '-Make=Hasselblad' '-Model=503CXi' -overwrite_original .
+exiftool '-m' '-Make=Nikon' '-Model=F100' -overwrite_original .
+exiftool '-m' '-Make=Nikon' '-Model=F6' -overwrite_original .
+exiftool '-m' '-Make=Nikon' '-Model=F3' -overwrite_original .
+exiftool '-m' '-Make=Leica' '-Model=M4' -overwrite_original .
+exiftool '-m' '-Make=Leica' '-Model=M6' -overwrite_original .
+exiftool '-m' '-Make=Leica' '-Model=M3' -overwrite_original .
+exiftool '-m' '-Make=Leica' '-Model=M7' -overwrite_original .
+exiftool '-m' '-Make=Leica' '-Model=IIIf' -overwrite_original .
+exiftool '-m' '-Make=Canon' '-Model=EOS-1v' -overwrite_original .
+exiftool '-m' '-Make=Mamiya' '-Model=6' -overwrite_original .
+exiftool '-m' '-Make=Olympus' '-Model=Stylus Epic' -overwrite_original .
+exiftool '-m' '-Make=Olympus' '-Model=OM-2n' -overwrite_original .
+exiftool '-m' '-Make=Polaroid' '-Model=SX-70' -overwrite_original .
+exiftool '-m' '-Make=Ricoh'  '-Model=GR1' -overwrite_original .
+exiftool '-m' '-Make=Minolta' '-Model=Autocord' -overwrite_original .
+exiftool '-m' '-Make=Burke & James' '-Model=4x5 Speed Press' -overwrite_original .
+exiftool '-m' '-Make=Graflex' '-Model=Speed Graphic' -overwrite_original .
+exiftool '-m' '-Make=Graflex' '-Model=Crown Graphic' -overwrite_original .
+
+"""
+

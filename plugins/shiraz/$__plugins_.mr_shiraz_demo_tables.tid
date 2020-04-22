@@ -1,0 +1,147 @@
+caption: Tables
+created: 20180413091837322
+creator: Mohammad
+modified: 20181107125023544
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/tables
+
+!! Custom Table Styles
+The kookma Shiraz plugin has several tables classes. The following examples show some of the custom styles for tables. More classes can be found in [[lines and borderless classes|$:/plugins/.mr/shiraz/demo/tables-borderless]]. 
+
+* Basic custom classes
+<<<
+* ''thead-maroon'': (header white on maroon)
+* ''thead-teal'':   (header white on teal)
+* ''thead-navy'':   (header white on navy)
+* ''thead-orange'': (header black on orange)
+* ''table-hover'':  (yellow backgroud color on mouse hover)
+* ''table-striped-row'': (even rows in gray color)
+* ''table-striped-col'': (odd columns in gray color)
+* ''centered'': (put the table center in tiddler)
+* ''caption-top'': (put caption at top of table using a bigger font size)
+<<<
+
+!!! Syntax
+
+```
+|your-table-class|k
+|table caption here |c
+|table |header| here|h
+|text  |goses | here|
+|text  |goses | here|
+|table |footer| here|f
+```
+
+!!! Demo
+* ''Simple table''
+This is the basic Tiddlywiki table
+
+|This is a sample table|c
+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|h
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|f
+
+* ''Maroon''
+|thead-maroon|k
+|This is a sample table|c
+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|h
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|f
+
+* ''Teal''
+|thead-teal|k
+|This is a sample table|c
+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|h
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|f
+
+* ''Navy''
+|thead-navy|k
+|This is a sample table|c
+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|h
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|f
+
+* ''Orange''
+|thead-orange|k
+|This is a sample table|c
+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|h
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|f
+
+
+* ''Table striped row''
+|table-striped-row|k
+|This is a sample table|c
+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|h
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|f
+
+
+* ''Table striped column''
+|table-striped-col|k
+|This is a sample table|c
+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|h
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|f
+
+* ''Table hoverable''
+Hover the mouse to see the color change
+
+|table-hover|k
+|This is a sample table|c
+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|h
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|f
+
+!! Centered table
+Cenetered table are located horizontally in the center of tiddler.
+
+|centered|k
+|This is a centerd table|c
+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|h
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|f
+
+!! Table with caption at top
+|caption-top|k
+|This is a table with caption located at top|c
+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|h
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|f
+
+!! Use two or more classes
+You can use two or more classes in tables. For example you can apply `w3-card-4` and `thead-maroon` as below
+
+<<wikitext-example-without-html 
+"""|thead-maroon w3-card-4|k
+|This table uses two classes|c
+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|h
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|f
+""">>

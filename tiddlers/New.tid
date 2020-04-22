@@ -1,0 +1,13 @@
+created: 20181031162632422
+creator: jack
+list-before: $:/core/ui/SideBar/Recent
+modified: 20191025152829691
+modifier: jack
+revision: 0
+tags: $:/tags/SideBar
+title: New
+type: text/vnd.tiddlywiki
+
+''The 10 most recent entries...''
+
+<$macrocall $name="timeline" format={{$:/language/RecentChanges/DateFormat}} dateField="created" limit="10" />

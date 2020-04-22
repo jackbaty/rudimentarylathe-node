@@ -1,0 +1,10 @@
+created: 20190304133730826
+creator: jack
+modified: 20190304133835002
+modifier: jack
+revision: 0
+tags: 
+title: Link: Emacs from Scratch
+type: text/vnd.tiddlywiki
+
+I used portions of [[Emacs from Scratch|https://huytd.github.io/emacs/emacs-from-scratch.html]] when [[going all-in with my own config|2019.01.10 - Trying Emacs from scratch]]

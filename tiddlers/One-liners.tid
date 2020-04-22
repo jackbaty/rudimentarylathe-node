@@ -1,0 +1,115 @@
+created: 20190123131848758
+creator: jack
+modified: 20200228150119478
+modifier: jack
+revision: 0
+tags: 
+title: One-liners
+type: text/vnd.tiddlywiki
+
+{{Generating a CSR for SSL Certificates}}
+
+!! Batch convert Markdown files to Org Mode
+
+```
+find . -name \*.md -type f -exec pandoc  -f markdown -t org -o {}.org {} \;
+```
+ 
+!! Split a PDF into individual pages
+
+```
+pdftk drawings.pdf burst`
+```
+
+!! How much did I spend at Amazon last year?
+
+Download last year's report from here: https://www.amazon.com/gp/b2b/reports
+
+Change filename as appropriate...
+
+```
+cut -d"," -f13 01-Jan-2015_to_01-Jan-2016.csv | sed 's/\$//g' | awk '{sum += $1} END {print sum}'
+```
+
+!! Disable Google Chrome's custom print dialog
+
+ ```
+defaults write com.google.Chrome DisablePrintPreview -boolean true
+```
+
+!! Convert Markdown files to Org Mode using Pandoc
+
+```
+find . -name \*.md -type f -exec pandoc  -f markdown -t org -o {}.org {} \;
+```
+
+!! Recursively "touch" all files in a directory
+
+```
+find /home/example -print -exec touch {} \;
+```
+
+!! Mirroring a website with wget
+
+```
+wget -mirror -F -E -k -p http://www.sitename.com/
+```
+
+!! Generate SSL CSR for Apache
+
+```
+openssl req -new -newkey rsa:2048 -nodes -keyout www.mydomain.com.key -out www.mydomain.com.csr
+```
+
+!! Generate strong password in terminal
+
+```
+openssl rand -base64 6
+```
+
+!! Recursively remove subdirectories
+
+For example, subversion's ".svn/" directories
+
+```
+find . -name .svn -print0 | xargs -0 rm -rf
+```
+
+!! Output list of virtual hosts in apache
+
+``` 
+apache2ctl -t -D DUMP_VHOSTS
+```
+
+!! Pretty table formatting in BBEdit
+
+```
+pbpaste | column -t
+```
+
+!! Change Tab titles in iTerm
+
+To change the tab to say "Gmail"...
+
+```
+echo -ne "\033]0;Gmail\007"
+```
+
+!! Clearing Varnish Cache
+
+```
+varnishadm -T 127.0.0.1:6082 url.purge .
+```
+
+!! Setting git editor (to use MacVim)
+
+```
+git config --global core.editor 'mvim -f'
+```
+
+!! Listing SSH Key Signatures
+
+
+```
+ls ~/.ssh/*.pub | xargs -L 1 ssh-keygen -l -f
+```

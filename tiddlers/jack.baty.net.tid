@@ -1,0 +1,17 @@
+created: 20181214144407755
+creator: jack
+modified: 20200117151414367
+modifier: jack
+revision: 0
+tags: Blog
+title: jack.baty.net
+type: text/vnd.tiddlywiki
+
+~~<<alert-warning "''jack.baty.net was deleted on 2019-01-13''. All requests are now redirected to baty.net/">>~~
+
+My main blog (this week) runs on [[Ghost]] at jack.baty.net
+
+!!! Log
+* 2018-12-14 Changed template back to "Amadeus". I like the more block-like feel.
+* 2019.01.13 I'm going to burn this down. See [[here|2019.01.13 - My blog is once again at baty.net]].
+* 2020.01.17 It's now my Ghost blog, formerly at baty.blog.

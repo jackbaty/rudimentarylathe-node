@@ -1,0 +1,58 @@
+created: 20181128154329514
+creator: jack
+list: 
+modified: 20190926112706136
+modifier: jack
+revision: 0
+tags: Software
+title: Tinderbox
+type: text/vnd.tiddlywiki
+
+[[Tinderbox|https://eastgate.com/Tinderbox]] is a combination of [[AirTable]], [[OrgMode]], [[MindMaps]], [[Evernote]], [[JIRA]], etc.
+
+I've been using Tinderbox in one capacity or another for more than a decade. It remains one of the most useful applications I've ever found.
+
+---
+!!What's it for?
+
+* Mindmapping
+* Concept Mapping
+* Logging
+* Thinking visually
+* Publishing
+
+
+---
+!! My posts
+
+Here are posts I've written about Tinderbox over the years
+
+"""
+[[GTD, Tinderbox, DevonTHINK and others|https://www.baty.net/2005/gtd-tinderbox-devonthink-and-others/]] (2005)
+[[The Tinderbox Dilemma|https://www.baty.net/2006/the-tinderbox-dilemma/]] (2006)
+[[Tinderbox 4: Brief Review|https://www.baty.net/2007/tinderbox-4-brief-review/]] (2007)
+[[Why I use Tinderbox. Reason #46|https://www.baty.net/2007/why-i-use-tinderbox-reason-46/]] (2007)
+[[Tinderbox as a Daybook|https://www.baty.net/2008/tinderbox-as-a-daybook/]] (2008)
+[[Tinderbox 4.5|https://www.baty.net/2008/tinderbox-45/]] (2008)
+[[A little thing about Tinderbox updates|https://www.baty.net/2008/tinderbox-45/]] (2008)
+[[Surprised by Tinderbox Again|https://www.baty.net/2011/surprised-by-tinderbox-again/]] (2011)
+[[Tinderbox as a Minimalist Writing Environment|https://www.baty.net/2012/tinderbox-as-a-minimalist-writing-environment/]] (2012)
+[[Blogging with Tinderbox|https://www.baty.net/2013/blogging-with-tinderbox/]] (2013)
+[[Digital Recordkeeping|https://www.baty.net/2013/digital-recordkeeping/]] (2013)
+[[Using Tinderbox to publish LaTeX documents|https://www.baty.net/2013/using-tinderbox-to-publish-latex-documents/]] (2013)
+[[Easier publishing of my Tinderbox blog|https://www.baty.net/2013/easier-publishing-of-my-tinderbox-blog/]] (2013)
+[[Making it easier|https://www.baty.net/2014/making-it-easier/]] (2014)
+[[Day One to Tinderbox|https://www.baty.net/2014/day-one-to-tinderbox/]] (2014)
+[[Recording the weather in Tinderbox|https://www.baty.net/2015/recording-the-weather-in-tinderbox-using-wu/]] (2015)
+[[Back to Tinderbox|https://www.baty.net/2015/back-to-tinderbox/]] (2015)
+[[Tinderbox to Day One|https://www.baty.net/2016/tinderbox-to-day-one/]] (2016)
+[[Exporting my Tinderbox Daybook to Org Mode|https://www.baty.net/2016/exporting-my-tinderbox-daybook-to-org-mode/]] (2016)
+[[Weather Logging In Tinderbox Updated|https://www.baty.net/2016/weather-logging-in-tinderbox-updated/]] (2016)
+[[A quick tour of my Tinderbox Daybook|https://www.baty.blog/2018/tinderbox-daybook-tour]] (2018)
+[[Tinderbox meal log badges|https://www.baty.blog/2019/tinderbox-meal-log-badges]]
+"""
+
+---
+''Related''
+
+<<list-links filter:"[tag[$(currentTiddler)$]]">>

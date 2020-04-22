@@ -1,0 +1,12 @@
+created: 20190115122638379
+creator: jack
+modified: 20190115122744697
+modifier: jack
+revision: 0
+tags: 
+title: Skribilo
+type: text/vnd.tiddlywiki
+
+[[Skribilo: The Ultimate Document Programming Framework|http://www.nongnu.org/skribilo/]]
+
+An alternative to [[LaTeX]] for creating PDF documents?

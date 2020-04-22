@@ -1,0 +1,16 @@
+created: 20190814170650931
+creator: jack
+modified: 20190814170740091
+modifier: jack
+revision: 0
+tags: 
+title: Word: frisson
+type: text/vnd.tiddlywiki
+
+frisson | frēˈsôn | noun
+
+<<<
+a sudden strong feeling of excitement or fear; a thrill: a frisson of excitement.
+<<<
+
+See also: <$macrocall $name="dictionary" word={{{ [<currentTiddler>removeprefix[Word: ]] }}} />

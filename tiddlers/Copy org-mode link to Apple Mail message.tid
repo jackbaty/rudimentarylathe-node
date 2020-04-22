@@ -1,0 +1,24 @@
+created: 20190520131853993
+creator: jack
+modified: 20190520132144918
+modifier: jack
+revision: 0
+tags: Orgmode
+title: Copy org-mode link to Apple Mail message
+type: text/vnd.tiddlywiki
+
+The following AppleScript will create an org-formatted link to the selected email address and place it in the clipboard.
+
+```applescript
+tell application "Mail"
+	
+	set theSelection to selection
+	set theMessage to last item of theSelection
+	set theUrl to "message:%3C" & message id of theMessage & "%3E"
+	set theSubject to subject of theMessage
+	set the clipboard to "[[" & theUrl & "][" & theSubject & "]]"
+	
+end tell
+```
+
+I use it via [[FastScripts]] 

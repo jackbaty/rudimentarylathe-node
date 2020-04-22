@@ -1,0 +1,23 @@
+created: 20190104192602070
+creator: jack
+list: 
+modified: 20190108202131586
+modifier: jack
+revision: 0
+tags: [[Tech Note]] Wiki
+title: Transcluding multiple tiddlers in TiddlyWiki
+type: text/vnd.tiddlywiki
+
+To gather a set of tiddlers based on a tag (or whatever filter), use Transclusion like so:
+
+```
+<$list filter='[tag[Journal]]'>
+
+<h3><$transclude field="title" /></h3>
+
+<$transclude display="block" />
+
+</$list>
+```
+
+Note that the newlines are important.

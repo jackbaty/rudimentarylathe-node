@@ -1,0 +1,16 @@
+created: 20190914125340306
+creator: jack
+modified: 20190914125434010
+modifier: jack
+revision: 0
+tags: CLI
+title: Git
+type: text/vnd.tiddlywiki
+
+Git can be tricky, so I keep notes:
+
+Amend previous commit with new staged changes without changing the commit message
+
+```
+git commit --amend --no-edit
+```

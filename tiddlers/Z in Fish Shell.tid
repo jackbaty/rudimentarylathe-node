@@ -1,0 +1,17 @@
+created: 20190228170114272
+creator: jack
+modified: 20190228171748662
+modifier: jack
+revision: 0
+tags: 
+title: Z in Fish Shell
+type: text/vnd.tiddlywiki
+
+https://github.com/jethrokuan/z
+
+"z is a port of z for the [[Fish Shell]]"
+
+Easy to install and works great so far in my environment.
+
+I've replaced the `brew install z` version with this one.
+

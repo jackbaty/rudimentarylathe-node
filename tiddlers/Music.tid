@@ -1,0 +1,12 @@
+created: 20190406122006330
+creator: jack
+modified: 20190406122046325
+modifier: jack
+revision: 0
+tags: 
+title: Music
+type: text/vnd.tiddlywiki
+
+Music I find interesting.
+
+<<list-links filter:"[tag[$(currentTiddler)$]]">>

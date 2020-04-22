@@ -1,0 +1,12 @@
+created: 20190205171936064
+creator: jack
+modified: 20190205172030647
+modifier: jack
+revision: 0
+tags: 
+title: 2019.02.05 - Deleted do.baty.net droplet
+type: text/vnd.tiddlywiki
+
+I've had a DigitalOcean droplet (do.baty.net) for a few years and deleted it this morning.
+
+It was running my wordpress blog, matomo, and a couple of test apps. No longer need them.

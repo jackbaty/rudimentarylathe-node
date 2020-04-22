@@ -1,0 +1,20 @@
+created: 20190128171013192
+creator: jack
+modified: 20190313130602401
+modifier: jack
+revision: 0
+tags: 
+title: 2019.01.28 - TiddlyWiki vs Tinderbox for project notes
+type: text/vnd.tiddlywiki
+
+When I'm not all-in emacs, I keep project notes in [[Tinderbox]]. Or I used to, before re-discovering [[TiddlyWiki]]. Now I'm not sure which to use, of course.
+
+Current thoughts:
+
+* TiddlyWiki is "cleaner". Fewer options for formatting and organizing text, which cuts down on "Hmm, how should I do this?" friction.
+* TiddlyWiki is //immediately// shareable. Drop the HTML file in an email or Slack message and the recipient has //everything//.
+* Tinderbox is more flexible, with more options for viewing notes
+* Speaking of viewing, Tinderbox's Map view is a world-beater when trying to think about a problem
+* I can read TiddlyWiki files on iOS.
+
+[[Still thinking it through|2019.03.13 - TiddlyWiki vs Tinderbox]].

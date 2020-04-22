@@ -1,0 +1,29 @@
+created: 20190111145241352
+creator: jack
+modified: 20190111145330266
+modifier: jack
+revision: 0
+title: 2019.01.11 - Installed coreutils on work iMac
+type: text/vnd.tiddlywiki
+
+I was getting a notice in [[Doom-emacs]] about it, so I installed `coreutils`
+
+```
+~/.doom.d ❯❯❯ brew install coreutils                                                                                                                                 master ✱ ◼
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+ark                                         glances                                     knot                                        knot-resolver
+
+==> Downloading https://homebrew.bintray.com/bottles/coreutils-8.30.mojave.bottle.2.tar.gz
+######################################################################## 100.0%
+==> Pouring coreutils-8.30.mojave.bottle.2.tar.gz
+==> Caveats
+All commands have been installed with the prefix "g".
+If you need to use these commands with their normal names, you
+can add a "gnubin" directory to your PATH from your bashrc like:
+  PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+==> Summary
+🍺  /usr/local/Cellar/coreutils/8.30: 430 files, 8.8MB
+```

@@ -1,0 +1,17 @@
+created: 20190114230451957
+creator: jack
+modified: 20191210194037610
+modifier: jack
+revision: 0
+tags: Software
+title: Fish Shell
+type: text/vnd.tiddlywiki
+
+Installed on 2019.01.14 using `brew install fish`
+
+First impressions are positive. I successfully modified my prompt within the first five minutes. I wouldn't have even tried doing that in zsh or bash.
+
+The completion syntax coloring is handy.
+
+---
+https://brettterpstra.com/2019/11/25/all-my-fish-functions/

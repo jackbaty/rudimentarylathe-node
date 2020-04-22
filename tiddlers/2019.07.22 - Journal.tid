@@ -1,0 +1,10 @@
+created: 20190722115308358
+creator: jack
+modified: 20190722115429281
+modifier: jack
+revision: 0
+tags: Journal
+title: 2019.07.22 - Journal
+type: text/vnd.tiddlywiki
+
+7:53 I'm back using a hosted micro.blog for micro.baty.net. Microblog posts should be super simple and doing it via Org-mode->ox-hugo->hugo->release is rather more friction than necessary for 280 characters of nonsense.

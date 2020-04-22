@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/blog",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033589",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Blog publishing tools",
+        "list": "readme docs",
+        "modified": "20200415163033589",
+        "modifier": "jack",
+        "name": "Blog",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/blog",
+        "original-type": "application/json",
+        "readme": "This plugin contains tools to help publish blogs:\n\n* Templates and tools for building static HTML pages and posts\n",
+        "requires-reload": "no",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

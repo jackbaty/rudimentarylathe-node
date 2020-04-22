@@ -1,0 +1,12 @@
+created: 20190221203930129
+creator: jack
+modified: 20190813133129937
+modifier: jack
+revision: 0
+tags: TiddlyWiki Changelog
+title: 2019.02.21 - Wiki: Changed default tab
+type: text/vnd.tiddlywiki
+
+The default tab is "Now". Was "TOC" but that was boring and required most people to click "New" because that's where everyone wants to go anyway.
+
+I also limited the New list to 20 entries so there's less scrolling on mobile.

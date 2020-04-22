@@ -1,0 +1,23 @@
+created: 20190126215841472
+creator: jack
+modified: 20190610200850903
+modifier: jack
+revision: 0
+tags: 
+title: Emacs Resources
+type: text/vnd.tiddlywiki
+
+Stuff about [[Emacs]]
+
+!!! Blogs and sites
+
+* [[Sasha Chua's Emacs News|https://sachachua.com/blog/category/emacs-news/]]
+* [[Ireal|https://irreal.org/blog/]]
+* [[Planet Emacslife|https://planet.emacslife.com]]
+
+!!! Links
+
+* [[Why you should buy into the Emacs platform|https://two-wrongs.com/why-you-should-buy-into-the-emacs-platform]] (2018)
+* [[Easy Moving From Vscode To Emacs|https://krsoninikhil.github.io/2018/12/15/easy-moving-from-vscode-to-emacs/]] (2018)
+* [[Absolute beginner's guide to Emacs|http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/]] (2012)
+* [[Steve Yegge's Effective Emacs|https://sites.google.com/site/steveyegge2/effective-emacs]]

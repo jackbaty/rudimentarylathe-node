@@ -1,0 +1,21 @@
+created: 20190111145345944
+creator: jack
+modified: 20190112174640166
+modifier: jack
+revision: 0
+tags: Emacs
+title: Doom-emacs
+type: text/vnd.tiddlywiki
+
+[[Doom Emacs|https://github.com/hlissner/doom-emacs/tree/develop]] is a "starter kit" similar to [[Spacemacs]] but lighter, faster, better looking, and I find it easier to customize.
+
+!! Other Links
+
+* [[Doom Emacs Workflows|https://noelwelsh.com/posts/2019-01-10-doom-emacs.html]] by Noel Walsh (2019)
+
+!! Notes
+
+2019.01.11 Received an error `zsh:1: no such file or directory: /usr/local/bin/RunEmacs` when running any of the ./bin/doom commands. Had to symlink RunEmacs like this... 
+`ln -s /Applications/Emacs.app/Contents/MacOS/RunEmacs /usr/local/bin/`
+
+

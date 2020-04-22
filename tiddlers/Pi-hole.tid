@@ -1,0 +1,13 @@
+created: 20191027215258866
+creator: jack
+modified: 20191027215507979
+modifier: jack
+revision: 0
+title: Pi-hole
+type: text/vnd.tiddlywiki
+
+[[Pi-hole|https://pi-hole.net/]] is "A black hole for Internet advertisements"
+
+I'm running it on a [[Raspberry Pi]]
+
+I have decided to configure devices independently rather than forcing every device (via DHCP) to use the Pi-hole. Worried that false positives will break things for family just trying to enjoy the internet.

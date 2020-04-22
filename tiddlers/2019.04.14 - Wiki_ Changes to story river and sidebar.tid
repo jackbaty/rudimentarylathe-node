@@ -1,0 +1,16 @@
+created: 20190414134500065
+creator: jack
+modified: 20190813132623762
+modifier: jack
+revision: 0
+tags: Changelog
+title: 2019.04.14 - Wiki: Changes to story river and sidebar
+type: text/vnd.tiddlywiki
+
+The default tiddlers list now includes [[Latest Stuff]] (was "Most Recent Journal").
+
+"Latest Stuff" displays the most recent journal entry along with a list of most recent non-journal tiddlers. I did this so that I could change the sidebar to show the TOC by default and to show a more concise list of entries upon first visit.
+
+I've put the Latest Stuff at the top of the river, with Welcome second. I figure, let's get right to it, yes? :)
+
+Cleaned up the sidebar's TOC entry. It is now manually edited rather than being a collection of tiddlers with a "Table of Contents" tag

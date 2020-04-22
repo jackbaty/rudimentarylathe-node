@@ -1,0 +1,31 @@
+aliases: VSCode
+created: 20190215193733144
+creator: jack
+modified: 20190317114336700
+modifier: jack
+revision: 0
+tags: Software
+title: Visual Studio Code
+type: text/vnd.tiddlywiki
+
+I've played with [[Visual Studio Code|https://code.visualstudio.com/]] a few times but it never pulled me away from Emacs (or BBEdit for that matter). I'm thinking about trying it again.
+
+!!! Links
+
+* [[VSCodium|https://github.com/VSCodium/vscodium]] - binary releases of VS Code without MS branding/telemetry/licensing  
+* [[Customizing Visual Studio Code for Writing|https://dzone.com/articles/customizing-visual-studio-code-for-writing]]
+* [[Visual Studio Code as Latex Editor|https://pmateusz.github.io/latex/2018/01/30/vs-code-latex-editor.html]]
+* [[awesome-vscode|https://github.com/viatsko/awesome-vscode]]
+
+
+!!! Notes
+
+How do I sync settings between Macs? Consider [[this|https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync]] but shouldn't I be able to symlink something to Dropbox?
+
+''Update'' Here's how I'm syncing.
+
+```
+$ mv ~/Library/Application\ Support/Code/User ~/Dropbox/Application\ Support/Code/
+$ ln -s ~/Dropbox/Application\ Support/Code/User/ ~/Library/Application\ Support/Code/User
+```
+''Update 2'' I broke down and started using [[Settings Sync|https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync]]. I'm not sure why I stopped using it last time I tried VS Code so we'll see.

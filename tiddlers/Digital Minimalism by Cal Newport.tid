@@ -1,0 +1,26 @@
+created: 20190212015435364
+creator: jack
+enddate: 2019-02-13
+modified: 20190220183317414
+modifier: jack
+rating: ⭐️⭐️⭐️⭐️☆
+revision: 0
+startdate: 2019-02-08
+tags: Book
+title: Digital Minimalism by Cal Newport
+type: text/vnd.tiddlywiki
+
+[img[/files/2019-02-11-digital-minimalsim.jpg]]
+
+[[Digital Minimalism: Choosing a Focused Life in a Noisy World|https://www.goodreads.com/book/show/40672036-digital-minimalism?from_search=true]] by Cal Newport
+
+<$view field="rating"/>
+
+<<<
+Intention trumps convenience
+<<<
+
+I really enjoyed it. Cal has never had a social media account. Counter-intuitively, this gives him a clear perspective of the cost/benefit balance offered by social networks. He offers a number of actionable ways to reduce and clarify how we interact with devices and other people.
+
+
+{{||$:/jab/viewtemplate/book}}

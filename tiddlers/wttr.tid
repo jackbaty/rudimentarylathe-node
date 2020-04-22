@@ -1,0 +1,22 @@
+created: 20200120144313962
+creator: jack
+modified: 20200121152505084
+modifier: jack
+revision: 0
+title: wttr
+type: text/vnd.tiddlywiki
+
+https://wttr.in/
+
+Nice, text-based weather conditions. I use for [[Inserting current weather into Emacs buffer]] and for the short weather summary at the top of most [[Journal]] entries here.
+
+I have a shell script for grabbing it.
+
+```
+#!/bin/bash
+curl "wttr.in/[REDACTED]?0q&format=%c+%C+%t"
+```
+
+Then a simple `getwttr | pbcopy` and it's ready to paste, like this...
+
+☁️ Overcast +22°F

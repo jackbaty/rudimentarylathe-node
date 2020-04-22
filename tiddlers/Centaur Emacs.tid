@@ -1,0 +1,19 @@
+created: 20190423113638794
+creator: jack
+modified: 20190423160912668
+modifier: jack
+revision: 0
+tags: Software Emacs
+title: Centaur Emacs
+type: text/vnd.tiddlywiki
+
+Trying [[Centaur Emacs|https://seagle0128.github.io/.emacs.d/]]
+
+<<<
+A Fancy and Fast Emacs Configuration
+<<<
+
+---
+* 2019.04.23 Installed just for giggles
+* 2019.04.23 Added my Org and keybindings to .emacs.d/custom-post.el
+* 2019.04.23 Changed org-capture binding to `<F4>` since Centaur stole `C-c c` as a prefix for counsel

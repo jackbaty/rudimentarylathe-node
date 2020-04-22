@@ -1,0 +1,10 @@
+created: 20190206181824310
+creator: jack
+modified: 20190206192549439
+modifier: jack
+revision: 0
+tags: Baty.blog
+title: 2019.02.06 - Added Webmention support to baty.blog
+type: text/vnd.tiddlywiki
+
+Thanks to [[Amit Gawande]]'s [[webmention.js|https://gist.github.com/am1t/7295b4eaf101372ea71c877cfd8be694]] I once again have Webmentions working on [[Baty.blog]]. My home rolled script was flaky so this is much better.

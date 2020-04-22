@@ -1,0 +1,14 @@
+created: 20190305172316631
+creator: jack
+modified: 20190305173312699
+modifier: jack
+revision: 0
+tags: TiddlyWiki
+title: TW: Image float plugin
+type: text/vnd.tiddlywiki
+
+A handy plugin for floating images in tiddlers.
+
+[[See comment by PMario|https://groups.google.com/d/msg/tiddlywiki/oO46RUPm4FI/L6Q-OzMXCAAJ]]
+
+I'm keeping a copy [[in a Gist|https://gist.github.com/jackbaty/d8cfbf937cb04962b2221e14450b30fd]]

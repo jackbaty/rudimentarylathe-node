@@ -1,0 +1,12 @@
+created: 20191030131523393
+creator: jack
+modified: 20191030131723438
+modifier: jack
+revision: 0
+tags: 
+title: 2019.10.30 - Wiki: Changed date format of journal tiddlers
+type: text/vnd.tiddlywiki
+
+Was using `YYYY.0MM.0DD - Journal` e.g. "2019.10.30 - Journal"
+
+Now using `DDD, MMM DD, YYYY` e.g. "Wednesday, October 30, 2019"

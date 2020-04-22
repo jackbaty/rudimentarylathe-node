@@ -1,0 +1,33 @@
+created: 20190111024938561
+creator: jack
+modified: 20190111025443589
+modifier: jack
+revision: 0
+title: TheBrain
+type: text/vnd.tiddlywiki
+
+[[TheBrain|https://thebrain.com/]] is described as:
+
+"""
+Intelligent note-taking.
+Non-linear file management.
+Ideas and relationships visualized.
+"""
+
+
+Here's a blog post I wrote in 2011 when I first started using it<<ref "1">>.
+
+<<<
+★ PersonalBrain
+Posted: 24 Jun 2011 05:25 PM PDT
+PersonalBrain (by TheBrain Technologies) is a wonderful, strange, interesting application that I’ve recently discovered and quickly found to be indispensable. That’s not entirely true, I’ve known about PersonalBrain for years. It was introduced in 1998 and has been steadily updated since and is currently at version 6. I just never gave it a shot. Why? Well, it’s a Java app for starters. We all hate those by default, right? It looks weird and uses terminology like “Plex” and “Thought” and always seemed like a gimmicky, clumsy version of other mind mapping software. I love me some mind mapping software, so after running into a recommendation or two recently I installed the trial and decided to give it a go.
+
+Strategy
+When I say “give it a go” I mean it. I tend to go all in when testing new software. PersonalBrain was no exception. I started throwing everything into my “brain” and after a couple of weeks I began to understand how the app thinks. Once that happened, I stopped testing the software and starting using it. And once that happened, I bought it. Now I have a new best friend.
+
+The thing that makes mind maps so useful is context. Same goes for the wonderful Map view in Tinderbox. So many of my favorite geeks spout on and on about how great plain text files are. Text files are pretty, lightweight, portable, and easy. But text files don’t offer context, and depending on what you’re trying to do, context is king. PersonalBrain is all about linking and displaying the relationships that result from all that linking. That’s what makes it great. I can throw hundreds or thousands of “thoughts” into my brain, link a few of each together, and what I get is a view into how I was thinking and a way to quickly find things based on context and complex relationships. My brain is only a couple of months old, but it’s growing quickly, as you can see from the statistics information.
+
+It’s pretty cool. I expected a quirky mind mapping tool, but in a short time PersonalBrain has become my CRM, Project Management tool, and File Manager. Not for everyone maybe, but certainly worth a look.
+<<<-- Jack Baty
+
+<<footnotes "1" "I'm not sure why this post isn't available anywhere on my blogs. It was first posted to jackbaty.com and I happened to find it in the email notification from the post.">>

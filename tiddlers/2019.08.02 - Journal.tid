@@ -1,0 +1,10 @@
+created: 20190802143650499
+creator: jack
+modified: 20190802143717278
+modifier: jack
+revision: 0
+tags: Journal
+title: 2019.08.02 - Journal
+type: text/vnd.tiddlywiki
+
+10:36 Moving my emacs config back to a "literate config" in one big org-mode file

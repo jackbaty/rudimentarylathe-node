@@ -1,0 +1,22 @@
+created: 20190226192540111
+creator: jack
+modified: 20190319192508508
+modifier: jack
+revision: 0
+tags: Software
+title: The Archive
+type: text/vnd.tiddlywiki
+
+[[The Archive|https://zettelkasten.de/the-archive/]] is a note-taking tool geared specifically toward keeping a [[Zettelkasten]]. It's very good at it.
+
+I used it through the beta period and beyond. My name is even included in the about screen. 
+
+There are a couple of things that keep me from going all-in.
+
+* Linking is manual. There's no completion when creating links. This makes me less likely to link things, which is part of the whole point of keeping a Zettelkasten.
+* Back links aren't automatic. I know, I'm supposed to search using the note's ID so the results include both the target note and any notes linking to it, but that's now I think. Also, I don't like making links using only the ID, since that gives me no hint as to the target note's content.
+
+Besides, I've accidentally discovered that TiddlyWiki covers pretty much everything I want in a Zettelkasten.
+
+[[Keyboard Maestro macro for inserting links|https://forum.zettelkasten.de/discussion/176/quick-insertion-of-links-to-other-zettels-with-type-ahead-search-using-keyboard-maestro]]
+

@@ -1,0 +1,25 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/codemirror-fullscreen",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033590",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Fullscreen editing for CodeMirror",
+        "list": "readme",
+        "modified": "20200415163033590",
+        "modifier": "jack",
+        "name": "CodeMirror Fullscreen",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/codemirror-fullscreen",
+        "original-type": "application/json",
+        "parent-plugin": "$:/plugins/tiddlywiki/codemirror",
+        "readme": "This plugin adds a ''Fullscreen editing Mode'' to the [[CodeMirror|http://codemirror.net]] text editor. It needs the latest [[CodeMirror plugin|$:/plugins/tiddlywiki/codemirror]] to be installed\n\nPressing ''F11'' with the focus within the editor-textarea will make the editor go fullscreen, pressing ''F11'' again leaves fullscreen-mode\n\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

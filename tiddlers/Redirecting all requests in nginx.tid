@@ -1,0 +1,12 @@
+created: 20200116234131656
+creator: jack
+modified: 20200116234151399
+modifier: jack
+revision: 0
+tags: 
+title: Redirecting all requests in nginx
+type: text/vnd.tiddlywiki
+
+Something like this...
+
+`return          301 http://www.example.com$request_uri;`

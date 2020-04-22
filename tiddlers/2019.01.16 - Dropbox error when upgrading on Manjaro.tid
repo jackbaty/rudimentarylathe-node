@@ -1,0 +1,17 @@
+created: 20190117011004077
+creator: jack
+modified: 20190317181200616
+modifier: jack
+revision: 0
+tags: 
+title: 2019.01.16 - Dropbox error when upgrading on Manjaro
+type: text/vnd.tiddlywiki
+
+I was getting some sort of "pgp key not trusted" error when upgrading Dropbox on my Thinkpad.
+
+I changed /etc/resolv.conf to use 1.1.1.1 for dns and all was well
+
+This happened again and I had to add the dropbox key...
+
+gpg --recv-keys THEKEYFROMERRORMSG
+

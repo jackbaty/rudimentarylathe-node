@@ -1,0 +1,12 @@
+created: 20180907071314793
+creator: Mohammad
+modified: 20181021041820073
+modifier: Mohammad
+tags: $:/tags/ViewTemplate
+title: $:/plugins/.mr/shiraz/viewtemplate/sticky-footer
+
+<$list filter="[is[current]has[sticky-footer]]">
+<div class="sticky-footer">
+{{!!sticky-footer}}
+</div>
+</$list>

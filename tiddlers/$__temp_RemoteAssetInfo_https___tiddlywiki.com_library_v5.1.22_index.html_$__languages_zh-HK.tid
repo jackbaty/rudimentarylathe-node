@@ -1,0 +1,21 @@
+author: BramChen
+core-version: >=5.0.8
+created: 20200415163033601
+creator: jack
+dependents: $:/languages/zh-Hant
+description: Chinese (Hong Kong)
+icon: data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20version%3D%221.0%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%22900%22%20height%3D%22600%22%3E%0A%09%3Crect%20width%3D%22900%22%20height%3D%22600%22%20fill%3D%22%23de2910%22%2F%3E%0A%09%3Cg%20id%3D%22petal%22%3E%0A%09%09%3Cpath%20d%3D%22m%20449.96406%2C299.9134%20c%20-105.26305%2C-44.48626%20-58.60174%2C-181.58185%2042.06956%2C-174.6907%20-20.36609%2C10.46694%20-23.31775%2C29.99772%20-11.68704%2C48.09021%2013.02444%2C20.2558%20-1.19897%2C52.84856%20-18.80577%2C60.7674%20-28.93485%2C13.02443%20-34.72791%2C47.74999%20-11.57675%2C65.83309%20z%22%20fill%3D%22%23fff%22%2F%3E%0A%09%09%3Cpath%20d%3D%22m%20444.27188%2C200.91974%20-5.91976%2C9.29378%20-2.14454%2C-10.8142%20-10.67812%2C-2.75928%209.62461%2C-5.3895%20-0.67104%2C-10.99955%208.08542%2C7.48945%2010.25578%2C-4.04271%20-4.61053%2C10.00942%207.00143%2C8.50541%20z%22%20fill%3D%22%23de2910%22%2F%3E%0A%09%09%3Cpath%20d%3D%22m%20450.56002%2C298.75902%20c%20-12.73114%2C-6.53451%20-22.9963%2C-20.15491%20-27.46839%2C-36.43134%20-5.11498%2C-18.66969%20-2.17269%2C-38.74247%208.08308%2C-55.03768%20l%20-2.20789%2C-1.39371%20c%20-10.64057%2C16.92871%20-13.69313%2C37.74293%20-8.38575%2C57.11886%204.72784%2C17.22201%2015.21355%2C31.09815%2028.78703%2C38.06438%20z%22%20fill%3D%22%23de2910%22%2F%3E%0A%09%3C%2Fg%3E%0A%09%3Cuse%20xlink%3Ahref%3D%22%23petal%22%20transform%3D%22rotate(72%20450%2C300)%22%2F%3E%0A%09%3Cuse%20xlink%3Ahref%3D%22%23petal%22%20transform%3D%22rotate(144%20450%2C300)%22%2F%3E%0A%09%3Cuse%20xlink%3Ahref%3D%22%23petal%22%20transform%3D%22rotate(216%20450%2C300)%22%2F%3E%0A%09%3Cuse%20xlink%3Ahref%3D%22%23petal%22%20transform%3D%22rotate(288%20450%2C300)%22%2F%3E%0A%3C%2Fsvg%3E
+modified: 20200415163033601
+modifier: jack
+name: zh-HK
+original-plugin-type: language
+original-tags: 
+original-title: $:/languages/zh-HK
+original-type: application/json
+plugin-priority: 110
+requires-reload: no
+server-url: https://tiddlywiki.com/library/v5.1.22/index.html
+tags: $:/tags/RemoteAssetInfo
+title: $:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/languages/zh-HK
+type: text/vnd.tiddlywiki
+version: 5.1.22

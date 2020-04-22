@@ -1,0 +1,23 @@
+created: 20181023125035152
+creator: jack
+modified: 20190105131119352
+modifier: jack
+revision: 0
+tags: Journal
+title: 2018-10-23 - Journal
+type: text/vnd.tiddlywiki
+
+This is my first entry in this wiki. I don't know where this is going, if anywhere, but I've not tried usingTiddlyWiki in a long time.
+
+I'm working on getting this configured as if it's a blog. Slow going, as I'm new to recent versions of TiddlyWiki.
+
+Step no. 1 was to change the default Tiddlers to be 
+
+`[[README]] [tag[Journal]!sort[created]limit[10]]`
+
+
+That seemed to help
+
+I've now installed the Markdown plugin, it's a **bold** experiment
+
+Update 2018-10-31: Markdown is great, but it's like swimming upstream using it with TiddlyWiki

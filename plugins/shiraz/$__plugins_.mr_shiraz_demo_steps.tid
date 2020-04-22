@@ -1,0 +1,35 @@
+caption: Steps
+created: 20181021053108742
+creator: Mohammad
+modified: 20181108185136812
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/steps
+
+The steps macro can be called from any tiddler using the below syntax:
+
+```
+<<steps "filter">> or
+<<steps "filter" "mode">> or
+<<steps "filter" "mode" "class">>
+```
+This macro creates and uses a field in the target tiddler named current-item. filter is the standard Tiddlywiki filter expression like `[tag[png]]` and class is a html5 class attribute.
+
+!! Examples
+<<<
+Step in all tiddlers tagged with `png`<br>
+`<<steps "[tag[png]]">>`
+
+Step in all tiddlers have `demo` keyword in their title<br>
+`<<steps "[search:title[demo]]">>`
+
+Steps in and keep all titlers have `png` as tag but not `kookma`<br>
+`<<steps "[tag[png]!tag[kookma]]" "keep">>`
+
+Steps in all `.svg` tiddlers and use the `.tc-tiddler-frame` class<br>
+`<<steps filter:"[search:title[.svg]]" class:"tc-tiddler-frame">>`
+<<<
+
+<<vspace 2cm>>
+<<footnote
+"Find more example on: https://kookma.github.io/Reveal-Gradually/">>

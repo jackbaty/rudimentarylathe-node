@@ -1,0 +1,20 @@
+author: Paco Rivière
+core-version: >=5.0.0
+created: 20200415163033598
+creator: jack
+dependents: 
+description: Catalan (Spain)
+icon: data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22810%22%20height%3D%22540%22%3E%0A%3Crect%20width%3D%22810%22%20height%3D%22540%22%20fill%3D%22%23FCDD09%22%2F%3E%0A%3Cpath%20stroke%3D%22%23DA121A%22%20stroke-width%3D%2260%22%20d%3D%22M0%2C90H810m0%2C120H0m0%2C120H810m0%2C120H0%22%2F%3E%0A%3C%2Fsvg%3E
+modified: 20200415163033598
+modifier: jack
+name: ca-ES
+original-plugin-type: language
+original-tags: 
+original-title: $:/languages/ca-ES
+original-type: application/json
+requires-reload: no
+server-url: https://tiddlywiki.com/library/v5.1.22/index.html
+tags: $:/tags/RemoteAssetInfo
+title: $:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/languages/ca-ES
+type: text/vnd.tiddlywiki
+version: 5.1.22

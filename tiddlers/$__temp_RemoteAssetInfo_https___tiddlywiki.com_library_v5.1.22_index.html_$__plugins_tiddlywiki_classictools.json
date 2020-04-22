@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/classictools",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033590",
+        "creator": "jack",
+        "dependents": "",
+        "description": "TiddlyWiki Classic tools",
+        "list": "readme",
+        "modified": "20200415163033590",
+        "modifier": "jack",
+        "name": "Classic Tools",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/classictools",
+        "original-type": "application/json",
+        "readme": "This plugin provides facilities for working with TiddlyWiki Classic. It is used in the build process for TiddlyWiki Classic.\n\nThe additional features are:\n\n* A ''tiddlerdeserializer'' module for reading TiddlyWiki Classic `.recipe` files\n* Templates for building TiddlyWiki Classic.\n\nSee https://github.com/TiddlyWiki/tiddlywiki.com for more details.\n\n[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/classictools]]\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

@@ -1,0 +1,52 @@
+caption: Table of Contents
+created: 20181108121502893
+creator: Mohammad
+modified: 20181108133403489
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/toc
+
+! How to create a table of content
+* Create a new tiddler (give a favorite title you like)
+* Add the caption filed and fill it with a maeningful label
+* Add the `$:/tags/SideBar`
+* Copy the below code and paste inside the new tiddler
+<<<
+
+```
+<div class="tc-table-of-contents">
+<<toc-selective-expandable ".toc">>
+</div>
+```
+<<<
+
+! How populate your table of contents
+* Any first lavel toc should be taggaed with `.toc` (this can be changed if you like)
+* Any second level toc should be tagged with one first level toc and so on
+
+! Example
+Assume you want to make a table of contents as below
+
+```
+- One
+- Two
+  - Two-one
+  - Two-two
+-Three
+  - Three-one
+  - Three-two
+```
+Do as below:
+
+<<<
+ * One  (tagged with `.toc`)
+ * Two  (tagged with `.toc`)
+ * Two-one (tagged with `Two`)
+ * Two-two (tagged with `Two`)
+ * Three (tagged with `.toc`)
+ * Three-one (tagged with `Three`)
+ * Three-two (tagged with `Three`)
+<<<
+
+
+<<alert-success width:50% """ For more information and other types of table of contents have a look at: [[Tiddlywiki.com|https://tiddlywiki.com/#Table-of-Contents%20Macros]]""">>

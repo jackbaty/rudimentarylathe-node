@@ -1,0 +1,21 @@
+created: 20181027145344592
+creator: jack
+modified: 20190117113742642
+modifier: jack
+revision: 0
+tags: [[Tech Note]]
+title: Let's Encrypt
+type: text/vnd.tiddlywiki
+
+Installation: https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx
+
+Renewal: https://certbot.eff.org/docs/using.html#renewal
+
+Installing a new cert
+
+`sudo certbot --nginx`
+
+To update existing certs...
+
+`sudo certbot renew`
+

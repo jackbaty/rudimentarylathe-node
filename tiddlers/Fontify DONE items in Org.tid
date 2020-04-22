@@ -1,0 +1,30 @@
+created: 20190521122325692
+creator: jack
+modified: 20190521132208722
+modifier: jack
+revision: 0
+tags: 
+title: Fontify DONE items in Org
+type: text/vnd.tiddlywiki
+
+I use the following with the [[Nord-emacs]] theme
+
+```
+(setq org-fontify-done-headline t)
+
+(custom-set-faces
+ '(org-done ((t (:foreground "PaleGreen"
+                 :weight normal
+                 :strike-through t))))
+ '(org-headline-done
+            ((((class color) (min-colors 16) (background dark))
+               (:foreground "#5E81AC" :strike-through t)))))
+```
+
+This changes the color of DONE items in org-mode and makes the text Strikethrough.
+
+Looks like this:
+
+[img[/files/2019-05-21-nord-emacs.png]]
+
+(Posted: https://www.baty.blog/2019/fontifying-org-mode-done-items)

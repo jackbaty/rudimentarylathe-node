@@ -1,0 +1,18 @@
+created: 20190309173804867
+creator: jack
+modified: 20190309173915732
+modifier: jack
+revision: 0
+tags: Emacs
+title: Olivetti-mode
+type: text/vnd.tiddlywiki
+
+Sometimes it's nice to have some whitespace around the text in Emacs.
+
+So, [[Olivetti Mode|https://github.com/rnkn/olivetti]]
+
+```
+(use-package olivetti
+  :ensure t
+  :bind ("C-c f" . olivetti-mode))
+```

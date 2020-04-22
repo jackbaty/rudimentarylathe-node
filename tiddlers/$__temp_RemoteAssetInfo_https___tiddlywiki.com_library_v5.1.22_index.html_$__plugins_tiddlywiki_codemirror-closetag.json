@@ -1,0 +1,25 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/codemirror-closetag",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033590",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Close tags automatically for CodeMirror",
+        "list": "readme",
+        "modified": "20200415163033590",
+        "modifier": "jack",
+        "name": "CodeMirror Close Tag",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/codemirror-closetag",
+        "original-type": "application/json",
+        "parent-plugin": "$:/plugins/tiddlywiki/codemirror",
+        "readme": "This plugin adds the ability to ''automatically close Tags''. It needs the latest [[CodeMirror plugin|$:/plugins/tiddlywiki/codemirror]] to be installed\n\n\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

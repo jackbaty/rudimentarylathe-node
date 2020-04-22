@@ -1,0 +1,28 @@
+created: 20181231172950669
+creator: jack
+modified: 20181231173504212
+modifier: jack
+revision: 0
+tags: Meta
+title: Adding Backlinks to TiddlyWiki
+type: text/vnd.tiddlywiki
+
+For this TiddlyWiki, I wanted to display a list of backlinks on each tiddler. This was harder than expected to figure out. In summary:
+
+First, create a new tiddler with the following content:
+
+```
+<$list filter='[is[current]backlinks[]limit[1]]' variable=dummy>
+<hr>
+Backlinks: <$list filter='[<currentTiddler>backlinks[]butlast[]]'><$link><$view field="title"/></$link>,</$list>
+<$list filter='[<currentTiddler>backlinks[]last[]]'><$link><$view field="title"/></$link></$list>
+</$list>
+```
+
+This generates a comma-delimited list of tiddlers that link to the current tiddler. It would have been easier to generate an HTML list but I wanted a more concise, comma-delimited list. 
+
+Tag the new tiddler with `$:/tags/ViewTemplate`. This will display its contents at the bottom of every tiddler automatically.
+
+That's it!
+
+

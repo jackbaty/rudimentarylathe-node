@@ -1,0 +1,13 @@
+created: 20190210200741212
+creator: jack
+modified: 20190627120911746
+modifier: jack
+revision: 0
+tags: 
+title: 2019.02.10 - Blog-cli for Blot posts
+type: text/vnd.tiddlywiki
+
+I forked [[kahlil|https://github.com/kahlil/blog-cli]]'s tool for creating [[Hugo]] posts from the command line and adapted it for use with [[Blot]].
+
+https://github.com/jackbaty/blog-cli
+

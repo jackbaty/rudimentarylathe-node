@@ -1,0 +1,14 @@
+created: 20190219202124649
+creator: jack
+modified: 20190220141622109
+modifier: jack
+revision: 0
+tags: TiddlyWiki
+title: TW: Leaflet Maps plugin
+type: text/vnd.tiddlywiki
+
+http://sycom.github.io/TiddlyWiki-Plugins/#Leaflet%20plugin (via [[@kalmir|https://micro.blog/kalmir/2381676]])
+
+There's a bug causing the default zoom to be 0 so tiles are not displayed by default. You must zoom out a bit before the map appears. 
+
+To include a map on a tiddler, just add a `points` field with Lat/Long value.

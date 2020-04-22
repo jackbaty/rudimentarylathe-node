@@ -1,0 +1,31 @@
+created: 20190210172911224
+creator: jack
+modified: 20190211195617682
+modifier: jack
+revision: 0
+tags: 
+title: 2019.02.10 - TW: Open all tiddlers meeting criteria
+type: text/vnd.tiddlywiki
+
+```
+\define open-all(filter, label:"Open all") 
+<$button>$label$ 
+<$action-sendmessage $message="tm-close-all-tiddlers"/> 
+<$list filter=<<__filter__>> > 
+<$action-navigate $to=<<currentTiddler>> /> 
+</$list> 
+</$button> 
+\end
+```
+
+Examples:
+
+1. Open all tiddlers tagged with myTag.
+
+    `<<open-all filter:"[tag[myTag]]" label:"Open tagged with myTag">>`
+
+2. Open all tiddlers have the word semantic in their title in alphabetical order.
+
+    `<<open-all filter:"[search:title[semantic]] +[sort[]]" label:"Open tagged with myTag">>`
+
+(via https://groups.google.com/d/msg/tiddlywiki/8bG7ZJDoXcE/yx0HzjZBBgAJ)

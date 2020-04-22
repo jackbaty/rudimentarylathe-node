@@ -1,0 +1,13 @@
+created: 20191117110241860
+creator: jack
+modified: 20191117110358400
+modifier: jack
+revision: 0
+tags: Ghost
+title: Adding Commento to Ghost
+type: text/vnd.tiddlywiki
+
+I don't know the best way to include comments on [[Ghost]] but I did it by adding the Ghost snippet to...
+
+`/var/www/ghost/content/themes/casper/post.hbs`
+

@@ -1,0 +1,39 @@
+created: 20181222121207243
+creator: jack
+list: 
+modified: 20191211131928849
+modifier: jack
+revision: 0
+tags: Photography
+title: Lightroom CC
+type: text/vnd.tiddlywiki
+
+I would love to move my photo management and processing to the cross-platform convenience of Lightroom CC, but it's not ready for me yet. Here are some notes I jotted down during my testing.
+
+* ~~Space bar to toggle zoom is inconsistent. Sometimes nothing happens and I can't figure out why.~~ Hasn't been happening lately
+* The grid view is hard on the eyes. Why is the sync icon bright blue and always visible? The other view is nicer, but no metadata is visible.
+* ~~Almost no export options~~
+* ~~Uses the wrong IPTC field, Title, rather than Headline and I see no way to enter a headline.~~ I've given up on the Headline field. Almost no one uses it correctly. If you can't beat 'em...
+* ~~Scrolling on Desktop in Mojave is still unusably slow. They really need to fix this.~~ Seems much better lately
+* Option-Delete instead of the usual Command-Delete to delete a photo and no way to disable the warning dialog. (~~Probably because there's no trash and why not?~~)
+* I want the Keyword panel moved into the Info panel. Seems a waste to use an entire panel just for the limited keyword feature.
+* There's no list of favorite presets so I have to go digging each time
+* Every time I switch from Crop to Edit mode, the Preset panel hides itself. Is there a way to make it stay open?
+* No compare feature
+* No virtual copies. I believe "Make a Copy" just duplicates the image, wasting space. No making copies at all on mobile
+* ~~No watermarking on export~~. (Now allows for text watermarks, but that's not what I want). I don't use a watermark for protection. I use watermarks as a way to sign my photos.
+* No color labels
+* I have a wide screen, yet I can't show both the left and right sidebars at the same time, so I'm constantly ping-ponging back and forth.
+* The "Share" tab is an icon that looks like two people. I //always// click that when I'm looking for the "People" view and then curse because I got tricked again.
+* And of course it's entirely cloud based, which I still can't get comfortable with. File locations and names are still important.
+
+Maybe next year.
+
+"""
+Uh oh: [[2019-01-06 - I am using Lightroom CC]]
+And then: [[2019.01.14 - Struggling with Lightroom CC]]
+And now: Back using CC, beginning with 2019 photos
+Nope. It's all [[Capture One Pro]] now.
+"""
+
+I hope I never need [[this|https://helpx.adobe.com/lightroom-cc/kb/download-lightroom-photos.html]].

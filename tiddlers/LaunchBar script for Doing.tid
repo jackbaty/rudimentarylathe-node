@@ -1,0 +1,30 @@
+created: 20190415111303148
+creator: jack
+modified: 20190417112647259
+modifier: jack
+revision: 0
+tags: 
+title: LaunchBar script for Doing
+type: text/vnd.tiddlywiki
+
+I use [[Doing|?]] from Brett Terpstra for tracking my time.
+
+Here's a [[LaunchBar]] script for creating new entries.
+
+```
+on handle_string(message)
+    -- get the input from LaunchBar
+    if message is "?" then
+        -- if the input is just "?" display the last three entries
+        set _doing to do shell script "/usr/bin/doing recent 3"
+        tell application "LaunchBar" to display in large type _doing
+    else
+        -- otherwise, create a new entry using the input
+        do shell script "/usr/bin/doing now " & quoted form of message
+    end if
+    
+end handle_string
+```
+
+Put it at `~/Library/Application Support/LaunchBar/Actions/Doing.scpt`
+

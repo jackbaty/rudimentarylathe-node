@@ -1,0 +1,3 @@
+{{$:/.giffmex/sidebar/parallel}} <br><h2><$list filter="[{$:/temp/sbartidddisplayvalue}is[tiddler]]" emptyMessage="tiddler doesn't exist" ></$list></h2>
+
+<$transclude tiddler={{$:/temp/sbartidddisplayvalue}} mode="block" />

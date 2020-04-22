@@ -1,0 +1,13 @@
+{
+    "title": "$:/plugins/kookma/shiraz",
+    "author": "Mohammad Rahmani",
+    "core-version": ">=5.1.21",
+    "created": "20200323092449534",
+    "description": "Shiraz",
+    "list": "readme license history",
+    "modified": "20200325085654612",
+    "plugin-type": "plugin",
+    "source": "https://github.com/kookma/TW-Shiraz",
+    "tags": "",
+    "version": "2.1.1"
+}

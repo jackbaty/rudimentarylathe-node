@@ -1,0 +1,20 @@
+created: 20190112160920107
+creator: jack
+modified: 20190112161100066
+modifier: jack
+revision: 0
+tags: Software
+title: Fathom Analytics
+type: text/vnd.tiddlywiki
+
+[[Fathom Analytics|https://usefathom.com/]]...
+
+<<<
+Our software collects and stores zero personal information about visitors
+
+Our tracking policy is simple: Fathom collects trends and insights, not personal details about specific website visitors.
+<<<
+
+
+
+I have a self-hosted instance of Fathom and it lets me know if people are reading what I write while respecting the privacy of those people.

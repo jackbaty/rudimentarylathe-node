@@ -1,0 +1,19 @@
+created: 20190421145215571
+creator: jack
+modified: 20190421145325411
+modifier: jack
+revision: 0
+tags: 
+title: Wordpress.com
+type: text/vnd.tiddlywiki
+
+Wordpress.com is one option for hosting a [[WordPress]] blog. I don't use it because...
+
+* $96/year
+* No plugins
+* Couldn’t figure out SSL
+* Can’t remove “Blog with Wordpress” in footer
+* Can’t add stats
+* Can’t update CSS
+* Can’t add plugins
+

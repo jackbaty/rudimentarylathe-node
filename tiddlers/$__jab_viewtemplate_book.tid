@@ -1,0 +1,12 @@
+created: 20190408221308645
+creator: jack
+modified: 20200418114348859
+modifier: jack
+revision: 0
+tags: 
+title: $:/jab/viewtemplate/book
+type: text/vnd.tiddlywiki
+
+* <a href={{!!goodreads}}>Goodreads</a>
+* Started reading: {{!!startdate}}
+* Finished reading: {{!!enddate}}

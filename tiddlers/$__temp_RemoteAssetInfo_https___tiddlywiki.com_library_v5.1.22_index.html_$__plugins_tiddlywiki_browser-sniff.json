@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/browser-sniff",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033589",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Browser feature detection",
+        "list": "readme usage",
+        "modified": "20200415163033589",
+        "modifier": "jack",
+        "name": "Browser Sniff",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/browser-sniff",
+        "original-type": "application/json",
+        "readme": "This plugin adds a number of `$:/info/` tiddlers containing information about the current browser.\n\nIt allows you to create content that is presented in a way that is responsive to different browsers.\n\nFor example, https://tiddlywiki.com uses this plugin to present the user with the best options for getting started depending on their browser.\n\n[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/browser-sniff]]\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

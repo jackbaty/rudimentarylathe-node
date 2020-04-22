@@ -1,0 +1,32 @@
+created: 20190220175631703
+creator: jack
+modified: 20200418114449133
+modifier: jack
+revision: 0
+tags: TableOfContents
+title: Books
+type: text/vnd.tiddlywiki
+
+!!! Books Read
+
+(Since 2019. For books read prior to 2019, see the [[Books archive]])
+
+<$button tooltip="Add a book">Add a book
+<$action-createtiddler
+$basetitle='New Book'
+text="
+
+{{||$:/jab/viewtemplate/book}}"
+tags='Book'
+startdate=''
+enddate=''
+goodreads=''
+$savetitle='$:/.user/CreateBook!!newBook'
+/>
+
+<$action-sendmessage
+$message="tm-edit-tiddler"
+$param={{$:/.user/CreateBook!!newBook}}/>
+</$button>
+
+<<list-links filter:"[tag[Book]!sort[enddate]]">>

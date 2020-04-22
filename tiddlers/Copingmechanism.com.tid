@@ -1,0 +1,25 @@
+created: 20190422222749987
+creator: jack
+modified: 20190911183532380
+modifier: jack
+revision: 0
+tags: 
+title: Copingmechanism.com
+type: text/vnd.tiddlywiki
+
+Another blog for when I'm feeling Wordpress'y
+
+https://copingmechanism.com/
+
+Hosted by [[SiteGround]]
+---
+''Older notes''
+~~Built via a DigitalOcean WordPress droplet~~ 
+
+I want to use MarsEdit so I had to enable XML-RPC by removing the symlink at /etc/apache2/conf-enabled/block-xmlrpc.conf.
+
+* 2019.04.28 Installed WP Total Cache plugin. Left it mostly at defaults.
+* 2019.05.23 Updated the Hive theme. Had to shell into the server as root and change permissions since I'd left them owned by root. Whoops. (/var/www/html/)
+
+---
+<<list-links filter:"[tag[$(currentTiddler)$]]">>

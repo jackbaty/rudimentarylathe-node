@@ -1,0 +1,24 @@
+created: 20190101162408463
+creator: jack
+modified: 20190101174622521
+modifier: jack
+revision: 0
+tags: 
+title: Creating a Table of Contents in TiddlyWiki
+type: text/vnd.tiddlywiki
+
+Create a new Tiddler, (I name them "TOC") with the following
+
+```
+<div class="tc-table-of-contents">
+
+<<toc-selective-expandable 'TableOfContents'>>
+
+</div>
+```
+
+Tag it with `$:/tags/SideBar`
+
+Now anything tagged `TableOfContents` will show up in the Sidebar
+
+The other approach is to create a single document and include that, which is what I do here.

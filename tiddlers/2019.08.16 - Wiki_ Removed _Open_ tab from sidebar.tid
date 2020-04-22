@@ -1,0 +1,10 @@
+created: 20190816123038149
+creator: jack
+modified: 20190816123218030
+modifier: jack
+revision: 0
+tags: Changelog
+title: 2019.08.16 - Wiki: Removed "Open" tab from sidebar
+type: text/vnd.tiddlywiki
+
+The "Open" tab doesn't seem useful, so I removed it by deleting the `$:/tags/SideBar` tag from the `$:/core/ui/SideBar/Open` tiddler. This may affect upgrades.

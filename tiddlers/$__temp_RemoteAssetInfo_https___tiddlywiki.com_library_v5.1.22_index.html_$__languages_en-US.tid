@@ -1,0 +1,21 @@
+author: Ben Webber
+core-version: >=5.0.0
+created: 20200415163033599
+creator: jack
+dependents: $:/languages/en-GB
+description: English (US)
+icon: data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%221235%22%20height%3D%22650%22%20viewBox%3D%220%200%207410%203900%22%3E%0A%3Crect%20width%3D%227410%22%20height%3D%223900%22%20fill%3D%22%23b22234%22%2F%3E%0A%3Cpath%20d%3D%22M0%2C450H7410m0%2C600H0m0%2C600H7410m0%2C600H0m0%2C600H7410m0%2C600H0%22%20stroke%3D%22%23fff%22%20stroke-width%3D%22300%22%2F%3E%0A%3Crect%20width%3D%222964%22%20height%3D%222100%22%20fill%3D%22%233c3b6e%22%2F%3E%0A%3Cg%20fill%3D%22%23fff%22%3E%0A%3Cg%20id%3D%22s18%22%3E%0A%3Cg%20id%3D%22s9%22%3E%0A%3Cg%20id%3D%22s5%22%3E%0A%3Cg%20id%3D%22s4%22%3E%0A%3Cpath%20id%3D%22s%22%20d%3D%22M247%2C90%20317.534230%2C307.082039%20132.873218%2C172.917961H361.126782L176.465770%2C307.082039z%22%2F%3E%0A%3Cuse%20xlink%3Ahref%3D%22%23s%22%20y%3D%22420%22%2F%3E%0A%3Cuse%20xlink%3Ahref%3D%22%23s%22%20y%3D%22840%22%2F%3E%0A%3Cuse%20xlink%3Ahref%3D%22%23s%22%20y%3D%221260%22%2F%3E%0A%3C%2Fg%3E%0A%3Cuse%20xlink%3Ahref%3D%22%23s%22%20y%3D%221680%22%2F%3E%0A%3C%2Fg%3E%0A%3Cuse%20xlink%3Ahref%3D%22%23s4%22%20x%3D%22247%22%20y%3D%22210%22%2F%3E%0A%3C%2Fg%3E%0A%3Cuse%20xlink%3Ahref%3D%22%23s9%22%20x%3D%22494%22%2F%3E%0A%3C%2Fg%3E%0A%3Cuse%20xlink%3Ahref%3D%22%23s18%22%20x%3D%22988%22%2F%3E%0A%3Cuse%20xlink%3Ahref%3D%22%23s9%22%20x%3D%221976%22%2F%3E%0A%3Cuse%20xlink%3Ahref%3D%22%23s5%22%20x%3D%222470%22%2F%3E%0A%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A
+modified: 20200415163033599
+modifier: jack
+name: en-US
+original-plugin-type: language
+original-tags: 
+original-title: $:/languages/en-US
+original-type: application/json
+plugin-priority: 110
+requires-reload: no
+server-url: https://tiddlywiki.com/library/v5.1.22/index.html
+tags: $:/tags/RemoteAssetInfo
+title: $:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/languages/en-US
+type: text/vnd.tiddlywiki
+version: 5.1.22

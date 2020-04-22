@@ -1,0 +1,12 @@
+created: 20190419121612192
+creator: jack
+modified: 20190420113712845
+modifier: jack
+revision: 0
+tags: 
+title: Copy as Markdown extension for PopClip
+type: text/vnd.tiddlywiki
+
+I'm always copying text from web pages and converting them to Markdown. [[This PopClip extension|https://pilotmoon.com/popclip/extensions/page/CopyAsMarkdown]] makes that much easier.
+
+See also: [[PopClip|?]]

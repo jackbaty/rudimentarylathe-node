@@ -1,0 +1,14 @@
+created: 20190527114607932
+creator: jack
+modified: 20190527114804540
+modifier: jack
+revision: 0
+tags: Emacs
+title: Disable safe theme warning in Emacs at startup
+type: text/vnd.tiddlywiki
+
+When loading a theme, if you see the warning "Loading a theme can run Lips Code. Really load?", set the second option to `load-theme`.
+
+`(load-theme THEME &optional NO-CONFIRM NO-ENABLE)`
+
+So, `(load-theme zenburn t)`

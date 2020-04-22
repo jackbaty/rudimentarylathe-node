@@ -1,0 +1,23 @@
+created: 20190906105949503
+creator: jack
+modified: 20190906125549033
+modifier: jack
+revision: 0
+tags: 
+title: 1999.io
+type: text/vnd.tiddlywiki
+
+Notes on using Dave Winer's [[1999.io|http://1999.io]] blogging tool
+
+2019.09.06 Testing it at [[1999.baty.net|http://1999.baty.net/]]
+
+---
+Some resources
+
+A [[publishing callback script|https://gist.github.com/stoppableforce/8a9a99e5b965729236fd4dde89e2d056]] to render files with proper URLS ([[thread|https://groups.google.com/d/msg/1999-server/_e5lx36uro8/HImaVvPlAwAJ]]). Note that I got this to work last time, but not this time.
+
+The domain feature should cover this, but I can't seem to configure it properly.
+
+[[Ron Chester's outline of documentation, etc.|http://reader.smallpicture.com/?opmlurl=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fjybig60wiguxmfq%2F1999ioBloggingArchive.opml%3Fdl%3D0]]
+
+

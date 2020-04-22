@@ -1,0 +1,39 @@
+created: 20181214214847368
+creator: jack
+list: 
+modified: 20190526194812729
+modifier: jack
+revision: 0
+tags: Photography Software
+title: Capture One Pro vs Lightroom Classic CC
+type: text/vnd.tiddlywiki
+
+I'm trying to decide which to commit to, Capture One Pro or Lightroom Classic CC
+
+
+* LR: Better publish/share options. C1 just introduced Publish plugins but there are no useful ones available yet. C1 is more flexible but I prefer the way Lightroom works.
+* LR: I prefer cropping and rotating in LR
+* C1: Sessions are a nice way to work. Self-contained and can move things around at will without breaking anything
+* LR: [[Jeffrey Friedl|http://regex.info/]]
+* LR: Catalog features are more robust
+* While the differences in how each handles raw images by default are noticeable, once I adjust an image to my taste I don't see a difference.
+* LR: Ecosystem is huge
+* C1: Tethering works very well
+* C1: I like that I can see the watermark before exporting
+* C1: I get better images faster
+
+
+2019-01-01 I've decided I'll be using [[Lightroom CC]].
+
+
+
+
+
+
+
+
+
+
+
+
+

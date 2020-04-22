@@ -1,0 +1,19 @@
+created: 20190116230031395
+creator: jack
+modified: 20190116230233472
+modifier: jack
+revision: 0
+tags: Word
+title: Word: punctum
+type: text/vnd.tiddlywiki
+
+''punctum'' | ˈpəNGktəm |
+
+noun (plural puncta | -tə | ) technical
+
+
+<<<
+a small, distinct point.
+<<<
+
+See also <$macrocall $name="dictionary" word={{{ [<currentTiddler>removeprefix[Word: ]] }}} />

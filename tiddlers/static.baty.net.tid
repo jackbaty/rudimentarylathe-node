@@ -1,0 +1,22 @@
+created: 20190203193205206
+creator: jack
+modified: 20191015171454617
+modifier: jack
+revision: 0
+tags: 
+title: static.baty.net
+type: text/vnd.tiddlywiki
+
+I'm running an EC2 instance for static.baty.net. This hosts a few sites:
+
+* https://static.baty.net/
+* https://rudimentarylathe.org ([[Rudimentarylathe.org tech notes]])
+* https://notes.baty.net/
+* https://jack.baty.net (redirects to baty.blog)
+
+t3.micro running Ubuntu 18.0.4 bionic. 2GB instance
+
+!!! Log
+* [[2019.02.03 - Upgraded certbot on static.baty.net]]
+* 2019.02.03 Removed baty.blog vhost since it's no longer used for redirecting
+* 2019.10.15 Remember, the server is running Caddy not nginx. I've disabled the nginx service to avoid startup issues on reboot.

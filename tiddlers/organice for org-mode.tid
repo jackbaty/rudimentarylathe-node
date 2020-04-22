@@ -1,0 +1,16 @@
+created: 20190904120848216
+creator: jack
+modified: 20190904120947597
+modifier: jack
+revision: 0
+tags: Emacs
+title: organice for org-mode
+type: text/vnd.tiddlywiki
+
+[[Organice|https://github.com/200ok-ch/organice]] is...
+
+<<<
+An implementation of Org mode without the dependency of Emacs - built for mobile and desktop browsers
+<<<
+
+Forked from [[org-web]]

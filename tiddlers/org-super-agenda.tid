@@ -1,0 +1,31 @@
+created: 20190716124249659
+creator: jack
+modified: 20190716160652559
+modifier: jack
+revision: 0
+tags: Emacs Orgmode
+title: org-super-agenda
+type: text/vnd.tiddlywiki
+
+[[Org-super-agenda|?https://github.com/alphapapa/org-super-agenda]] really helps wrangle the agenda view when there are lots of tasks.
+
+My config is still pretty simple...
+
+```
+(use-package org-super-agenda
+  :ensure t
+  :config
+ (setq org-super-agenda-groups '((:name "Today"
+                                  :time-grid t
+                                  :scheduled today)
+                           (:name "Due today"
+                                  :deadline today)
+                           (:name "Important"
+                                  :priority "A")
+                           (:name "Overdue"
+                                  :deadline past)
+                           (:name "Due soon"
+                                  :deadline future)
+			   (:name "Waiting"
+                                 :todo "WAIT"))))
+```

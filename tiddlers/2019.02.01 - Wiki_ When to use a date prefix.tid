@@ -1,0 +1,24 @@
+created: 20190201191427461
+creator: jack
+modified: 20190406125340282
+modifier: jack
+revision: 0
+tags: Wiki
+title: 2019.02.01 - Wiki: When to use a date prefix
+type: text/vnd.tiddlywiki
+
+<<<
+Also, I am completely at sea about which tiddlers get date prefixes and which ones don't.
+<<<[[Phil Nunnally|https://twelvety.com/tiddlywiki.html#2019-01-31%20Journal]]
+
+Phil is having the same problem as me, and that is: When should a tiddler's title include a date prefix? (e.g. "2019.02.01 - ").
+
+Here's where I've landed. 
+
+''If it matters at all when it was written, use the prefix.''
+
+''Use a date prefix'': Journal entries, log-type entries, links, and anything that could pass for a blog post. Those don't change over time, and are essentially "frozen" once written.
+
+''Don't use a date prefix'': Main topics (Emacs, TiddlyWiki, etc), collections (Quotes, Words, etc), or //things// like Micro.blog. These things evolve over time so a date makes less sense.
+
+It's a loose guideline but it's all I have.

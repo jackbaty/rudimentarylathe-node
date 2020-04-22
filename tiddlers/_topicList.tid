@@ -1,0 +1,14 @@
+caption: topics
+created: 20200128030955660
+modified: 20200304194946258
+tags: tb meta
+title: .topicList
+
+Topics are any notes that do not have `202` in their title field (i.e., tiddlers created with the clock icon buttons), and are not tagged with any of the following tags: `hide`, `meta`, `outlines`, or `sources`. 
+
+<<list-search
+"[!is[system]!tag[sources]!tag[meta]!tag[outlines]!tag[hide]!regexp:title[202]sort[title]]"
+"search"
+"$:/temp/list-search-example"
+"$:/core/ui/ListItemTemplate"
+placeholder:"" >>

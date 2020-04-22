@@ -1,0 +1,11 @@
+created: 20181206215145171
+modified: 20181206231752568
+revision: 0
+tags: Wiki
+title: TiddlyWiki 5.1.18
+type: text/vnd.tiddlywiki
+
+I've upgraded this wiki to 5.1.18. No issues so far that I can see. I've been tinkering with using the node version on the server, now that it supports authenticated vs. anonymous access but the service was dying after login. I'll keep trying.
+
+Fun [[new stuff|https://tiddlywiki.com/#Releases]]
+

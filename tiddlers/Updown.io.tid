@@ -1,0 +1,22 @@
+created: 20190105121603819
+creator: jack
+list: 
+modified: 20190108202133729
+modifier: jack
+revision: 0
+title: Updown.io
+type: text/vnd.tiddlywiki
+
+I use and like [[updown.io|https://updown.io/]] for basic server monitoring. 
+
+[img[https://static.baty.net/wiki/images/2019-01-05_updownio.png]]
+
+Their pricing is fair and the UI is simple but enough for my purposes.
+
+I recently had a problem with notifications so I wrote support and received a nice reply in less than an hour with an explanation of the problem. They'd made an adjustment to my configuration and said they were working on a more permanent fix. I received the following email just a few hours later.
+
+<<<
+We've improved the notifications to only alert of renewal when the old cert was close to expiration (after you received an expiration notice) and the new one is more recent (so actual renewal and not alternating between two similar certs). This should avoid the spammy behavior you noticed. So I've went ahead and re-enabled the renewal notifications on your account, please let me know if you see anything out of the ordinary or if you still receive too many alerts.
+<<<
+
+That's the kind of thing that keeps me as a customer for the long term.

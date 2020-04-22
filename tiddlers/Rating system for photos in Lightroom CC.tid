@@ -1,0 +1,17 @@
+created: 20190707111629509
+creator: jack
+modified: 20190707114851963
+modifier: jack
+revision: 0
+tags: Photography
+title: Rating system for photos in Lightroom CC
+type: text/vnd.tiddlywiki
+
+I've been trying to go all-in with [[Lightroom CC]]. It's going pretty well this time. One of the things I miss from Classic is color labels. I used to use those to indicate process/export status.
+
+Lacking labels, here's how my star ratings work in CC:
+
+* ⭐ - Pay attention to this image
+* ⭐⭐ - Has been processed/edited
+* ⭐⭐⭐ - Has been exported to my [[Digital Print Archive]]
+* ⭐⭐⭐⭐⭐ - A favorite

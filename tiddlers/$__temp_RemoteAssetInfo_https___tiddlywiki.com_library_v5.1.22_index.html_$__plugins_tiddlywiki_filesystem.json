@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/filesystem",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033593",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Synchronise changes to the local filesystem",
+        "list": "readme",
+        "modified": "20200415163033593",
+        "modifier": "jack",
+        "name": "Filesystem",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/filesystem",
+        "original-type": "application/json",
+        "readme": "The filesystem plugin is used under Node.js to synchronise tiddler changes back to the file system. It is inert when used in the browser.\n\n[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/filesystem]]\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

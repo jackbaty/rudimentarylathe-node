@@ -1,0 +1,13 @@
+created: 20191007221755946
+creator: jack
+modified: 20191007222008905
+modifier: jack
+revision: 0
+tags: TiddlyWiki
+title: 2019.10.07 - Wiki: Upgraded TiddlyWiki to 5.1.21
+type: text/vnd.tiddlywiki
+
+Thanks to Josh for [[the tip about asking npm explicitly for the version|https://joshisms.io/#2019-10-06%20-%20TW%3A%20Updated%20to%205.1.21]]. I had that same problem and this helped.
+
+(`sudo npm install -g tiddlywiki@5.1.21`)
+

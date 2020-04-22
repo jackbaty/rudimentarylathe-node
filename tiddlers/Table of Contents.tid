@@ -1,0 +1,33 @@
+caption: ToC
+created: 20181228195311913
+creator: jack
+is-dropdown: yes
+list-before: New
+modified: 20200415184403729
+modifier: jack
+revision: 0
+tags: $:/tags/SideBar hide $:/tags/MenuBar
+title: Table of Contents
+type: text/vnd.tiddlywiki
+
+''Table Of Contents''
+
+"""
+[[About]] this place
+[[Now]] what am I doing?
+✉️ <a href="mailto:jack@baty.net" class="tc-tiddlylink tc-tiddlylink-resolves">Send me an email!</a>
+---
+[[Journal]] entries
+[[Books]] I've read
+[[Movies]] I've seen
+[[Quotes]] I like
+[[Cameras]] I've used
+[[Words]] I've learned
+---
+[[Daily Haunts]] I visit
+---
+[[Changelog]] of this wiki
+"""
+
+---
+{{New}}

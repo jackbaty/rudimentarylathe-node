@@ -1,0 +1,37 @@
+created: 20190209232054527
+creator: jack
+modified: 20190211195620111
+modifier: jack
+revision: 0
+tags: 
+title: 2019.02.09 - Built Fathom from source
+type: text/vnd.tiddlywiki
+
+I noticed that the online demo of [[Fathom Analytics]] had a "1D" option for the date range and mine didn't. I was running the latest release (1.2.1) so submitted a [bug report](https://github.com/usefathom/fathom/issues/220). Turns out the "1D" option was added //after// the release, so I built my own from latest source. This involved installing Go on the server and building there.
+
+```
+$ sudo apt-get update
+$ sudo apt-get -y upgrade
+$ wget https://dl.google.com/go/go1.11.4.linux-amd64.tar.gz
+$ sudo tar -xvf go1.11.4.linux-amd64.tar.gz
+$ sudo mv go /usr/local
+```
+
+Then I had to set up the go environment by adding the following to .zshenv
+
+```
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/goproj
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+```
+
+After that I cloned the latest Fathom and built it...
+
+```
+$ sudo systemctl stop fathom
+$git clone https://github.com/usefathom/fathom.git $GOPATH/src/github.com/usefathom/fathom
+$ cd ~/goproj/src/github.com/usefathom/fathom
+$ make build
+$ sudo mv fathom /usr/local/bin/
+$ sudo systemctl start fathom
+```

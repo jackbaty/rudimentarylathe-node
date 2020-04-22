@@ -1,0 +1,17 @@
+created: 20191205171849916
+creator: jack
+modified: 20191213004106167
+modifier: jack
+revision: 0
+tags: Software
+title: DNote
+type: text/vnd.tiddlywiki
+
+<<<
+A Simple Personal Knowledge Base
+<<<[[DNote|https://www.getdnote.com/]]
+
+First spotted here: https://www.getdnote.com/blog/how-i-built-personal-knowledge-base-for-myself/
+
+---
+* 2019.12.12 Installed DNote on my iMac. I don't think I want to deal with self-hosting the whole thing, so right now I'm just farting around with the CLI locally

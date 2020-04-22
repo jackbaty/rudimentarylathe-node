@@ -1,0 +1,36 @@
+caption: Tables with card styles and shadow
+created: 20181022052610699
+creator: Mohammad
+modified: 20181101152348843
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/more-on-tables
+
+! Use shadow class
+The below examples show how to use the card style and shadows for tables
+
+!! Shadow on hover
+<<wikitext-example-without-html "
+|thead-teal w3-hover-shadow|k
+|Call |Number |h
+|0912 358 5703 |Mohammad|
+|+21 912 369 587 |Tehran |
+">>
+
+!! Thick shadow
+<<wikitext-example-without-html "
+|thead-maroon w3-card-4|k
+|Call |Number |h
+|0912 358 5703 |Mohammad|
+|+21 912 369 587 |Tehran |
+">>
+
+
+!! Thin shadow
+<<wikitext-example-without-html "
+|table-lines w3-card-2|k
+|Call |Number |h
+|0912 358 5703 |Mohammad|
+|+21 912 369 587 |Tehran |
+|+21 912 369 587 |Isfahan |
+">>

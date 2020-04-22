@@ -1,0 +1,14 @@
+created: 20190416130113881
+creator: jack
+modified: 20190416130158041
+modifier: jack
+revision: 0
+tags: 
+title: Calculating concurrent web users
+type: text/vnd.tiddlywiki
+
+"concurrent users" = Hourly Sessions x Average Session Duration (in seconds) / 3,600 
+
+https://medium.com/@loadimpact/load-testing-tip-how-to-determine-concurrent-users-in-your-load-tests-341797499073
+
+This is at least a ball-park number.

@@ -1,0 +1,25 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/codemirror-mode-htmlmixed",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033591",
+        "creator": "jack",
+        "dependents": "$:/plugins/tiddlywiki/codemirror-mode-xml $:/plugins/tiddlywiki/codemirror-mode-javascript $:/plugins/tiddlywiki/codemirror-mode-css",
+        "description": "HTML mixed highlighting mode for CodeMirror",
+        "list": "readme",
+        "modified": "20200415163033591",
+        "modifier": "jack",
+        "name": "CodeMirror Mode HTML Mixed",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/codemirror-mode-htmlmixed",
+        "original-type": "application/json",
+        "parent-plugin": "$:/plugins/tiddlywiki/codemirror",
+        "readme": "This plugin adds Syntax Highlighting for HTML tiddlers (text/html) to the [[CodeMirror|http://codemirror.net]] text editor. It needs the latest [[CodeMirror plugin|$:/plugins/tiddlywiki/codemirror]] to be installed\n\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

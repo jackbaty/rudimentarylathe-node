@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/text-slicer",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033597",
+        "creator": "jack",
+        "dependents": "$:/plugins/tiddlywiki/sax",
+        "description": "Tools for slicing text into tiddlers",
+        "list": "readme docs",
+        "modified": "20200415163033597",
+        "modifier": "jack",
+        "name": "Text Slicer",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/text-slicer",
+        "original-type": "application/json",
+        "readme": "This plugin contains tools to help slice up long texts into individual tiddlers. It currently works directly with XHTML documents and with Microsoft Word compatible DOCX documents via conversion to HTML.\n\nIt is an expression of the philosophy of TiddlyWiki: that text is easier to re-use and work with if it is sliced up into separate chunks that can be independently manipulated, and then woven back together to make up stories and narratives for publication.\n\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

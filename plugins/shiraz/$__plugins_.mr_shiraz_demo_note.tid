@@ -1,0 +1,29 @@
+caption: Note macros
+created: 20180830165701839
+creator: Mohammad
+modified: 20181022184020144
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/note
+
+! Note macro
+There is three note macro can be used for colorful notes like
+
+* success (tip, information, success)
+* warning (hint, warning)
+* danger (important, danger)
+
+
+!!! ''Syntax''
+```
+<<success "Success, this is a tip.">>
+<<warning "Warning, be aware">>
+<<danger "Danger, this is very important, be causious">>
+```
+<<success "Success, this is a tip.">>
+<<warning "Warning, be aware">>
+<<danger "Danger, this is very important, be causious">>
+
+!!! ''Example with long text''
+
+<<success "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">>

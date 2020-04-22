@@ -1,0 +1,25 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/async",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "author": "Caolan McMahon",
+        "created": "20200415163033586",
+        "creator": "jack",
+        "dependents": "",
+        "description": "async.js library",
+        "list": "readme license",
+        "modified": "20200415163033586",
+        "modifier": "jack",
+        "name": "Async",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/async",
+        "original-type": "application/json",
+        "readme": "This plugin packages [[async.js|https://github.com/caolan/async]] for use by other plugins. It does not provide any end-user visible features.\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

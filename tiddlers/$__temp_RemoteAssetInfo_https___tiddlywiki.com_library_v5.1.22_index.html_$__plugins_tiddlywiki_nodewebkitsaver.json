@@ -1,0 +1,24 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/nodewebkitsaver",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033595",
+        "creator": "jack",
+        "dependents": "",
+        "description": "Saver for nw.js",
+        "list": "readme",
+        "modified": "20200415163033595",
+        "modifier": "jack",
+        "name": "nw.js Saver",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/nodewebkitsaver",
+        "original-type": "application/json",
+        "readme": "This plugin provides a ''saver'' module for saving changes when using TiddlyWiki directly under NW.js (previously known as node-webkit).\n\n[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/nodewebkitsaver]]\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

@@ -1,0 +1,22 @@
+created: 20190113134436407
+creator: jack
+modified: 20190705151514326
+modifier: jack
+revision: 0
+tags: 
+title: baty.net
+type: text/vnd.tiddlywiki
+
+My ~~main~~ old blog, powered by [[Hugo]] at [[baty.net|https://www.baty.net/]]
+
+
+To update the theme...
+
+`git submodule update --rebase --remote`
+
+!! Log
+
+* 2019.01.13 Updated my theme to latest "Jane" and added as a Submodule right from the [[latest Jane repo|https://github.com/xianmin/hugo-theme-jane]]. (Previously I had the theme in 'myjane' and it was part of the repo). I've decided to stop trying to maintain my own fork.
+* 2019.01.22 Home page is once again static content ([[this helped|https://timhilliard.com/blog/static-home-page-in-hugo/]])
+* 2019.07.05 Oh look, it's back in action
+

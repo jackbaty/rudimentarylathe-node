@@ -1,0 +1,33 @@
+created: 20140217160644604
+creator: Danielo Rodriguez
+modified: 20190105161115878
+modifier: Danielo Rodriguez
+revision: 0
+tags: macros $:/tags/Macro
+title: $:/macros/danielo/footNote
+type: text/vnd.tiddlywiki
+
+\define ref(label)
+<$button popup="$:/state/$label$" class="tc-btn-invisible tc-slider"><sup style="color:green">$label$</sup></$button>
+\end
+
+\define definition(label,text)
+<$reveal type="popup" state="$:/state/$label$" animate="yes">
+<div class="tc-drop-down">
+<dl>
+<dt>$label$</dt>
+<dd>$text$</dd>
+</dl>
+</div>
+</$reveal>
+\end
+
+\define footnote(label,text)
+<<ref "$label$">>
+<<definition "$label$" "$text$">>
+\end
+
+\define footnotes(label,text)
+<<definition "$label$" "$text$">>
+<sub><span style="color:green">$label$ : </span> $text$</sub>
+\end

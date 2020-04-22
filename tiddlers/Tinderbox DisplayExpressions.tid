@@ -1,0 +1,19 @@
+created: 20190429143546602
+creator: jack
+modified: 20190429143935673
+modifier: jack
+revision: 0
+tags: Tinderbox
+title: Tinderbox DisplayExpressions
+type: text/vnd.tiddlywiki
+
+Show tags when available:
+
+`if($Tags.empty) {$Name} else {$Name+" ("+$Tags+")"}`
+
+Show containing heading for LogEntry items. This makes them easier to spot when collected by agents elsewhere. Adds context.
+
+`$Name+" ("+$Name(parent)+")"`
+
+
+

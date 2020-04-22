@@ -1,0 +1,27 @@
+created: 20190228135643856
+creator: jack
+modified: 20190228140621018
+modifier: jack
+revision: 0
+tags: Spacemacs Emacs
+title: 2019.02.28 - Emacs server socket
+type: text/vnd.tiddlywiki
+
+I want a persistent server daemon when running Emacs. For Spacemacs, that means...
+
+```
+dotspacemacs-enable-server t
+dotspacemacs-server-socket-dir "~/.emacs.d/server"
+```
+
+I was getting permissions errors about not having permissions to write to /var/folders/10 so I  changed socket dir to ~/.emacs/server. I then had to change permissions to 700 on that socket directory due to a startup error telling me that the directory was readable by others.
+
+I also had to tweak my `ec` script to use the `-s` switch to set the socket
+
+```
+#!/bin/sh
+which osascript > /dev/null 2>&1 && osascript -e 'tell application "Emacs" to activate'
+emacsclient -c "$@" -s ~/.emacs.d/server/server
+```
+
+I'm sure I'm doing something wrong here, since none of this seems like it should be necessary.

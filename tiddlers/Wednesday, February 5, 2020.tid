@@ -1,0 +1,29 @@
+created: 20200205120651409
+creator: jack
+modified: 20200205220734285
+modifier: jack
+revision: 0
+tags: Journal
+title: Wednesday, February 5, 2020
+type: text/vnd.tiddlywiki
+
+⛅️ Partly cloudy +21°F
+
+"""
+[img[https://galleries.baty.net/uploads/big/cbbe5823d2eb3f54319a135531960b5c.jpg]]
+//Mood (2009)//
+"""
+
+[[Org-roam]] is improving rapidly. I'm giving it a test for a week or so.
+
+This [[TiddlyWiki]] file makes for a better blog than most blogging platforms. Unless you want RSS, stats, proper image handling, etc.
+
+I have a hard time distinguishing between features that are just "neato" and those that are actually useful. The Graph in [[Roam]] is an example of the former. It's nice to have, but doesn't really //do// anything.
+
+Sometimes I question why I bother taking so many notes in the first place. I only rarely go back and //use// them for anything important. Another nice-to-have thing, I guess, but I sure spend a lot of time on and around the process of taking notes. It's not like I'm writing a book or paper or anything. This is different from [[Journaling]]. Journaling is the process of recording thoughts and feelings and personal events for a day. The act of journaling is useful in itself. And it doesn't often rely on search.
+
+Does anyone know of a way to use [[Emacs]] for _some_ things but not then want to use it for _everything_? That's where things go wrong for me.
+
+[[Roam]] is better at doing what Roam does than either org-mode or TiddlyWiki. Dammit!
+
+I feel like the phrase "syntactic sugar" is used mostly by programmers on the wrong side of Dunning-Kruger equation. (The same is probably true for people who invoke Dunning-Kruger :))

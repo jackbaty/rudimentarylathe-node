@@ -1,0 +1,18 @@
+created: 20191108151123709
+creator: jack
+modified: 20191108152312452
+modifier: jack
+revision: 0
+tags: Emacs
+title: Elfeed
+type: text/vnd.tiddlywiki
+
+"An Emacs web feeds client "
+
+[[Elfeed|https://github.com/skeeto/elfeed]]
+
+I'm an on-again, off-again elfeed user. As of November 08, 2019 I'm on again.
+
+---
+* [[Update on using Elfeed|https://www.baty.net/2019/update-on-using-elfeed/]] (August 2019)
+* [[I Failed at Using Elfeed as My RSS Reader |https://www.baty.net/2018/i-failed-at-using-elfeed-as-my-rss-reader/]] (June 2018)

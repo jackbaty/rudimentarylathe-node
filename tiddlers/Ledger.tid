@@ -1,0 +1,13 @@
+created: 20190117124619987
+creator: jack
+modified: 20190118122049525
+modifier: jack
+revision: 0
+title: Ledger
+type: text/vnd.tiddlywiki
+
+[[ledger-cli|https://www.ledger-cli.org/]]
+
+`brew install ledger`
+
+See [[Plain Text Accounting with Ledger]]

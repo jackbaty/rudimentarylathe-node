@@ -1,0 +1,17 @@
+created: 20190314184334620
+creator: jack
+modified: 20190314195150434
+modifier: jack
+revision: 0
+tags: 
+title: How to disable tap-to-click in Windows
+type: text/vnd.tiddlywiki
+
+After installing Windows 10 on my [[ThinkPad|ThinkPad X1 Carbon]] the worst feature in the world was enabled by default: Tap to Click.
+
+Settings->Personalization->Themes->Mouse Cursor->Settings
+
+I unchecked "Tap to click" and it worked, but then trackpad scrolling didn't work. I had to delete and reinstall the driver, then do the above again.
+
+It's this kind of shit that I was hoping to avoid by installing Windows in the first place.
+

@@ -1,0 +1,39 @@
+caption: {{$:/plugins/flibbles/relink/language/ui/Fields/Caption}}
+tags: $:/tags/flibbles/relink/Configuration
+title: $:/plugins/flibbles/relink/ui/configuration/Fields
+
+\define prefix-fields() $:/config/flibbles/relink/fields/
+\define lingo-base() $:/plugins/flibbles/relink/language/Buttons/
+\define state-base() $:/state/flibbles/relink/
+
+\define body()
+
+{{$:/plugins/flibbles/relink/language/Help/Fields}}
+
+<table><tbody>
+<tr><th>Field Name</th><th>Field Type</th><th>Delete</th></tr>
+<$list filter="[all[shadows+tiddlers]prefix<prefix-fields>!has[draft.of]has[text]]">
+<tr>
+<td><$list filter="[all[current]removeprefix<prefix-fields>]"><<currentTiddler>></$list></td>
+<td>{{||$:/plugins/flibbles/relink/ui/components/select-fieldtype}}</td>
+<td>{{||$:/plugins/flibbles/relink/ui/components/button-delete}}</td>
+</tr>
+</$list>
+</tbody></table>
+
+<em class="tc-edit">Add a new field:</em>
+<$edit-text tiddler="$(state-base)$field-name"
+            tag="input" default="" placeholder="field name" />
+<$button tooltip={{$(lingo-base)$NewField/Hint}}
+         aria-label={{$(lingo-base)$NewField/Caption}}>
+<$set name="tiddlerName"
+      filter="[<prefix-fields>addsuffix{$(state-base)$field-name}]">
+<$action-setfield $tiddler=<<tiddlerName>>
+                  text={{$:/config/flibbles/relink/settings/default-type}} />
+</$set>
+<$action-deletetiddler $tiddler="$(state-base)$field-name" />
+<$text text={{$(lingo-base)$NewField/Caption}}/>
+</$button>
+\end
+
+<<body>>

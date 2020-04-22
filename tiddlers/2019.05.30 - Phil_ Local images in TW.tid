@@ -1,0 +1,12 @@
+created: 20190530151501583
+creator: jack
+modified: 20190530151738028
+modifier: jack
+revision: 0
+tags: [[Phil Nunnally]]
+title: 2019.05.30 - Phil: Local images in TW
+type: text/vnd.tiddlywiki
+
+Phil, maybe [[2019.02.03 - Wiki: External file handling]] will give you an idea around your comments about [[hosting images locally in TiddlyWiki|https://youneedastereo.com/#how%20I%20self-host%20images%20in%20this%20wiki]]
+
+I've gone back and forth, and now mostly just embed images from SmugMug but the /files thing works fine with Node.

@@ -1,0 +1,34 @@
+caption: Alert macros
+created: 20180821095648852
+creator: Mohammad
+modified: 20181021085533070
+modifier: Mohammad
+tags: bootstrap
+title: $:/plugins/.mr/shiraz/demo/alert
+
+!!! ''Syntax''
+```
+<<alert-primary "text">>
+<<alert-secondary "text">>
+<<alert-success "text">>
+<<alert-danger "text">>
+<<alert-warning "text">>
+<<alert-info "text">>
+<<alert-light "text">>
+<<alert-dark "text">>
+```
+
+!!! ''Example''
+
+<<alert-primary   "This is a simple ''primary'' alert" 45%>>
+<<alert-secondary "This is a simple ''secondary'' alert" 45%>>
+<<alert-success "This is a simple ''success'' alert" 45%>>
+<<alert-danger "This is a simple ''danger'' alert" 45%>>
+<<alert-warning "This is a simple ''warning'' alert" 45%>>
+<<alert-info "This is a simple ''info'' alert" 45%>>
+<<alert-light "This is a simple ''light'' alert" 45%>>
+<<alert-dark "This is a simple ''dark'' alert" 45%>>
+
+! More example with longer paragraph
+
+<$macrocall $name="alert-warning" text=<<.lorem>> width="50%" />

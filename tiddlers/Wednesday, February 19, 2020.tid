@@ -1,0 +1,13 @@
+created: 20200219120352873
+creator: jack
+modified: 20200219183956317
+modifier: jack
+tags: Journal
+title: Wednesday, February 19, 2020
+
+⛅️ Partly cloudy +17°F
+
+
+It is nearly impossible to delete a non-empty Vault from Amazon Glacier. Why would I even //have// a non-empty vault? Have to do everything via the CLI. Fine, but  Found a [[python script|https://github.com/leeroybrun/glacier-vault-remove]] that claims to do it. Running it now. It's going to take a while. There are 500,000 objects and it has to call `delete-archive` one at a time.
+
+So given the offer by Conor I've purchased the [[Nat Eliason Roam Course|https://learn.nateliason.com/p/effortless-output-with-roam]]

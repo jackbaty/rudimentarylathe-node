@@ -1,0 +1,13 @@
+created: 20190525140825527
+creator: jack
+enddate: 2019-05-29
+goodreads: https://www.goodreads.com/book/show/39507318-the-library-book
+modified: 20190530195916135
+modifier: jack
+revision: 0
+startdate: 2019-05-24
+tags: Book
+title: The Library Book by Susan Orlean
+type: text/vnd.tiddlywiki
+
+{{||$:/jab/viewtemplate/book}}

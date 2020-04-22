@@ -1,0 +1,30 @@
+created: 20190216145455249
+creator: jack
+modified: 20190216145920473
+modifier: jack
+revision: 0
+tags: Hardware
+title: Retro8 film scanner
+type: text/vnd.tiddlywiki
+
+[[Retro8 Film Scanner Instructions|http://www.moviestuff.tv/retro_8_setup.html]]
+
+!!! Focusing the Retro-8 film scanner
+
+
+My unit lost focus during shipment. I called Roger (MovieStuff,
+713-870-8797) and he walked me through the following procedure to set the
+focus...
+
+Flip #5 dip switch to On (This disables the motor).
+
+There's a small thumb screw behind the camera on the lens. (Reach around to the
+upper right). Loosen this.
+
+Launch the software and hit CTRL-SHIFT-ALT-A (an "A" will appear in the preview
+area). I think it has to be in "Setup" mode.
+
+With sharp film in the scanner, rotate the lens until the image appears sharp,
+making sure to keep the film taught across the lens.
+
+ Added: 2015-10-03 Sat

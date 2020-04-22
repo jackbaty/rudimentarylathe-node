@@ -1,0 +1,16 @@
+created: 20190913111506868
+creator: jack
+modified: 20190913111659102
+modifier: jack
+revision: 0
+tags: Word
+title: Word: verisimilitude
+type: text/vnd.tiddlywiki
+
+''verisimilitude'' | ˌvərəsəˈmiləˌt(y)o͞od | noun
+
+<<<
+the appearance of being true or real: the detail gives the novel some verisimilitude.
+<<<
+
+See also <$macrocall $name="dictionary" word={{{ [<currentTiddler>removeprefix[Word: ]] }}} />

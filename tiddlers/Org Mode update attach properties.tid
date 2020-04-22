@@ -1,0 +1,25 @@
+created: 20200129180609896
+creator: jack
+modified: 20200129180724765
+modifier: jack
+revision: 0
+tags: Orgmode
+title: Org Mode update attach properties
+type: text/vnd.tiddlywiki
+
+```
+(defun org-update-attach-properties ()
+    "Change properties for Org-Attach."
+    (interactive)
+    (org-with-point-at 1
+      (while (outline-next-heading)
+        (let ((DIR (org--property-local-values "ATTACH_DIR" nil)))
+          (when DIR
+            (org-set-property "DIR" (car DIR))
+            (org-delete-property "ATTACH_DIR"))))
+      (org-delete-property-globally "ATTACH_DIR_INHERIT")))
+```
+
+From the [[Release Notes|https://orgmode.org/Changes.html#org512ac5a]]
+
+This updates the ATTACH_DIR to DIR and deletes invalid ATTACH_DIR_INHERIT

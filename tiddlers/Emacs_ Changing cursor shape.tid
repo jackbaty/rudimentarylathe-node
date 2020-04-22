@@ -1,0 +1,11 @@
+created: 20190730191300476
+creator: jack
+modified: 20190730191320481
+modifier: jack
+revision: 0
+tags: Emacs
+title: Emacs: Changing cursor shape
+type: text/vnd.tiddlywiki
+
+`(setq-default cursor-type 'bar) `
+

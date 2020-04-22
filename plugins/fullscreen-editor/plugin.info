@@ -1,0 +1,14 @@
+{
+    "title": "$:/plugins/jd/fullscreen-editor",
+    "author": "jd",
+    "core-version": "1.1.19",
+    "created": "20190206061130276",
+    "creator": "HC Haase",
+    "description": "Fullscreen Editor",
+    "list": "readme",
+    "modified": "20200304200245298",
+    "modifier": "HC Haase",
+    "plugin-type": "plugin",
+    "tags": "tb",
+    "version": "1.0.0"
+}

@@ -1,0 +1,21 @@
+created: 20190115200602062
+creator: jack
+modified: 20190116193504490
+modifier: jack
+revision: 0
+tags: Emacs
+title: 2019.01.15 - LaTeX export settings for org-mode
+type: text/vnd.tiddlywiki
+
+```
+* Common Export Settings                                           :noexport:
+
+#+OPTIONS: ':nil *:t -:t ::t <:nil H:4 \n:nil ^:{} arch:headline
+#+OPTIONS: broken-links:nil c:nil creator:nil
+#+OPTIONS: author:t title:t date:t
+#+OPTIONS: d:(not "LOGBOOK")  e:t email:nil f:t inline:t num:nil
+#+OPTIONS: p:nil pri:nil prop:t stat:nil tags:t tasks:nil tex:t
+#+OPTIONS: timestamp:nil toc:nil todo:nil |:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport nolatex
+```

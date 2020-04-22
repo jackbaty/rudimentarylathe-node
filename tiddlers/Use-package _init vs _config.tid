@@ -1,0 +1,22 @@
+created: 20190212174436027
+creator: jack
+modified: 20190212175015880
+modifier: jack
+revision: 0
+tags: Emacs
+title: Use-package :init vs :config
+type: text/vnd.tiddlywiki
+
+I'm always confused by this, so...
+
+<<<
+There is no general rule which applies to all settings and packages; you just need to familiarise yourself with the meaning of these keywords by reading the README file of use-package.
+
+In summary, the '':init block is run at startup'', as if you had placed its constituent forms at the top-level (i.e. outside of a typical call to use-package) of your user-init-file. This means they are always run, regardless of whether the corresponding package has been loaded or not.
+
+The '':config block, on the other hand, is run after the corresponding package has been loaded'', by way of the eval-after-load mechanism.
+
+As such, you can improve your startup time by moving applicable long-running settings from :init to :config. If you need to modify a variable which is only defined after loading a particular package, you similarly need to place this in the :config block. Some variables, such as gnus-home-directory, need to be set before their corresponding package is loaded, so they should be placed in :init. I strongly advise putting all applicable add-hook/remove-hook calls in the :init block, as hooks can be modified even when unbound, and this affords more modularity to your setup.
+
+You can often avoid having to figure out where to place a particular setting by using the new :custom keyword, or by using the Easy Customization interface directly.
+<<<[[Basil|https://emacs.stackexchange.com/a/39123]]

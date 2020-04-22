@@ -1,0 +1,14 @@
+created: 20190212130705163
+creator: jack
+modified: 20190813132558621
+modifier: jack
+revision: 0
+tags: Changelog
+title: 2019.02.12 - Wiki: Added uni-link plugin
+type: text/vnd.tiddlywiki
+
+[[Uni-link|https://wikilabs.github.io/editions/uni-link/]] by Mario Pietsch is a plugin for TiddlyWiki that allows for greater control over wiki link text and also introduces aliases. I think aliases are important for making linking easier and for possibly helping prevent broken links down the road.
+
+[[Intro video|https://www.youtube.com/watch?v=IelDdM7iXrA&feature=youtu.be]]
+
+The only drawback I've found is that when using an alias link, no backlink reference is made.

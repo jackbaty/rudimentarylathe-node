@@ -1,0 +1,12 @@
+created: 20190108140114463
+creator: jack
+modified: 20190108140355927
+modifier: jack
+revision: 0
+tags: Meta
+title: 2019.01.08 - Wiki: Created filename setting
+type: text/vnd.tiddlywiki
+
+Added tiddler named `$:/config/SaveWikiButton/Filename` and set the value to "rudimentarylathe.html" so that when I save a single-file version of the wiki it has a recognizable name. This setting was made available in v 5.1.19.
+
+See [[https://tiddlywiki.com/#Hidden%20Setting%3A%20Filename%20for%20Save%20Wiki%20Button]] for details

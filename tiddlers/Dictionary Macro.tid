@@ -1,0 +1,25 @@
+created: 20190112123529239
+creator: jack
+modified: 20190112124001510
+modifier: jack
+revision: 0
+tags: $:/tags/Macro
+title: Dictionary Macro
+type: text/vnd.tiddlywiki
+
+\define dataLinkCreator(data-file index word)
+\rules except wikilink
+<$wikify name="input" text="{{$data-file$##$index$}}$word$">
+<a href=<<input>> target="_blank">$index$</a>
+</$wikify>
+\end
+
+\define dictionary(word datafile:"$:/_data/dictionaryLinks")
+<small>
+<$list filter="[[$datafile$]indexes[]]" variable="index">
+<$macrocall $name="dataLinkCreator" data-file="$datafile$" index=<<index>> word=$word$/>
+</$list>
+</small>
+\end
+
+Thanks to S. S. in the [[Google Group|https://groups.google.com/d/msg/tiddlywiki/PiUwdVpdyzQ/KVszhSJbCQAJ]]

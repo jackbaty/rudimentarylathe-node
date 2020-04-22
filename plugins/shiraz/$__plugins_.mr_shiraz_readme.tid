@@ -1,0 +1,73 @@
+created: 20181108100430291
+creator: Mohammad
+modified: 20181108200208651
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/readme
+
+! Shiraz
+Shiraz is a small TW5 plugin contains several macros, stylesheets, templates, snippets and acts as a starter kit. Some of its features are given below
+
+* Macro
+** abbreviation (abbr) and details macro
+** alert boxes (bootstrap alert classes)
+** classic notes (danger, warning, info)
+** gradient (for dividing section in text)
+** footnote (creates footnotes)
+** tc, bc (text with foreground and background colors)
+** documentation macro to show code, rendered result, and underlying html code)
+
+* Reveal gradually ( walkthrough  , guided help, linked list)
+** Steps
+** Wizard
+
+* Customized css 
+** notes
+** float class for images
+** Resolved floating images (overflow and cross tiddler borders)
+** Customized control buttons (shown as mouse hover)
+
+* ~ToDo
+** A todo list ([[ToDos|$:/plugins/.mr/shiraz/demo/todo]]) is set of macro and template to create tasks, list them and manipulate them!
+
+* Customized table classes
+** Colored header
+** Striped row table
+** Striped column table
+** Borderless table
+** Hoverable table
+
+* Others
+** Show fields in view mode (From Ton Gerner)
+** Notebook tiddler
+** Standout markup
+** Sticky footer
+** Utility macros (.lorem, vspace, hspace,...)
+
+!! Howto
+* [[Tutorial|$:/plugins/.mr/shiraz/tutorial]] shows a demo of some of Shiraz features
+* To use Shiraz in your own wiki install the Shiraz plugin
+
+!! Install
+Simply drag and drop the below tiddler to your wiki
+
+* $:/plugins/.mr/shiraz
+
+!! Acknowledgements
+Many people help directly or indirectly to bring this plugin into work. Their help and comments and ideas through [[Tiddlywiki forum|http://groups.google.com/group/TiddlyWiki]] are highly appreciated, among them are:
+
+* Jeremy Ruston
+* Eric Shulman
+* Mario Pietsch
+* Simon Huber
+* Anthony Muscio
+* Mark S
+* Thomas Elmiger
+* Josiah (~TiddlyTweeter)
+And many more ...
+
+!!! Codes 
+Codes from these projects are incorporated
+
+* Documentation macros from [[Tiddlywiki.com|https://tiddlywiki.com/]]
+* The //view filed// code is incorporated from [[Ton Gerner|http://tongerner.tiddlyspot.com/]]

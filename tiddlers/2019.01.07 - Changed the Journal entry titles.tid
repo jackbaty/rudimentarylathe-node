@@ -1,0 +1,12 @@
+created: 20190107140836048
+creator: jack
+modified: 20190213190825191
+modifier: jack
+revision: 0
+tags: Meta
+title: 2019.01.07 - Changed the Journal entry titles
+type: text/vnd.tiddlywiki
+
+I've changed the date format from `YYYY-MM-DD - Journal` to `YYYY.MM.DD - Journal` because the period is narrower but the date is just as easy to read.
+
+This led to a blog post: [[Changing my default date format|https://www.baty.blog/2019/date-formats]]

@@ -1,0 +1,19 @@
+author: JeremyRuston
+core-version: >=5.0.0
+created: 20200415163033597
+creator: jack
+dependents: $:/themes/tiddlywiki/snowwhite
+description: Centralises the story river
+modified: 20200415163033597
+modifier: jack
+name: Centralised
+original-plugin-type: theme
+original-tags: 
+original-title: $:/themes/tiddlywiki/centralised
+original-type: application/json
+requires-reload: no
+server-url: https://tiddlywiki.com/library/v5.1.22/index.html
+tags: $:/tags/RemoteAssetInfo
+title: $:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/themes/tiddlywiki/centralised
+type: text/vnd.tiddlywiki
+version: 5.1.22

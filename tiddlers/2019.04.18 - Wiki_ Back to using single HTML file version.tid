@@ -1,0 +1,15 @@
+created: 20190418184605142
+creator: jack
+modified: 20190813132808864
+modifier: jack
+revision: 0
+tags: Changelog
+title: 2019.04.18 - Wiki: Back to using single HTML file version
+type: text/vnd.tiddlywiki
+
+I'm once again using a static, local HTML tiddlywiki file for this site. I sync updates using a small Makefile.
+
+* Changed nginx config to serve a single HTML file at ~/apps/wiki/rudimentarylathe.html
+* Deleted the cron job which committed and pushed to github nightly.
+
+I like having tiddlers "editable" for non-logged in users who would like to see what's going on. Also, no moving parts is nice. I don't like the lag between editing and publishing but I can deal with it.

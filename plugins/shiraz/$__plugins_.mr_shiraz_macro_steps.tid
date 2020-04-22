@@ -1,0 +1,140 @@
+created: 20181017044435624
+creator: Mohammad
+modified: 20181021041905825
+modifier: Mohammad
+tags: $:/tags/Macro kookma
+title: $:/plugins/.mr/shiraz/macro/steps
+
+\define _nextItem(filter)
+     <!-- 
+     _nextItem sets the filed `current-item` to the next tiddler
+     in a list of tiddlers which is the output of filter run. 
+     -->
+    <$set
+    tiddler=<<currentTiddler>>
+    field="current-item"
+    name=currentIndex
+    emptyValue={{{$filter$ +[first[]]}}}
+    >
+      <$set
+      filter={{{$filter$ +[after{!!current-item}]}}}
+      name=newIndex
+      emptyValue=<<currentIndex>>
+      >
+      <$action-setfield
+      $tiddler={{!!title}}
+      current-item=<<newIndex>>
+      />
+      </$set>
+    </$set>
+\end
+
+\define _previousItem(filter)
+     <!-- 
+     _previousItem sets the filed `current-item` to the previous tiddler
+     in a list of tiddlers which is the output of filter run. 
+     -->   
+    <$set
+    filter={{{$filter$ +[before{!!current-item}]}}}
+    name=newIndex
+    emptyValue={{{$filter$ +[first[]]}}}
+    >
+      <$action-setfield
+      $tiddler={{!!title}}
+      current-item=<<newIndex>>
+      />
+    </$set>
+\end
+
+\define _show-and-replace(filter:"", class:"")
+    <!-- 
+      _show-and-replace shows all tiddlers which are the output of filter run
+      one by one and replace the current item with the
+      next or previous one.
+    -->
+ <div class="$class$">
+
+ <$list filter="$filter$ +[allbefore:include{!!current-item}!limit[1]]" 
+   variable="myTid" emptyMessage="Empty output">
+   <$transclude tiddler=<<myTid>> mode="block"/>
+ </$list></div>
+ <div>	 
+   <$button actions=<<_previousItem $filter$>>>
+     {{$:/core/images/left-arrow}} 
+   </$button>
+   <$button actions=<<_nextItem $filter$>> >
+     {{$:/core/images/right-arrow}} 
+   </$button>
+ </div>
+\end
+
+
+\define _show-and-keep(filter:"", class:"")
+    <!-- 
+     _show-and-keep shows all tiddlers which are the output of filter run
+     one by one and keep the previous ones while shows the
+     next one or remove the last one.
+     -->
+  <div class="$class$">
+
+  <$list filter="$filter$ +[allbefore:include{!!current-item}]" 
+    variable="myTid" emptyMessage="Empty output">
+    <$transclude tiddler=<<myTid>> mode="block"/>
+  </$list></div>
+  <div>	 
+    <$button actions=<<_previousItem $filter$>>>
+      {{$:/core/images/up-arrow}}
+    </$button>
+    <$button actions=<<_nextItem $filter$>> >
+      {{$:/core/images/down-arrow}} 
+    </$button>
+  </div>
+\end
+
+
+\define steps(filter, mode:"replace", class:"")
+ <$reveal type="match" text=$mode$ default="replace")>
+    <<_show-and-replace $filter$ """$class$""">>
+ </$reveal>
+ <$reveal type="match" text=$mode$ default="keep")>
+    <<_show-and-keep $filter$ """$class$""">>
+ </$reveal>
+\end
+
+
+! Description
+This tiddler contains the macros and explain the ''steps'' mechanism.
+The `steps` itself contains below macro
+
+* `_nextItem`: to get the next item in the list
+* `_previousItem`: to get the previous item in the list
+* `_show-and-replace`: show the left-right arrows and steps in the list of tiddlers, show one at a time
+* `_show-and-keep`: show the down-up arrows and steps in the list of tiddlers while keep those are displayed before
+* `steps`: the main macro, it has two modes
+** mode=`replace`: to steps in list of tiddlers show one at a time and replace the current one with previous/next item
+** mode=`keep`: to steps in the list of tiddlers show the next/previous item while other items are displayed at the same time
+
+The `steps` macro can be called from any tiddler using the below syntax:
+
+<<<
+*`<<steps "filter">>` or 
+*`<<steps "filter" "mode">>` or
+*`<<steps "filter" "mode" "class">>`
+<<<
+This macro creates and uses a field in the target tiddler named `current-item`. `filter` is the standard Tiddlywiki filter expression like `[tag[png]]` and `class` is a html5 class attribute.
+
+The `class` can be used to customize the output. Colors, fonts, alignment, border and like that can be set.
+
+@@background-color:black;color:white;width:70%;padding:10px;
+''Important Note'': The macros with underscore (_) in their name are private macros and should not be called outside this tiddler. Only ''steps'' is allowed to be called.
+@@
+
+!! Troubleshooting
+* Multiple call to `steps` in the same tiddler is ''not recommended'' as they shares the same filed `current-item` and this causes confusion
+* At first use, if it does not show anything, click the next/previous buttons to start displaying items
+* If the `steps` does not show anything check the filter you provided. Make sure there are tiddlers as output of provided filter.
+
+@@background-color:black;color:white;width:70%;padding:10px;
+;Revision History
+:Rev: 0.4, 20th October 2018 (added filter attribute)
+@@

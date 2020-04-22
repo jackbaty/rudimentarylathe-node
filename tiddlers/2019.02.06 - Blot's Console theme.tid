@@ -1,0 +1,17 @@
+created: 20190206151715356
+creator: jack
+modified: 20190206152415303
+modifier: jack
+revision: 0
+tags: Blot
+title: 2019.02.06 - Blot's Console theme
+type: text/vnd.tiddlywiki
+
+I keep switching [[baty.blog|https://www.baty.blog]] to [[Blot's|https://blot.im]] "Console" theme then switching it back to my default theme. I need to find a way to make it slightly less noisy. One thing I miss from using Winer's Fargo for blogging is the way it grouped each day's entries under a single heading.
+
+I ran into [[Kevin Kortum|https://micro.blog/kordumb]]'s [[tiv.today|https://tiv.today/]] and that nails a couple things I've been looking for:
+
+# Only shows the date once for each day
+# Shows titleless posts inline and not as linked text
+
+I want it!

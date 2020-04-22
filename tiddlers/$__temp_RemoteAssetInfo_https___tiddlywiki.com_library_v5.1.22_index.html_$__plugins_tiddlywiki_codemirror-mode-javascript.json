@@ -1,0 +1,25 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/plugins/tiddlywiki/codemirror-mode-javascript",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "created": "20200415163033591",
+        "creator": "jack",
+        "dependents": "",
+        "description": "JavaScript highlighting mode for CodeMirror",
+        "list": "readme",
+        "modified": "20200415163033591",
+        "modifier": "jack",
+        "name": "CodeMirror Mode JavaScript",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/codemirror-mode-javascript",
+        "original-type": "application/json",
+        "parent-plugin": "$:/plugins/tiddlywiki/codemirror",
+        "readme": "This plugin adds Syntax Highlighting for Javascript tiddlers (application/javascript) to the [[CodeMirror|http://codemirror.net]] text editor. It needs the latest [[CodeMirror plugin|$:/plugins/tiddlywiki/codemirror]] to be installed\n\n",
+        "requires-reload": "yes",
+        "server-url": "https://tiddlywiki.com/library/v5.1.22/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.22"
+    }
+]

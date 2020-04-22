@@ -1,0 +1,19 @@
+created: 20191117141936617
+creator: jack
+modified: 20191117142113630
+modifier: jack
+revision: 0
+tags: CLI
+title: GoAccess
+type: text/vnd.tiddlywiki
+
+Installed [[GoAccess|https://goaccess.io/]] on the Ghost blog server so I can keep an eye on 404s after moving the site.
+
+Installed based on the default instructions:
+
+```
+$ echo "deb http://deb.goaccess.io/ $(lsb_release -cs) main" | sudo tee -a /etc/apt/sources.list.d/goaccess.list
+$ wget -O - https://deb.goaccess.io/gnugpg.key | sudo apt-key add -
+$ sudo apt-get update
+$ sudo apt-get install goaccess
+```

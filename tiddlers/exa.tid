@@ -1,0 +1,16 @@
+created: 20190701190449227
+creator: jack
+modified: 20190701190719623
+modifier: jack
+revision: 0
+tags: CLI
+title: exa
+type: text/vnd.tiddlywiki
+
+[[exa|https://the.exa.website]] is "A modern replacement for ls."
+
+I've already aliased `ls`...
+
+`alias ls="exa -l"`
+
+I'll probably alias a bunch more.

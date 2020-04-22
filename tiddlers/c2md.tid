@@ -1,0 +1,17 @@
+created: 20190128144010666
+creator: jack
+modified: 20190129183206217
+modifier: jack
+revision: 0
+tags: CLI OneLiner
+title: c2md
+type: text/vnd.tiddlywiki
+
+The [[Paste to Markdown]] web page works great, so I thought I'd see if I could replicate it locally via CLI or maybe [[Alfred]]. No luck, since the usual CLI tools like `pbpaste` rip out the formatting. 
+
+My coworker [[Karl|https://karlswedberg.com/]] heard me asking about it and sent me this:
+
+[[c2md|https://github.com/kswedberg/c2md]]
+
+
+

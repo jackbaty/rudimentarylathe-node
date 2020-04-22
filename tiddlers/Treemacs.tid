@@ -1,0 +1,18 @@
+created: 20190127135147896
+creator: jack
+modified: 20190127135405703
+modifier: jack
+revision: 0
+tags: 
+title: Treemacs
+type: text/vnd.tiddlywiki
+
+I had been using neotree but thought I'd give [[Treemacs|https://github.com/Alexander-Miller/treemacs]] a shot.
+
+I used the full configuration example given in the github readme. 
+
+
+!!! Log
+
+* 2019.01.27 Wouldn't install (some Melpa error about not finding Avy). Ran `package-refresh-contents` and restarted, which fixed the error.
+

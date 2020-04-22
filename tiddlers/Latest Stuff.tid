@@ -1,0 +1,21 @@
+created: 20190206002417947
+creator: jack
+modified: 20190414140837660
+modifier: jack
+revision: 0
+tags: 
+title: Latest Stuff
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Journal]sort[created]last[]]">
+<h2>Journal for <$view field="created" format="date" template="DDD DDth MMM YYYY"/></h2>
+<$transclude  mode="block"/>
+<br><br clear="all">
+
+<small><$link>View</$link></small> or <$button message="tm-edit-tiddler">Edit</$button>
+</$list>
+
+---
+!!! Latest 10 non-Journal entries
+
+<<list-links filter:"[!is[system]!tag[Journal]!sort[created]limit[10]]">>

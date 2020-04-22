@@ -1,0 +1,14 @@
+created: 20200203221510788
+creator: jack
+modified: 20200203221615113
+modifier: jack
+revision: 0
+tags: Software
+title: YunoHost
+type: text/vnd.tiddlywiki
+
+<<<
+With YunoHost, you can easily manage a server for your friends, association or enterprise.
+<<< https://yunohost.org
+
+This is comparable to [[Cloudron]] but looks a little less polished.

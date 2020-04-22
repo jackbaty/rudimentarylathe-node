@@ -1,0 +1,11 @@
+created: 20190122145731515
+creator: jack
+modified: 20190122151720174
+modifier: jack
+revision: 0
+tags: [[Tech Note]]
+title: 2019.01.22 - Created EmacsNavigation plugin for fman
+type: text/vnd.tiddlywiki
+
+I didn't see a plugin for adding Emacs keybindings to [[fman]] so I [[made one myself|EmacsNavigation Plugin for fman]]
+

@@ -1,0 +1,12 @@
+created: 20190725153648053
+creator: jack
+modified: 20190725153759289
+modifier: jack
+revision: 0
+tags: TiddlyWiki Software
+title: File Backup Utility for TiddlyWiki
+type: text/vnd.tiddlywiki
+
+[[File Backup Utility for TiddlyWiki|https://pmario.github.io/file-backups/]]
+
+Not sure when I'd need this, given that I use the [[Timimi]] plugin for Firefox when dealing with single-file wikis.

@@ -1,0 +1,31 @@
+created: 20191230032104724
+creator: jack
+modified: 20200101150318242
+modifier: jack
+revision: 0
+tags: 
+title: Movies
+type: text/vnd.tiddlywiki
+
+!!! Movies I've watched
+
+''There's no real reason to keep movies here. [[Letterboxd does a much superior job|https://letterboxd.com/jackbaty]]''
+
+---
+
+<$button tooltip="Add a movie">Add a movie
+<$action-createtiddler
+$basetitle='New Movie'
+text=""
+tags='Movie'
+$savetitle='$:/.user/CreateBook!!newBook'
+/>
+
+<$action-sendmessage
+$message="tm-edit-tiddler"
+$param={{$:/.user/CreateBook!!newBook}}/>
+</$button>
+
+!! 2019
+
+<<list-links filter:"[tag[Movie]!sort[created]]">>

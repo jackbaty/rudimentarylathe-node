@@ -1,0 +1,16 @@
+created: 20190524194821399
+creator: jack
+modified: 20190524195140047
+modifier: jack
+revision: 0
+tags: 
+title: NetNewsWire
+type: text/vnd.tiddlywiki
+
+[[NetNewsWire|https://nnw.ranchero.com]] was my favorite RSS reader for years. Now that Brent is working on version 5, it's my favorite again.
+
+
+Tip, to show the title bar:
+
+`defaults write com.ranchero.NetNewsWire-Evergreen KafasisTitleMode TRUE`
+

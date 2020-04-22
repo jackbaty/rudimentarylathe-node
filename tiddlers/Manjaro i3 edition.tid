@@ -1,0 +1,68 @@
+created: 20191029150317507
+creator: jack
+modified: 20191029150652791
+modifier: jack
+revision: 0
+tags: Linux
+title: Manjaro i3 edition
+type: text/vnd.tiddlywiki
+
+I moved from i3 to [[Manjaro Linux]] Gnome edition<<footnote "because" "i3 is too hard!">>, but here are the older notes.
+
+!! Notes when running Manjaro i3 edition
+I ran into trouble with not finding mirrors, and this helped:
+
+`sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syyu`
+
+Remap Caps_Lock to Control
+
+~/.Xmodmap
+
+```
+clear lock
+clear control
+keycode 66 = Control_L
+add control = Control_L Control_R
+```
+
+Reverse scrolling
+
+Update... now this instead:
+
+/etc/X11/xorg.conf.d/30-touchpad.conf
+
+```
+Section "InputClass"
+    Identifier "touchpad"
+    Driver "libinput"
+    MatchIsTouchpad "on"
+    Option "Tapping" "off"
+    Option "VertTwoFingerScroll" "on"
+    Option "NaturalScrolling" "true"      # <---this is for "natural" (reverse) scrolling
+EndSection
+
+```
+
+~/.xmodmap
+
+```
+pointer = 1 2 3 5 4 7 6 8 9 10 11 12
+```
+Installed font Iosevka
+
+```
+youart iosevka-git
+```
+
+[[Possible fix for dark input boxes in Firefox|https://www.matthiggins.dev/dark-input-boxes-in-firefox-on-manjaro/]]
+
+
+When running as a VM in Parallels, [[this article|https://kb.parallels.com/en/124751]] helped fix the black screen problem. Short version is edit `config.pvm` in the bundle and change the VideoMemorySize section from Type 1 to Type 0.
+
+
+---
+''Death by 1000 cuts''
+
+* Can't remap caps lock to control (no matter how many ways I try)
+* Can't copy and paste from a terminal
+* Touchpad on the ThinkPad is horrible and I can't configure it properly

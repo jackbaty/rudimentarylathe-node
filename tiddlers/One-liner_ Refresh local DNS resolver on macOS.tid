@@ -1,0 +1,14 @@
+created: 20190129142220707
+creator: jack
+modified: 20190129142304534
+modifier: jack
+revision: 0
+tags: OneLiner
+title: One-liner: Refresh local DNS resolver on macOS
+type: text/vnd.tiddlywiki
+
+```
+sudo killall -HUP mDNSResponder
+```
+
+I think this applies to Mojave.

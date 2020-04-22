@@ -1,0 +1,15 @@
+created: 20190122151445199
+creator: jack
+modified: 20190122152552801
+modifier: jack
+revision: 0
+tags: 
+title: EmacsNavigation Plugin for fman
+type: text/vnd.tiddlywiki
+
+The EmacsNavigation plugin for [[fman]] adds simple Emacs keybindings.
+
+Basically, `Ctrl+n` maps to MoveCursorUp and `Ctrl+p` maps to MoveCursorDown. 
+
+It's [[on Github|https://github.com/jackbaty/EmacsNavigation-fman]]
+

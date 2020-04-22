@@ -1,0 +1,12 @@
+created: 20191230225558788
+creator: jack
+modified: 20191230225743376
+modifier: jack
+revision: 0
+tags: Emacs
+title: Emacs ivy-posframe
+type: text/vnd.tiddlywiki
+
+[[ivy-posframe|https://github.com/tumashu/ivy-posframe]] is an extension of [[posframe|https://github.com/tumashu/posframe]] which is "Pop a posframe (just a child-frame) at point"
+
+It makes candidate popup frames look better and puts them where I want them (top-center)

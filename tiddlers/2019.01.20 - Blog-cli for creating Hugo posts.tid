@@ -1,0 +1,12 @@
+created: 20190120224145987
+creator: jack
+modified: 20190120224340528
+modifier: jack
+revision: 0
+tags: 
+title: 2019.01.20 - Blog-cli for creating Hugo posts
+type: text/vnd.tiddlywiki
+
+[[Blog-cli|https://www.kahlillechelt.com/2019/01/18/blog-cli-a-cli-for-blogging-with-static-site-generators/]] by Kahlil Lechelt
+
+Seems like a nice version of the crappy shell script I put together at one time. Should work great with [[Hugo]]

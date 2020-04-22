@@ -1,0 +1,33 @@
+created: 20190305210147297
+creator: jack
+modified: 20190412151558477
+modifier: jack
+revision: 0
+tags: 
+title: Pleroma
+type: text/vnd.tiddlywiki
+
+I bet you a million dollars I try a self-hosted [[Pleroma|https://blog.soykaf.com/post/what-is-pleroma/]] instance. 
+
+''Update: [[I win|https://mb.baty.net]]''
+
+Maybe using [[these instructions|https://i2p.rocks/blog/the-magical-world-of-pleroma-setting-up-your-instance.html]]
+
+installing pleroma on Ubuntu 18
+
+```
+sudo apt-get install build-essential git wget postgresql nginx certbot sudo
+wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
+sudo apt-get install esl-erlang
+sudo apt-get install elixir
+sudo useradd pleroma
+```
+
+...and so on from [[the instructions|https://git.pleroma.social/pleroma/pleroma/wikis/Installing%20on%20Debian%20based%20distributions]]
+
+I had to install build-essential twice for some reason. Didn't find `cc` otherwise.
+
+Pleroma is written in [[Elixir]]
+
+([[post|https://www.baty.blog/2019/im-running-a-pleroma-social-instance]])
+

@@ -1,0 +1,15 @@
+created: 20191117120532925
+creator: jack
+modified: 20191117120740396
+modifier: jack
+revision: 0
+tags: Orgmode
+title: org-msg
+type: text/vnd.tiddlywiki
+
+<<<
+[[OrgMsg|https://github.com/jeremy-compostella/org-msg]] is a GNU/Emacs global minor mode mixing up Org mode and Message mode to compose and reply to emails in a Outlook HTML friendly style. 
+<<<
+
+I'm giving it a try because using org-mode to generate HTML emails can be handy. The author doesn't use Mu4e so there are some gotchas.
+

@@ -1,0 +1,26 @@
+created: 20190210165337294
+creator: jack
+modified: 20190211195618017
+modifier: jack
+revision: 0
+tags: 
+title: 2019.02.10 - Resilience of my systems
+type: text/vnd.tiddlywiki
+
+[[This week's internet outage|2019.02.09 - Journal]] has me thinking about [[Resiliency|Word: resilience]].
+
+It turns out there are weak spots in my systems when there's no internet connection available.
+
+''My Wiki'' could not be reached, since I was running it as a node app on an EC2 instance and doing all editing there. I have been putting //a lot of stuff// in the wiki and I don't like not being able to update it. I can access old stuff from the daily backups I keep locally, but I want to //write// there too. To fix this I'm now keeping it as a single html file locally and editing it with either Firefox/Timimi or TiddlyDesktop. This adds a step of publishing, but I have a simple Makefile to handle the details of that.
+
+My ''"Smart Home"'' becomes quite stupid without internet. Try asking Alexa to turn on the lights. This is ridiculous and makes me want to get rid of all of it. That would also solve my privacy concerns.
+
+''All of my digital photos'' are now in [[Lightroom CC]], which depends on "The Cloud" for much of its functionality. Without internet it won't sync new photos. Also, search doesn't work. I don't know how long the license will work without it phoning home to Adobe. It makes me a little uncomfortable.
+
+!!! Things that work...
+
+Using [[Roon]] with my local music library works just fine. I don't get Tidal integration, but everything else is available.
+
+I can listen to ''Vinyl Records'' all day.
+
+''DVDs'' remain a fine way to experience movies.

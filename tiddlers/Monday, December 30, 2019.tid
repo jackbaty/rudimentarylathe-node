@@ -1,0 +1,22 @@
+created: 20191230115334417
+creator: jack
+modified: 20191230220523343
+modifier: jack
+revision: 0
+tags: Journal
+title: Monday, December 30, 2019
+type: text/vnd.tiddlywiki
+
+🌦 +45°F
+
+I'm tired of everyone's complaining. No matter how useful or necessary it may be, I've had enough of it.
+
+It's clear to me that readers will have an easier time of it here with TiddlyWiki than with [[Roam]] for this sort of thing. I'm back to one (private) Roam database and this wiki. There went the friction!
+
+Speaking of less friction, I want Winer's [[Fargo]] back. Even a supported [[1999.io]] would be great. I've still got one running at [[1999.baty.net|http://1999.baty.net/]] but that's just for testing, mostly. I want to blog in an outliner.
+
+Thinking about doing a weekly summary tiddler, well, weekly, to bring together bubbled up thoughts that I'd dumped here throughout the week. I like this idea because I think it can help not just readers here, but will also help me collect my thoughts.
+
+I tested [[Letterboxd]] exports and they are comprehensive and easy. This makes me feel better about putting data in there, but also, I'm able to get it out and use it elsewhere. Here on the wiki, for instance.
+
+I'd like to import the CSV of my Letterboxd reviews into the wiki as individual riddlers, but there's no obvious way to do that. [[This no longer seems to work|https://github.com/Jermolene/csv2tiddlers]]. Other options are to convert to JSON first, but I can't find a simple way of doing that. The most disappointing thing is that I used to //love// solving problems like this, but these days I don't feel like it.

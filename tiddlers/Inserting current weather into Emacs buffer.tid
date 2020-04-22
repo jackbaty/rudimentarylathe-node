@@ -1,0 +1,33 @@
+created: 20190202121628712
+creator: jack
+modified: 20190202161414342
+modifier: jack
+revision: 0
+tags: Emacs
+title: Inserting current weather into Emacs buffer
+type: text/vnd.tiddlywiki
+
+I like to include the current weather at the beginning of each day's [[Org-Journal]] entry.
+
+```
+(defun jab-insert-weather ()
+  (interactive)
+  (insert (shell-command-to-string "curl -s 'wttr.in/49301?0pQT'")))
+```
+
+Uses [[wttr|2019.01.23 - wttr.in for weather in a terminal]]
+
+~~Now I have to figure out how to make it literal (prefix lines with ":").~~
+
+It's done like this:
+
+```
+(defun jab-insert-weather ()
+  (interactive)
+  (let ((w (shell-command-to-string "curl -s 'wttr.in/49301?0pQT'")))
+  (insert (mapconcat (function (lambda (x) (format ": %s" x)))
+           (split-string w "\n")
+           "\n"))))
+```
+
+[[blog post|https://www.baty.blog/2019/insert-weather-into-emacs-buffer]]

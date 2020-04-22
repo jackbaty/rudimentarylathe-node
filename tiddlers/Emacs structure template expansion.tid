@@ -1,0 +1,24 @@
+created: 20190219173808532
+creator: jack
+modified: 20190219174104145
+modifier: jack
+revision: 0
+tags: Emacs Orgmode
+title: Emacs structure template expansion
+type: text/vnd.tiddlywiki
+
+From the [[Org 9.2 release notes|https://orgmode.org/Changes.html#orga4e4fe1]]:
+
+<<<
+Org 9.2 comes with a new template expansion mechanism, combining `org-insert-structure-template` bound to `C-c C-,`.
+
+If you customized the `org-structure-template-alist` option manually, you probably need to udpate it, see the docstring for accepted values.
+
+If you prefer using previous patterns, e.g. `<s`, you can activate them again by requiring Org Tempo library:
+
+`(require 'org-tempo)`
+
+or add it to org-modules. 
+<<<
+
+I'm hardwired for the old way, but times change, so I'm learning to use `C-c C-,` instead.

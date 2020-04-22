@@ -1,0 +1,34 @@
+created: 20190206014057889
+creator: jack
+modified: 20190206014130860
+modifier: jack
+revision: 0
+tags: Photography
+title: Sunny 16 Rule
+type: text/vnd.tiddlywiki
+
+"""
+Bright sun, f16 at 250 
+People in bright sun f11/250 
+Not so bright f11 or f8/250 
+Overcast and dark shadows 5.6/250 
+Shitty weather 2.8/250 
+Really shitty weather 2.8/50 
+Interiors 2-2.8 1/50 or 1/25 
+"""
+
+At ISO 400 so 1/250 unless otherwise noted... 
+
+"""
+f/16 - full sun (sharp shadow) 
+f/11 - bright overcast or regular day (soft edged shadow) 
+f/8 - overcast (indistinct shadow) 
+f/5.6 - heavy overcast (no shadow) 
+f/5.6 - your subject is in shade 
+f/4 - sunset 
+f/4 - bright flourescent (1/60) 
+f/4 - subject in window light (1/60) 
+f/2.8 - subject in brightly lit room (1/30) 
+f/2 - bright streetlight at night (1/30) 
+f/2 - stage lighting (1/60) 
+"""

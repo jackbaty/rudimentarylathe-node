@@ -1,0 +1,14 @@
+created: 20190113230338389
+creator: jack
+modified: 20190113230651363
+modifier: jack
+revision: 0
+tags: 
+title: 2019.01.13 - Signed up for Trakt.tv
+type: text/vnd.tiddlywiki
+
+[[https://trakt.tv/]] is for tracking things I watch<<ref "1">>
+
+I installed the [[Plex plugin|https://github.com/trakt/Plex-Trakt-Scrobbler/wiki/Installation---Synology]] on the Synology 
+
+<<footnotes "1" "Thanks to [[Jonathan Lacour|https://cleverdevil.io/2019/tracking-my-movie-tv-and-podcast-activity]]">>

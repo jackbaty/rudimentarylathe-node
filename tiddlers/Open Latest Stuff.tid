@@ -1,0 +1,48 @@
+created: 20190201204005878
+creator: jack
+modified: 20190414133209072
+modifier: jack
+revision: 0
+title: Open Latest Stuff
+type: text/vnd.tiddlywiki
+
+Choose from the following to open all tiddlers tagged with the topic.
+
+<$vars myTag="Journal">
+<$navigator story="$:/StoryList" history="$:/HistoryList">
+    <$button class="tc-btn-invisible tc-tiddlylink">
+        {{$:/core/images/folder}} Open: <<myTag>>
+        <$action-sendmessage $message="tm-close-all-tiddlers" />
+        <$list filter="[tag<myTag>sort[modified]]">
+        <$action-navigate $to=<<currentTiddler>>/>
+        </$list>
+    </$button>
+</$navigator>
+</$vars>
+
+
+<$vars myTag="Wiki">
+<$navigator story="$:/StoryList" history="$:/HistoryList">
+    <$button class="tc-btn-invisible tc-tiddlylink">
+        {{$:/core/images/folder}} Open: <<myTag>>
+        <$action-sendmessage $message="tm-close-all-tiddlers" />
+        <$list filter="[tag<myTag>sort[modified]]">
+        <$action-navigate $to=<<currentTiddler>>/>
+        </$list>
+    </$button>
+</$navigator>
+</$vars>
+
+<$vars myTag="Emacs">
+<$navigator story="$:/StoryList" history="$:/HistoryList">
+    <$button class="tc-btn-invisible tc-tiddlylink">
+        {{$:/core/images/folder}} Open: <<myTag>>
+        <$action-sendmessage $message="tm-close-all-tiddlers" />
+        <$list filter="[tag<myTag>sort[modified]]">
+        <$action-navigate $to=<<currentTiddler>>/>
+        </$list>
+    </$button>
+</$navigator>
+</$vars>
+
+

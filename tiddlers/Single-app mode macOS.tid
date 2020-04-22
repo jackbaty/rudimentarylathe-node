@@ -1,0 +1,15 @@
+created: 20190415220329641
+creator: jack
+modified: 20190415220915792
+modifier: jack
+revision: 0
+tags: 
+title: Single-app mode macOS
+type: text/vnd.tiddlywiki
+
+```
+defaults write com.apple.dock single-app -bool true
+killall Dock
+```
+
+

@@ -1,0 +1,21 @@
+caption: Wizard how to use
+created: 20180709100107565
+creator: Mohammad
+modified: 20181108185204344
+modifier: Mohammad
+tags: 
+title: $:/plugins/.mr/shiraz/demo/wizard
+
+!! How to use wizard
+To create a wizard or guided steps or a //linked list// of tiddlers do as below
+
+* Create your tiddlers (you can use any of existing ones)
+* Tag those tiddlers you like to have in your wizard (the //linked list//)  with `wizard`
+* Add two fields `next` and `previous` to each tiddler in the linked list
+* Fill in the fields of each tiddlers with the tiddler name of //next// / //previous// items
+** If a tiddler has no //previous// item, delete its `previous` field or leave it blank
+** If a tiddler has no //next// item, delete its `next` filed or leave it blank
+
+<<vspace 2cm>>
+<<footnote
+"Find more example on: https://kookma.github.io/Reveal-Gradually/">>

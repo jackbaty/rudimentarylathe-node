@@ -1,0 +1,21 @@
+created: 20190130230705491
+creator: jack
+modified: 20190617124938693
+modifier: jack
+revision: 0
+tags: 
+title: Micro.blog
+type: text/vnd.tiddlywiki
+
+I've been pushing my blog's update to [[Micro.blog|https://micro.blog]] since the first beta. It's a great tool that encourages a great community
+
+I have a hosted microblog at [[micro.baty.net|https://micro.baty.net/]] and~~ I cross-post links from [[Baty.blog]]~~.
+
+
+!!! Micro.blog users
+
+<<list-links filter:"[tag[Person]tag[Micro.blog]]">>
+
+!! Log
+
+* 2019.06.17 No longer pushing posts from [[Baty.blog]]

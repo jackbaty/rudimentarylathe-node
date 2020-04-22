@@ -1,0 +1,9 @@
+created: 20190206054820870
+creator: HC Haase
+modified: 20190206054846709
+modifier: HC Haase
+title: $:/jd/fullscreen-editor/readme
+
+With ''~FullscreenEditor'', you'll be able to edit the current tiddler distraction-free with this button, found at the usual tiddler controls: @@font-size:1.5em;{{||$:/jd/fullscreen-editor/EditButton}}@@
+
+Also in this mode, <kbd>ctrl</kbd>+<kbd>enter</kbd> will save and close the tiddler, and <kbd>esc</kbd> will cancel the edit (or whatever keyboard shortcut have been set for these two actions at $:/core/ui/ControlPanel/KeyboardShortcuts).

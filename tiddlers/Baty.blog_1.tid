@@ -1,0 +1,31 @@
+created: 20181208172133511
+creator: jack
+modified: 20190615114838082
+modifier: jack
+revision: 0
+tags: Writing Blog
+title: Baty.blog
+type: text/vnd.tiddlywiki
+
+~~As of 2019.01.13 I have moved all content from baty.blog to baty.net~~ (no I haven't)
+
+Zone is hosted with Route 53. baty.blog is an alias to an S3 bucket that redirects to www.baty.blog.
+
+Since fall 2018 I have been blogging primarily ~~sporadically~~ at [[baty.blog|https://www.baty.blog/]]. It runs on the [[Blot]] platform.
+
+
+!! Log
+
+* 2018-12-08 Copied my old Life Stack page from Baty.net to [[baty.blog/lifestack|https://www.baty.blog/lifestack]]
+* 2018-12-11 That was a bad idea. I'm keeping everything not specifically blog-related on baty.net
+* 2019.01.09 Moved the baty.blog zone to AWS Route 53 and added a redirecting S3 bucket from the apex baty.blog to www.baty.blog
+* 2019.01.13 It's over. I'm now redirecting everything to baty.net. See [[Burning down the other blogs|https://www.baty.net/2019/burning-down-the-other-blogs/]]
+* 2019.01.21 It's ''never'' over!. See [[2019.01.21 - Changed www.baty.blog to a CNAME]] :)
+* 2019.01.30 Changed theme to "magazine" and tweaked it a bit
+* 2019.03.24 Tried the Magazine theme again but fell back to default. Magazine depends too much on images. I don't want to feel like I have to find an image for every post.
+* 2019.04.05 Was not redirecting from apex baty.blog because the A record wasn't an Alias. Changed it to an Alias  pointing to the baty.blog S3 bucket, which seemed to work.
+* 2019.04.10 Switched back to the "console" theme because it's weird and not as boring.
+* 2019.05.17 Switched back to the "console" theme again. Are we seeing a trend here? :)
+* 2019.05.28 I never learn. Trying the "Rosa" theme with a dark background just to shake things up.
+* 2019.05.30 Removed comments ([[Isso Comments]])
+* 2019.06.15 Changed the background color again. #003846. It's the color I use in TheBrain.

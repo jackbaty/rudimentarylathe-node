@@ -1,0 +1,21 @@
+created: 20200115140426149
+creator: jack
+modified: 20200116123525762
+modifier: jack
+revision: 0
+tags: Journal
+title: Wednesday, January 15, 2020
+type: text/vnd.tiddlywiki
+
+🌫 +31°F
+
+I've set up [[Cloudron]] and installed 4 apps so far: [[Monica]], [[Gitea]], [[Ghost]], and [[Surfer]]
+
+It tickles me how much dark mode advocates say things like "bright white light shining in my face". It's not that bright. At all. I stand by my assertion that Dark Mode is a preference and a fad and only beneficial for a small number of people and has wasted vast amounts of developer resources.
+
+"""
+[img[files/fuck-your-worldview.png]]
+//image:// [[The Oatmeal|https://theoatmeal.com/comics/believe]]
+"""
+
+If you're going to use email as 2nd factor, you'd better send the email quickly. Here I sit, waiting for the email, unable to log into my [[DigitalOcean]] account. UPDATE: My fault. I moved the baty.net domain to DigitalOcean but neglected to add MX records. That means I can't get email. That means I can't validate via email to log in and fix the MX records. Not good. UPDATE 2: I was still logged in on my work Mac so I could add the MX records and Whew!

@@ -1,0 +1,12 @@
+created: 20190521115505873
+creator: jack
+modified: 20190521115704397
+modifier: jack
+revision: 0
+tags: Emacs
+title: Emacs Fish completion
+type: text/vnd.tiddlywiki
+
+[[Fish completion for Emacs and Eshell|https://gitlab.com/ambrevar/emacs-fish-completion]]
+
+See [[Fish Shell]]

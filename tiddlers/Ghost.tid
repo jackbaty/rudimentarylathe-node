@@ -1,0 +1,45 @@
+created: 20191115191924164
+creator: jack
+modified: 20191120005932349
+modifier: jack
+revision: 0
+tags: 
+title: Ghost
+type: text/vnd.tiddlywiki
+
+I'm trying [[Ghost|https://ghost.org/]] with [[Coping Mechanism|https://copingmechanism.com]].
+
+---
+Some notes
+
+Built using the pre-configured Ghost droplet at Digital Ocean
+
+Possible themes:
+* http://chronicles.arban.co/
+* https://tawau.hauntedthemes.com/tag/photography/
+* http://futura.gbjsolution.com/
+
+Exported from Wordpress using a plugin from Ghost.
+
+Changed client_max_body_size 100M; in all nginx config files so that I could import my 98MB export file.
+
+Restarting ghost:
+
+```
+sudo -i -u ghost-mgr
+cd /var/www/ghost/
+ghost restart
+```
+
+Changed from beta.copingmechanism.com to copingmechanism.com
+
+Changed DNS
+Edited config.production.json: changed hostname to "copingmechanism.com"
+
+```
+ghost setup nginx
+ghost setup ssl
+```
+
+---
+<<list-links filter:"[tag[$(currentTiddler)$]]">>

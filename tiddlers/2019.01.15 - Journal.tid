@@ -1,0 +1,12 @@
+created: 20190116002323066
+creator: jack
+modified: 20190116002443215
+modifier: jack
+revision: 0
+tags: Journal
+title: 2019.01.15 - Journal
+type: text/vnd.tiddlywiki
+
+I am struggling with the decision about whether to go with an Emacs starter kit like [[Doom-emacs]] or [[trying Emacs from scratch|2019.01.10 - Trying Emacs from scratch]]
+
+My heart wants to build my own config and use the native Emacs bindings but it's just so hard. Everything is a struggle.

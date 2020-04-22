@@ -1,0 +1,13 @@
+created: 20190923192911196
+creator: jack
+modified: 20190923193037643
+modifier: jack
+revision: 0
+tags: Software CLI
+title: twtxt
+type: text/vnd.tiddlywiki
+
+[[twtxt|https://twtxt.readthedocs.io/en/stable/]] is "a decentralised, minimalist microblogging service for hackers."
+
+It's kind of fun. Mine is here: http://tilde.club/~jbaty/twtxt.txt
+

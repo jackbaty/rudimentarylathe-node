@@ -1,0 +1,19 @@
+created: 20190227205733464
+creator: jack
+modified: 20190305120119732
+modifier: jack
+revision: 0
+tags: Analog Photography Hardware
+title: Pakon f135 Scanner
+type: text/vnd.tiddlywiki
+
+A great, but finicky scanner for 35mm film.
+
+Things I've written about it.
+
+* [[Setting up the Pakon Scanner again|https://www.baty.net/2017/setting-up-the-pakon-scanner-again/]] (2017)
+* [[The Kodak Pakon F-135 Plus Scanner|https://www.baty.net/2015/the-kodak-pakon-f-135-plus-scanner-2/]] (2015)
+
+It's possible I'll never get it working again :(. Darn "Error 114".
+
+After finding a long thread on Facebook (sigh), I've learned that the 114 error could be caused by my newer Mac's USB 3.0 talking to the scanner's USB 2.0. I also tried scanning at a lower resolution and that actually worked. This means that I can get 2200xNNN scans right now, and that may be good enough.

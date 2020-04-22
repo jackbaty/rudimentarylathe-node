@@ -1,0 +1,13 @@
+created: 20190411135928760
+creator: jack
+modified: 20190813132614431
+modifier: jack
+revision: 0
+tags: Changelog
+title: 2019.04.11 - Wiki: Added annoying background image
+type: text/vnd.tiddlywiki
+
+[img[background-dot.png]] as a background makes the sidebar links hard to read so it won't stay, but for the moment it's //different// so I'm leaving it.
+
+Added `background-dot.png` to [[This tiddler|https://rudimentarylathe.org/#%24%3A%2Fthemes%2Ftiddlywiki%2Fvanilla%2Fsettings%2Fbackgroundimage]]
+

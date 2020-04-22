@@ -1,0 +1,20 @@
+author: MarioPietsch aka pmario
+core-version: >=5.0.0
+created: 20200415163033599
+creator: jack
+dependents: $:/languages/de-DE
+description: Deutsch (Schweiz)
+modified: 20200415163033599
+modifier: jack
+name: de-CH
+original-plugin-type: language
+original-tags: 
+original-title: $:/languages/de-CH
+original-type: application/json
+plugin-priority: 110
+requires-reload: no
+server-url: https://tiddlywiki.com/library/v5.1.22/index.html
+tags: $:/tags/RemoteAssetInfo
+title: $:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/languages/de-CH
+type: text/vnd.tiddlywiki
+version: 5.1.22

@@ -1,0 +1,13 @@
+created: 20200202131544404
+creator: jack
+modified: 20200202131620255
+modifier: jack
+revision: 0
+tags: 
+title: Flush DNS cache on macOS Catalina
+type: text/vnd.tiddlywiki
+
+I have to look this up every time, but am too lazy to alias it in my shell, so...
+
+`sudo killall -HUP mDNSResponder`
+

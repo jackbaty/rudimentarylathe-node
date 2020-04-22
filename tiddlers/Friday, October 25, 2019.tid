@@ -1,0 +1,15 @@
+caption: 2019.10.25 - Journal
+created: 20191025123421413
+creator: jack
+modified: 20191025153044130
+modifier: jack
+revision: 0
+tags: Journal
+title: Friday, October 25, 2019
+type: text/vnd.tiddlywiki
+
+Every new thing I add is something else that can break
+
+I had new problems with Dropbox yesterday, so [[this|https://www.baty.net/2019/sticking-with-dropbox/]] [[saga|https://www.baty.net/2019/still-maybe-sticking-with-dropbox/]] continues
+
+I'd like to use long dates as journal entry titles (e.g. Friday, October 25, 2019) but that messes up the sidebar. I tried putting the short version in the `caption` field but that doesn't help on my ToC entries because I call a macro rather than rely on a normal list-links call. 

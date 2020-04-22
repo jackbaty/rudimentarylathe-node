@@ -1,0 +1,10 @@
+created: 20200215140004044
+creator: jack
+modified: 20200215140301521
+modifier: jack
+tags: 
+title: Selecting item not in ivy completion list
+
+When, for example, I want to rename a file in `dired` to something not in the completion list but that happens to match an existing file, hitting return will choose one of the existing items. I don't want that.
+
+The trick is `ivy-immediate-done` which is bound to `C-M-j` (aka `Control-Alt-j`). This will use whatever is in the prompt and not one of the matches.

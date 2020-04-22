@@ -1,0 +1,16 @@
+created: 20191113125455722
+creator: jack
+modified: 20191113125647735
+modifier: jack
+revision: 0
+tags: CLI
+title: renameutils
+type: text/vnd.tiddlywiki
+
+<<<
+The file renaming utilities (renameutils for short) are a set of programs designed to make renaming of files faster and less cumbersome.
+<<<
+
+[[renameutils|https://www.nongnu.org/renameutils/]]
+
+(via [[Brett Terpstra|https://brettterpstra.com/2019/11/12/web-excursions-for-november-12-2019/]])

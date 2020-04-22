@@ -1,0 +1,12 @@
+created: 20200120145156886
+creator: jack
+modified: 20200120145239012
+modifier: jack
+revision: 0
+tags: TiddlyWiki
+title: Putting stuff above the TiddlyWiki story river
+type: text/vnd.tiddlywiki
+
+See https://tiddlywiki.com/#SystemTag%3A%20%24%3A%2Ftags%2FAboveStory but...
+
+The system tag `$:/tags/AboveStory` marks elements to be placed at the top of the story river

@@ -1,0 +1,17 @@
+created: 20190211204814478
+creator: jack
+modified: 20190211204905707
+modifier: jack
+revision: 0
+tags: $:/tags/Macro
+title: $:/jab/macros/open-all
+type: text/vnd.tiddlywiki
+
+\define open-all(filter, label:"Open all") 
+<$button>$label$ 
+<$action-sendmessage $message="tm-close-all-tiddlers"/> 
+<$list filter=<<__filter__>> > 
+<$action-navigate $to=<<currentTiddler>> /> 
+</$list> 
+</$button> 
+\end

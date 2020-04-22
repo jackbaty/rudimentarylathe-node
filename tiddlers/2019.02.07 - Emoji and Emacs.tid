@@ -1,0 +1,29 @@
+created: 20190207154637277
+creator: jack
+modified: 20190207154833015
+modifier: jack
+revision: 0
+tags: Emacs
+title: 2019.02.07 - Emoji and Emacs
+type: text/vnd.tiddlywiki
+
+I'd like to use emoji in Emacs. Probably using something like [[company-emoji|https://github.com/dunn/company-emoji]]
+
+There's a configuration suggestion in the readme:
+
+```lisp
+(defun --set-emoji-font (frame)
+  "Adjust the font settings of FRAME so Emacs can display emoji properly."
+  (if (eq system-type 'darwin)
+      ;; For NS/Cocoa
+      (set-fontset-font t 'symbol (font-spec :family "Apple Color Emoji") frame 'prepend)
+    ;; For Linux
+    (set-fontset-font t 'symbol (font-spec :family "Symbola") frame 'prepend)))
+
+;; For when Emacs is started in GUI mode:
+(--set-emoji-font nil)
+;; Hook for when a frame is created with emacsclient
+;; see https://www.gnu.org/software/emacs/manual/html_node/elisp/Creating-Frames.html
+(add-hook 'after-make-frame-functions '--set-emoji-font)
+```
+

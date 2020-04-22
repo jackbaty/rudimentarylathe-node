@@ -1,0 +1,13 @@
+created: 20200422121657198
+creator: jack
+modified: 20200422121751350
+modifier: jack
+tags: TiddlyWiki
+title: Converting html TiddlyWiki to node version
+type: text/vnd.tiddlywiki
+
+Use the --savewikifolder switch (introduced in 5.1.2x)
+
+`tiddlywiki --load ./mywiki.html --savewikifolder ./mywikifolder`
+
+https://tiddlywiki.com/prerelease/#SaveWikiFolderCommand

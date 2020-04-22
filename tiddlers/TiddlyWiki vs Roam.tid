@@ -1,0 +1,46 @@
+created: 20200120153728336
+creator: jack
+modified: 20200127145756568
+modifier: jack
+revision: 0
+tags: 
+title: TiddlyWiki vs Roam
+type: text/vnd.tiddlywiki
+
+My notes while using both [[TiddlyWiki]] and [[Roam]]
+
+!!TiddlyWiki pros
+* Standalone HTML file if desired
+* Long history of usefulness/quality
+* Reasonable ecosystem
+* Super flexible (organization, display, etc)
+* Aliases (via plugin)
+* Content is generally easier to read and formatted nicely
+* Plugins and other tiddlers can be easily imported/reused
+* I actually prefer the Edit/Read modes
+* Free
+
+!! TiddlyWiki cons
+* Can't use on desktop using Safari, my browser of choice
+* Hosting the node version can be challenging
+* Image handling is a little cumbersome
+* Difficult on mobile
+
+!!Roam pros
+* Meant to be a single database
+* ''Automatic page generation via links'' rather than having to explicitly create pages.
+* ''Renaming pages does not break anything''
+* Backlinks are automatic and ''include context''
+* ''Easy to get to transcluded content for editing''
+* Transcluded content is indicated as such
+* Easily find related content (sidebar, mentions button, etc)
+* Typeahead lookup of page titles (doable in TW via plugin)
+* It's an outliner, I love outliners
+* Block embeds
+* Uses Markdown
+
+!!Roam cons
+* Expensive (we're being told to expect $30/month)
+* Unstable. There's been some data loss events. It's early days, though
+* No offline use yet (coming soon?)
+* Difficult on mobile

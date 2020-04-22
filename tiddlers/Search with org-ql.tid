@@ -1,0 +1,14 @@
+created: 20191101175150220
+creator: jack
+modified: 20191106120607853
+modifier: jack
+revision: 0
+tags: Orgmode
+title: Search with org-ql
+type: text/vnd.tiddlywiki
+
+https://github.com/alphapapa/org-ql
+
+Also https://beepb00p.xyz/pkm-search.html
+
+Don't install using Quelpa as suggested, just do `(use-package org-ql)`

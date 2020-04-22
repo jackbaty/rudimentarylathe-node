@@ -1,0 +1,50 @@
+created: 20181104132621793
+list: 
+modified: 20190108202133603
+modifier: jack
+revision: 0
+tags: Networking Software
+title: Using nmap to scan for IP Addresses
+type: text/vnd.tiddlywiki
+
+After moving to my new house, the IP addresses for all my devices changed. I used [[nmap|https://nmap.org]] to discover all of the new IPs.
+
+First, installed nmap via homebrew
+
+`brew install nmap`
+
+Then, ran the following:
+
+`nmap -sP 192.168.1.0/24`
+
+Which gave me this:
+
+
+```
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-11-04 08:23 EST
+Nmap scan report for 192.168.1.1
+Host is up (0.00062s latency).
+Nmap scan report for 192.168.1.2
+Host is up (0.012s latency).
+Nmap scan report for 192.168.1.3
+Host is up (0.0047s latency).
+Nmap scan report for 192.168.1.6
+Host is up (0.0025s latency).
+Nmap scan report for 192.168.1.7
+Host is up (0.00014s latency).
+Nmap scan report for 192.168.1.10
+Host is up (0.000059s latency).
+Nmap scan report for 192.168.1.11
+Host is up (0.00064s latency).
+Nmap scan report for 192.168.1.12
+Host is up (0.0055s latency).
+Nmap scan report for 192.168.1.13
+Host is up (0.00025s latency).
+Nmap scan report for 192.168.1.14
+Host is up (0.012s latency).
+Nmap scan report for 192.168.1.16
+Host is up (0.00052s latency).
+Nmap scan report for 192.168.1.19
+Host is up (0.0032s latency).
+Nmap done: 256 IP addresses (12 hosts up) scanned in 5.21 seconds
+```

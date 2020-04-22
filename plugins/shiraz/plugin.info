@@ -1,0 +1,15 @@
+{
+    "title": "$:/plugins/.mr/shiraz",
+    "author": "Mohammad Rahmani",
+    "bag": "default",
+    "core-version": "4.1.17",
+    "created": "20181108134227799",
+    "creator": "Mohammad",
+    "description": "Shiraz",
+    "list": "readme tutorial license release",
+    "modified": "20181109124024784",
+    "modifier": "Mohammad",
+    "plugin-type": "plugin",
+    "revision": "0",
+    "version": "1.0.2"
+}

@@ -1,0 +1,12 @@
+created: 20190521115731259
+creator: jack
+modified: 20190521115855780
+modifier: jack
+revision: 0
+tags: Software
+title: Ledger-import
+type: text/vnd.tiddlywiki
+
+Fetch OFX files and convert them into [[Ledger]] format.
+
+https://github.com/DamienCassou/ledger-import

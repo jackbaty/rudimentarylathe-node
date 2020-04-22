@@ -1,0 +1,10 @@
+created: 20190816123507012
+creator: jack
+modified: 20190816123619002
+modifier: jack
+revision: 0
+tags: Changelog
+title: 2019.08.16 - Wiki: Include Recent entries on ToC
+type: text/vnd.tiddlywiki
+
+I'm transcluding the content from [[New]] at the end of the [[Table of Contents]] tab to prevent my having to switch back and forth all the time

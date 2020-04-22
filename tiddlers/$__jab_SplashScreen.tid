@@ -1,0 +1,38 @@
+created: 20190220204759297
+creator: jack
+modified: 20200415164015213
+modifier: jack
+revision: 0
+tags: $:/tags/RawMarkupWikified/TopBody
+title: $:/jab/SplashScreen
+type: text/vnd.tiddlywiki
+
+\rules only filteredtranscludeinline transcludeinline
+<div class="tc-remove-when-wiki-loaded">
+
+<style scoped>
+
+.tc-splash-text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+	margin: 20px auto 0;
+	width: 600px;
+	text-align: center;
+	color: <<colour foreground>>;
+	fill: <<colour foreground>>;
+}
+
+html body.tc-body {
+	background: <<colour page-background>>;
+}
+</style>
+
+<div class="tc-splash-text">
+<img src="data:image/jpeg;base64,{{Avatar||$:/core/templates/plain-text-tiddler}}" width="100"/>
+<p>One moment ...</p>
+<p>Forming some sort of rudimentary lathe....</p>
+</div>
+
+</div>

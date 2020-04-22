@@ -1,0 +1,20 @@
+created: 20190106121043193
+creator: jack
+modified: 20190407135526441
+modifier: jack
+revision: 0
+title: 2019-01-06 - Trying Firefox - again
+type: text/vnd.tiddlywiki
+
+I use [[Safari]] as my main browser. Safari feels more like a true Mac app and integrates with macOS better than any of the others.
+
+On the other hand, Safari, on the desktop at least, is a bit player. Sometimes it's missing something that I'd really like.
+
+For example, single-html TiddlyWiki files cannot be saved easily in Safari, whereas [[Firefox]] has the [[Timimi plugin]] which works great with TiddlyWiki.
+
+I gave Firefox a quick run a week ago and decided to go back to Safari. Firefox just doesn't //feel// right. Then [[@cdevroe suggested|https://micro.blog/cdevroe/1706361]] that I give it a couple weeks, and to also check out the Containers add-on. So that's what I'm doing. [[Muli-account containers|https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/?src=search]] makes browsing as multiple personalities a breeze.
+
+So I'm giving Firefox another shot.
+
+Update: [[2019.01.09 - Back to Safari]]
+ 

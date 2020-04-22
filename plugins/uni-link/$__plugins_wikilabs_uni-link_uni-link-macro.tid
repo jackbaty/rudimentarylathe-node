@@ -1,0 +1,28 @@
+tags: $:/tags/Macro
+title: $:/plugins/wikilabs/uni-link/uni-link-macro
+
+\define getClass()
+<$uni-fields template="uni-$name$" include=$(field-name)$ sort="no"/> uni-link
+\end
+
+\define returnText()
+\whitespace trim
+<$set name="tv-wikilinks" value="no">
+<span class=<<class>> >
+  <$transclude field=$(field-name)$ ><$transclude field=title/></$transclude>
+</span>
+</$set>
+\end
+
+\define uni-link(tid)
+\whitespace trim
+<$tiddler tiddler="""$tid$""">
+  <$vars field-name={{$:/config/wikilabs/uni-link/field}} >
+    <$wikify name=class text=<<getClass>> >
+      <$link to="""$tid$""" tooltip="""uni-link -> $tid$"""><<returnText>></$link>
+    </$wikify>
+  </$vars>
+</$tiddler>
+\end
+
+<pre><$view field="text"/></pre>

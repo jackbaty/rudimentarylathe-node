@@ -1,0 +1,35 @@
+created: 20190304195325228
+creator: jack
+modified: 20190304205639687
+modifier: jack
+revision: 0
+tags: Emacs
+title: Helm vs Ivy
+type: text/vnd.tiddlywiki
+
+I would like to try using Ivy rather than Helm for completion. 
+
+
+[[This Reddit thread|https://www.reddit.com/r/emacs/comments/51lqn9/helm_or_ivy/]] has a lot of useful tips.
+
+[[From Helm to Ivy|https://sam217pa.github.io/2016/09/13/from-helm-to-ivy/]]
+
+This should come in handy:
+
+''Frequently asked questions''
+
+Q: How do I enter an input that matches one of the candidates instead of this candidate? Example: create a file bar when a file barricade exists in the current directory.
+
+A: Press `C-M-j`. Alternatively, you can make the prompt line selectable with (setq ivy-use-selectable-prompt t).
+
+---
+Possible for use in org...
+
+```
+(setq counsel-org-goto-display-style 'path)
+(setq counsel-org-goto-separator " ➜ ")
+(setq counsel-org-goto-face-style 'org)
+(define-key org-mode-map (kbd "C-c C-j") 'counsel-org-goto)
+(define-key org-mode-map (kbd "C-u C-c C-j") 'counsel-org-goto-all)
+```
+

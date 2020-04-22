@@ -1,0 +1,45 @@
+caption: Alert with horizontal line
+created: 20180821132907233
+creator: Mohammad
+modified: 20181021090442048
+modifier: Mohammad
+tags: bootstrap
+title: $:/plugins/.mr/shiraz/demo/alert-hline
+
+Alerst with horizontal line creates a divider and divide text in two separate parts. The syntax is as below (just use a `---` whenever you like and divide your alert in two parts)
+
+```
+<<alert-primary "
+text upper part
+
+---
+text lower part
+">>
+```
+
+<<alert-primary "
+! Alert Primary
+Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.
+
+---
+Whenever you need to, be sure to use margin utilities to keep things nice and tidy.">>
+
+<<alert-warning "
+! Alert Warning
+Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.
+
+---
+Whenever you need to, be sure to use margin utilities to keep things nice and tidy.">>
+
+<<alert-secondary """
+! Sample Code
+This is a sample Python code. As you see it is possible to show different elements using the alert macro
+
+```
+def fun(x)
+  return x*2;
+```
+It is ''easy'' to add other //wikitext// here, like ordered / unordered lists, etc.
+
+---
+This is just for illusteration! For more example see [[Home]]""">>

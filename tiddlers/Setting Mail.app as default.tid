@@ -1,0 +1,12 @@
+created: 20190501171213415
+creator: jack
+modified: 20190501171502776
+modifier: jack
+revision: 0
+tags: Tip
+title: Setting Mail.app as default
+type: text/vnd.tiddlywiki
+
+I sometimes try different Mac email apps. When I want to go back to using Mail.app, it often doesn't "stick". I set the default mailer in both Mail.app and, say, [[MailMate]], but when clicking `message:` links, it continues to open MailMate. A restart doesn't help.
+
+The most recent thing that fixed this was to go into Mail, set Mail.app as the default mailer, then click a different tab in Mail's preferences, then go back to General and close the dialog. Weird, but it worked for me on my MBP running 10.14.4 just now

@@ -1,0 +1,12 @@
+created: 20190214212839690
+creator: jack
+modified: 20190214213056121
+modifier: jack
+revision: 0
+tags: 
+title: Private Internet Access
+type: text/vnd.tiddlywiki
+
+I've used [[Private Internet Access|https://www.privateinternetaccess.com/]] for VPN service for a couple of years and I have no complaints.
+
+2019.02.14 There was a significant upgrade which caused my LAN connections to fail. I poked around and learned it was something to do with the new VPN "Kill Switch" feature. There's a setting that says "Always allow LAN traffic" and once I enabled that, I could see the Synology again.
