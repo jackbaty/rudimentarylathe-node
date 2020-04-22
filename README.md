@@ -6,6 +6,11 @@ To run, cd into directory and...
 
 This makes the wiki available and editable locally via https://127.0.0.1:8080.
 
+Or better yet, use `forever`...
+
+`forever start --spinSleepTime 10000 /usr/local/bin/tiddlywiki /Users/jbaty/pub/rudimentarylathe-node --listen`
+
+
 I still publish it as a static HTML file using the `Makefile`...
 
 `make deploy`
