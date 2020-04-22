@@ -1,6 +1,6 @@
 created: 20200422123203878
 creator: jack
-modified: 20200422124426676
+modified: 20200422144000522
 modifier: jack
 tags: 
 title: 2020.04.22 - TW: Converted to node.js again
@@ -17,3 +17,14 @@ From [[Converting html TiddlyWiki to node version]]...
 {{Converting html TiddlyWiki to node version}}
 
 I was missing two plugins, "tiddlywiki/filesystem" and "tiddlywiki/tiddlyweb", which meant the wiki wouldn't save properly, so I added them to the `tiddlywiki.info` file and restarted.
+
+To keep it running I'm using `forever` via a script named `startrl` which looks like this:
+
+```
+#!/bin/sh
+
+forever start --spinSleepTime 10000 /usr/local/bin/tiddlywiki \
+/Users/jbaty/pub/rudimentarylathe-node --listen
+
+```
+
