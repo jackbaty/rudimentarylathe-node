@@ -1,6 +1,6 @@
 created: 20200422111901883
 creator: jack
-modified: 20200422125514357
+modified: 20200422141731049
 modifier: jack
 tags: Journal
 title: Wednesday, April 22, 2020
@@ -12,4 +12,4 @@ type: text/vnd.tiddlywiki
 
 Some days I want to pull the plug on my entire online presence but then I think better of it and post 20-year-old memes instead.
 
-This wiki is [[now running via node.js|2020.04.22 - TW: Converted to node.js again]] locally. I may configure it to run on Node again on the server, but for now I'm just saving locally and syncing the html file. This will require an update to my Makefile, though.
+This wiki is [[now running via node.js|2020.04.22 - TW: Converted to node.js again]] locally. I may configure it to run on Node again on the server, but for now I'm just saving locally and syncing the html file. This will require an update to my [[Makefile|https://github.com/jackbaty/rudimentarylathe-node/blob/master/Makefile]], though.
