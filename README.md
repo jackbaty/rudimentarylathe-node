@@ -1,10 +1,12 @@
 # RudimentaryLathe.org TiddlyWiki built via node.js
 
-To run, cd into directory and...
+My wiki published using [TiddlyWiki](https://tiddlywiki.com) at [rudimentarylathe.org](https://rudimentarylathe.org)
+
+To run it locally for editing, cd into directory and...
 
 `tiddlywiki ./ --listen`
 
-This makes the wiki available and editable locally via https://127.0.0.1:8080.
+This makes the wiki available locally via https://127.0.0.1:8080.
 
 Or better yet, use `forever`...
 
