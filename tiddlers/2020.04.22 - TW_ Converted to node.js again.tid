@@ -28,3 +28,5 @@ forever start --spinSleepTime 10000 /usr/local/bin/tiddlywiki \
 
 ```
 
+Another benefit of this is that I can edit content (tiddlers) in my favorite text editor of the day. They're just text files with a .tld suffix.
+
