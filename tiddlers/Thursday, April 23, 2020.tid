@@ -1,6 +1,6 @@
 created: 20200423103449749
 creator: jack
-modified: 20200423103712564
+modified: 20200423131338918
 modifier: jack
 tags: Journal
 title: Thursday, April 23, 2020
@@ -8,4 +8,6 @@ type: text/vnd.tiddlywiki
 
 🌫 Mist +36°F
 
-I guess it's a sort of testament to [[Roam]] that people keep losing data but continue using it.
+I guess it's a sort of testament to [[Roam]] that people keep losing data but continue using it. I only experienced on small data glitch long ago, but for others it's been worse. We're all just assuming this will improve quickly and doing lots of backups!
+
+My tiddler creation criteria has changed after integrating [[TiddlyBlink]] here. I find that I create smaller, more atomic tiddlers and use the "links" option for "View references as:". If each backlink shown links to a single-topic tiddler with a proper title, I don't need the in-context reference view.
