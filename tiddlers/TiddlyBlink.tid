@@ -1,7 +1,10 @@
 created: 20200125152105770
-modified: 20200304194714120
+creator: jack
+modified: 20200423165959956
+modifier: jack
 tags: .sidebyside tb meta
 title: TiddlyBlink
+type: text/vnd.tiddlywiki
 
 Welcome to TiddlyBlink! ~TiddlyBlink is an adaptation of TiddlyWiki with the goal of helping you see connections between your ideas, and move quickly from one idea to another. It was inspired by the bi-directional linking found in Roam (https://roamresearch.com/), but built with capabilities already available in ~TiddlyWiki (https://tiddlywiki.com). See my example file [ext[here|https://giffmex.org/gifts/tiddlyblinkexample.html]].<br><br>
 
