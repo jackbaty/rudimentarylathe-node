@@ -1,0 +1,11 @@
+created: 20200424103948866
+creator: jack
+modified: 20200424104303675
+modifier: jack
+tags: Journal
+title: Friday, April 24, 2020
+type: text/vnd.tiddlywiki
+
+☁️ Overcast +39°F
+
+[[We|https://fusionary.com]] moved our source/deployment projects to [[Gitlab]] because it was much much cheaper for hosting private repos. Now, the prices are comparable, so I've been re-evaluating [[Github]] as an option for our repos. Github feels nicer in just about every way. It's amazing how two products that do basically the same things in the same way can //feel// so much different. Github is tighter, cleaner, and faster. Sigh.
