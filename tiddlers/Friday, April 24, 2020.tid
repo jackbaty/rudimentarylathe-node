@@ -1,6 +1,6 @@
 created: 20200424103948866
 creator: jack
-modified: 20200424104856418
+modified: 20200424130112663
 modifier: jack
 tags: Journal
 title: Friday, April 24, 2020
@@ -9,3 +9,9 @@ type: text/vnd.tiddlywiki
 ☁️ Overcast +39°F
 
 [[We|https://fusionary.com]] originally moved our source/deployment projects to [[Gitlab]] because it was much much cheaper for hosting private repos. Now, the prices are comparable, so I've been re-evaluating [[Github]] as an option. Github feels nicer in just about every way. It's amazing how two products that do basically the same things in the same way can //feel// so much different. Github is tighter, cleaner, and faster. Sigh.
+
+https://www.readwise2roam.com can be used to import [[Readwise]] highlights into [[Roam]]. Could be useful until the Readwise folks finish their own version.
+
+Handy bookmarklet for Roam: https://nesslabs.com/roam-research-bookmarklet
+
+I have a lot of bags. Camera bags, messenger bags, etc. Seems silly these days because right now I only actually need //zero// bags.
