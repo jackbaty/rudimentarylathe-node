@@ -1,8 +1,12 @@
-# RudimentaryLathe.org TiddlyWiki built via node.js
+# RudimentaryLathe.org TiddlyWiki 
 
 My wiki published using [TiddlyWiki](https://tiddlywiki.com) at [rudimentarylathe.org](https://rudimentarylathe.org)
 
-To run it locally for editing, cd into directory and...
+[![](https://static.baty.net/images/2020/rudimentarylathe-clip.png)](https://youtu.be/QQzg1vpxnnY)
+
+## Development
+
+To run things locally for editing, cd into directory and...
 
 `tiddlywiki ./ --listen`
 
@@ -12,6 +16,7 @@ Or better yet, use `forever`...
 
 `forever start --spinSleepTime 10000 /usr/local/bin/tiddlywiki /Users/jbaty/pub/rudimentarylathe-node --listen`
 
+## Publishing
 
 I still publish it as a static HTML file using the `Makefile`...
 
