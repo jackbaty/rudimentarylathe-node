@@ -1,6 +1,6 @@
 created: 20200425102729879
 creator: jack
-modified: 20200425120744283
+modified: 20200425125016331
 modifier: jack
 tags: Journal
 title: Saturday, April 25, 2020
@@ -11,3 +11,5 @@ type: text/vnd.tiddlywiki
 [[DEVONthink]] is great, but I don't get enough use out of it. It's a glorified Finder most of the time. Files and folders can work nearly as well for my purposes. [[HoudahSpot]] helps.
 
 I'm moving toward a feeling that I would like to be able to do most everything I //need// to do on a computer everywhere: Mac, iPad, Linux. (I don't care about doing things on a phone, but this doesn't rule it out). The Linux requirement really spoils it. This means relying on Emacs is out. Same with Things 3. I don't think this is compatible with my lifestyle or even possible to do properly.
+
+I've made [[Firefox]] my default browser again. Partly due to better behavior with Roam, and partly due to what I was talking about in the previous paragraph. Consistency across devices and platforms where possible. Also, Firefox has the wonderful "Multi-containers" extension, among others. Oh, and Timimi, which lets me edit and save local TiddlyWiki files.
