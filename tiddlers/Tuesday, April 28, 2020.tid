@@ -1,6 +1,6 @@
 created: 20200428112007530
 creator: jack
-modified: 20200428204144336
+modified: 20200428204529129
 modifier: jack
 tags: Journal
 title: Tuesday, April 28, 2020
@@ -17,3 +17,4 @@ I have a suspicion that people retreat into protocol work to escape from the hum
 
 So yeah, I spent much of the day configuring [[Pop!_OS]] on a couple of machines for use on my desk. See above :).
 
+The mistake people make when trying to "fix" [[TiddlyWiki]] by renaming it or redesigning it to better impress newcomers is that TiddlyWiki will //never// be a simple note-taking tool that anyone can just pick up and run with. Its very bones are difficult. I'm all for favorable first impressions but let's not pretend it's something it's not.
