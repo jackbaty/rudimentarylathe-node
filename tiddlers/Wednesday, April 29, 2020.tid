@@ -1,6 +1,6 @@
 created: 20200429102010610
 creator: jack
-modified: 20200429130143131
+modified: 20200429154009927
 modifier: jack
 tags: Journal
 title: Wednesday, April 29, 2020
@@ -15,3 +15,5 @@ Am I allowed to run Linux even if I don't have a half-naked, pre-teen anime char
 I'm not paying for [[Roam]] until there's a native `blockquote` and not some convoluted hiccup hack. Oh, and yeah, no data loss.
 
 Replacing text in [[Emacs]] with a newline character is stupid: `C-M-% [REPLACED STRING] C-q C-j` Why can't I just use `\n`?
+
+A friend of mine had QuarkXpress so he did //everything// in it from detailed machine drawings to simple text memos. Reminds me of everyone in the Roam slack channel. ;)
