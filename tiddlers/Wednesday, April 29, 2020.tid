@@ -1,6 +1,6 @@
 created: 20200429102010610
 creator: jack
-modified: 20200429154009927
+modified: 20200429210800530
 modifier: jack
 tags: Journal
 title: Wednesday, April 29, 2020
@@ -17,3 +17,7 @@ I'm not paying for [[Roam]] until there's a native `blockquote` and not some con
 Replacing text in [[Emacs]] with a newline character is stupid: `C-M-% [REPLACED STRING] C-q C-j` Why can't I just use `\n`?
 
 A friend of mine had QuarkXpress so he did //everything// in it from detailed machine drawings to simple text memos. Reminds me of everyone in the Roam slack channel. ;)
+
+I've been using the default browser-based email interfaces for Gmail and Fastmail this week and so far I've confirmed that I truly dislike Gmail's.
+
+Why does seemingly every article or video about making contact sheets show them cutting negatives into strips of 6 and then making the contact sheet on 8x10 paper. It doesn't fit, yet nothing is said. Even [[Ilford does it|https://www.youtube.com/watch?v=E03MP5nWJPs]]
