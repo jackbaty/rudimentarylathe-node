@@ -1,8 +1,7 @@
 created: 20190914125733054
 creator: jack
-modified: 20190914130000787
+modified: 20200502105204391
 modifier: jack
-revision: 0
 tags: CLI
 title: oh-my-fish
 type: text/vnd.tiddlywiki
@@ -14,3 +13,5 @@ The Fish Shell Framework
 <<<
 
 I used this for a while but realized I didn't need most of it and it added too much "magic" to my setup so I'm back to stock [[Fish Shell]]
+
+May 02, 2020: And now I'm back to OMF because it's easy. Sometimes magic is nice.
