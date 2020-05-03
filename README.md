@@ -1,6 +1,6 @@
 # RudimentaryLathe.org TiddlyWiki 
 
-My wiki published using [TiddlyWiki](https://tiddlywiki.com) at [rudimentarylathe.org](https://rudimentarylathe.org)
+A wiki published using [TiddlyWiki](https://tiddlywiki.com). Formerly published at [rudimentarylathe.org](https://rudimentarylathe.org) but now see https://github.com/jackbaty/rudimentarylathe instead
 
 [![](https://static.baty.net/images/2020/rudimentarylathe-clip.png)](https://youtu.be/QQzg1vpxnnY)
 
